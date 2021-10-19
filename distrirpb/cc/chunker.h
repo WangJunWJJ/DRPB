@@ -1,19 +1,9 @@
-// Copyright 2019 DeepMind Technologies Limited.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
+// Modified by wangjun
 
-#ifndef REVERB_CC_CHUNKER_H_
-#define REVERB_CC_CHUNKER_H_
+// not finished
+
+#ifndef DISTRIRPB_CC_CHUNKER_H_
+#define DISTRIRPB_CHUNKER_H_
 
 #include <deque>
 #include <memory>
@@ -31,8 +21,8 @@
 #include "reverb/cc/support/signature.h"
 #include "tensorflow/core/framework/tensor.h"
 
-namespace deepmind {
-namespace reverb {
+namespace airctrl {
+namespace distrirpb {
 
 // TODO(b/178096736): Write high level API documentation with examples.
 
