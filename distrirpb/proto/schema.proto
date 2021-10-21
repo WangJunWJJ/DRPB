@@ -1,12 +1,12 @@
 //Modified by wangjun 2021.10.18
+//Test
 
-// not finished
 syntax = "proto3";
 
 package airctrl.distrirpb;
 
-import "google/protobuf/duration.proto";
-import "google/protobuf/timestamp.proto";
+import "google/protobuf/duration.proto";            //I don't know
+import "google/protobuf/timestamp.proto";           //I don't know
 
 // The actual data is stored in chunks. The data can be arbitrary tensors. We do
 // not interpret the bytes data of the tensors on the server side. It is up to
@@ -20,7 +20,7 @@ message ChunkData {
 
   // Actual tensor data.
   message Data {
-    repeated tensorflow.TensorProto tensors = 1; //need to be modified by wangjun
+    repeated int32 tensors = 1; //???? data type need to be defined
   }
   Data data = 5 [lazy = true];
 

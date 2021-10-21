@@ -16,7 +16,7 @@ def run():
         stub = HelloWorldServiceStub(channel)
 
         # 客户端必须使用定义好的类型，这里是HelloRequest类型
-        response = stub.SayHello(HelloRequest(name='zongxp'))
+        response = stub.SayHello(HelloRequest(name='I am the process of client'))
     print("hello client received: " + response.message)
 
 

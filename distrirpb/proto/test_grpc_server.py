@@ -20,7 +20,7 @@ class Hello(HelloWorldServiceServicer):
 
 def serve():
     # 这里通过thread pool来并发处理server的任务
-    server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
+    server = grpc.server(futures.ThreadPoolExecutor(max_workers=40))
 
     # 将对应的任务处理函数添加到rpc server中
     add_HelloWorldServiceServicer_to_server(Hello(), server)
