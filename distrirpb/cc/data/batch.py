@@ -80,6 +80,7 @@ class Batch(object):
             if len(data) == 0:
                 pass
             elif isinstance(data[0], dict):
+
                 data = list_dict_to_dict_list(data)
 
         if isinstance(data, dict):

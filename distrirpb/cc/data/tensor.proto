@@ -34,9 +34,8 @@ message TensorProto {
   // memcpy in tensorflow::grpc::EncodeTensorToByteBuffer. This representation
   // can be used for all tensor types. The purpose of this representation is to
   // reduce serialization overhead during RPC call by avoiding serialization of
-  // many repeated small items.
+  // many repeated small items.7
   bytes tensor_content = 4;
-
   // Type specific representations that make it easy to create tensor protos in
   // all languages.  Only the representation corresponding to "dtype" can
   // be set.  The values hold the flattened representation of the tensor in
@@ -80,6 +79,7 @@ message TensorProto {
 
   // DT_UINT32
   repeated uint32 uint32_val = 16 [packed = true];
+
 
   // DT_UINT64
   repeated uint64 uint64_val = 17 [packed = true];

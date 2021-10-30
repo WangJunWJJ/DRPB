@@ -4,8 +4,10 @@
 
 #ifndef DISTRIRPB_C_DDM_DATATYPE_H_
 #define DISTRIRPB_C_DDM_DATATYPE_H_
+#include "arrayobject.h"
+#include "ndarrayobject.h"
+#include "ndarraytypes.h"
 
-#include <stddef.h>
 
 #ifdef __cplusplus
 extern "C" {

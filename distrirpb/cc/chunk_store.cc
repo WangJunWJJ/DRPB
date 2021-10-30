@@ -23,7 +23,7 @@
 #include "absl/synchronization/mutex.h"
 #include "absl/time/time.h"
 #include "absl/types/span.h"
-#include "reverb/cc/platform/hash_map.h"
+#include "reverb/cc/platform/hash_map.h"-
 #include "reverb/cc/platform/logging.h"
 #include "reverb/cc/platform/thread.h"
 #include "reverb/cc/schema.pb.h"
