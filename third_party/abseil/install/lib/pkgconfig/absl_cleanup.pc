@@ -1,0 +1,12 @@
+prefix=/home/jun/Work/Store/DRPC/third_party/abseil/install
+exec_prefix=${prefix}
+libdir=/home/jun/Work/Store/DRPC/third_party/abseil/install/lib
+includedir=/home/jun/Work/Store/DRPC/third_party/abseil/install/include
+
+Name: absl_cleanup
+Description: Abseil cleanup library
+URL: https://abseil.io/
+Version: head
+Requires: absl_cleanup_internal = head, absl_config = head, absl_core_headers = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

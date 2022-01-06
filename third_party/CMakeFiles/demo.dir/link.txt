@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto -shared  -o demo.cpython-38-x86_64-linux-gnu.so CMakeFiles/demo.dir/test.cc.o 
