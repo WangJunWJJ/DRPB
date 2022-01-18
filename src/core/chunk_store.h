@@ -13,7 +13,7 @@
 #include <cstdint>
 #include "proto/schema.pb.h"
 
-namespace drpb {
+namespace DRPB {
 
 // Maintains a bijection from chunk keys to Chunks. For inserting, the caller
 // passes ChunkData which contains a chunk key and the actual data. We use the

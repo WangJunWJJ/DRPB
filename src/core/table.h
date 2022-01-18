@@ -28,13 +28,7 @@
 #include "absl/synchronization/mutex.h"
 #include "absl/types/optional.h"
 #include "absl/types/span.h"
-#include "reverb/cc/checkpointing/checkpoint.pb.h"
 #include "chunk_store.h"
-#include "reverb/cc/schema.pb.h"
-#include "reverb/cc/selectors/interface.h"
-#include "reverb/cc/support/task_executor.h"
-#include "reverb/cc/table_extensions/interface.h"
-#include "tensorflow/core/protobuf/struct.pb.h"
 
 namespace deepmind {
 namespace reverb {

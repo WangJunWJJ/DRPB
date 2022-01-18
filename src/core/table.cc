@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "reverb/cc/table.h"
+// #include "reverb/cc/table.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -32,18 +32,18 @@
 #include "absl/time/clock.h"
 #include "absl/time/time.h"
 #include "absl/types/span.h"
-#include "reverb/cc/checkpointing/checkpoint.pb.h"
-#include "reverb/cc/chunk_store.h"
-#include "reverb/cc/errors.h"
-#include "reverb/cc/platform/hash_map.h"
-#include "reverb/cc/platform/hash_set.h"
-#include "reverb/cc/platform/logging.h"
-#include "reverb/cc/platform/status_macros.h"
-#include "reverb/cc/rate_limiter.h"
-#include "reverb/cc/schema.pb.h"
-#include "reverb/cc/selectors/interface.h"
-#include "reverb/cc/support/trajectory_util.h"
-#include "reverb/cc/table_extensions/interface.h"
+// #include "reverb/cc/checkpointing/checkpoint.pb.h"
+// #include "reverb/cc/chunk_store.h"
+// #include "reverb/cc/errors.h"
+// #include "reverb/cc/platform/hash_map.h"
+// #include "reverb/cc/platform/hash_set.h"
+// #include "reverb/cc/platform/logging.h"
+// #include "reverb/cc/platform/status_macros.h"
+// #include "reverb/cc/rate_limiter.h"
+// #include "reverb/cc/schema.pb.h"
+// #include "reverb/cc/selectors/interface.h"
+// #include "reverb/cc/support/trajectory_util.h"
+// #include "reverb/cc/table_extensions/interface.h"
 
 namespace deepmind {
 namespace reverb {

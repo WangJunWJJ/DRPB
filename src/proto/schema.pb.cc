@@ -17,7 +17,6 @@
 
 PROTOBUF_PRAGMA_INIT_SEG
 namespace DRPB {
-namespace DATA {
 constexpr TensorProto::TensorProto(
   ::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized)
   : float_val_()
@@ -533,179 +532,178 @@ struct TimeoutDefaultTypeInternal {
   };
 };
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT TimeoutDefaultTypeInternal _Timeout_default_instance_;
-}  // namespace DATA
 }  // namespace DRPB
 static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_schema_2eproto[35];
-static const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* file_level_enum_descriptors_schema_2eproto[2];
+static const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* file_level_enum_descriptors_schema_2eproto[1];
 static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_service_descriptors_schema_2eproto = nullptr;
 
 const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_schema_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, dtype_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, tensor_shape_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, version_number_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, tensor_content_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, half_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, float_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, double_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, int_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, string_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, scomplex_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, int64_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, bool_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, dcomplex_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, resource_handle_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, variant_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, uint32_val_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorProto, uint64_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, dtype_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, tensor_shape_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, version_number_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, tensor_content_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, half_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, float_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, double_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, int_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, string_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, scomplex_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, int64_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, bool_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, dcomplex_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, resource_handle_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, variant_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, uint32_val_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorProto, uint64_val_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::VariantTensorDataProto, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::VariantTensorDataProto, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::VariantTensorDataProto, type_name_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::VariantTensorDataProto, metadata_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::VariantTensorDataProto, tensors_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::VariantTensorDataProto, type_name_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::VariantTensorDataProto, metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::VariantTensorDataProto, tensors_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorShapeProto_Dim, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorShapeProto_Dim, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorShapeProto_Dim, size_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorShapeProto_Dim, name_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorShapeProto_Dim, size_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorShapeProto_Dim, name_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorShapeProto, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorShapeProto, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorShapeProto, dim_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorShapeProto, unknown_rank_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorShapeProto, dim_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorShapeProto, unknown_rank_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ResourceHandleProto_DtypeAndShape, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ResourceHandleProto_DtypeAndShape, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ResourceHandleProto_DtypeAndShape, dtype_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ResourceHandleProto_DtypeAndShape, shape_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ResourceHandleProto_DtypeAndShape, dtype_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ResourceHandleProto_DtypeAndShape, shape_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ResourceHandleProto, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ResourceHandleProto, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ResourceHandleProto, device_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ResourceHandleProto, container_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ResourceHandleProto, name_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ResourceHandleProto, hash_code_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ResourceHandleProto, maybe_type_name_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ResourceHandleProto, dtypes_and_shapes_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ResourceHandleProto, device_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ResourceHandleProto, container_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ResourceHandleProto, name_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ResourceHandleProto, hash_code_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ResourceHandleProto, maybe_type_name_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ResourceHandleProto, dtypes_and_shapes_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ChunkData_Data, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ChunkData_Data, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ChunkData_Data, tensors_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ChunkData_Data, tensors_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ChunkData, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ChunkData, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ChunkData, chunk_key_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ChunkData, sequence_range_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ChunkData, data_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ChunkData, data_tensors_len_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ChunkData, delta_encoded_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ChunkData, deprecated_data_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ChunkData, chunk_key_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ChunkData, sequence_range_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ChunkData, data_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ChunkData, data_tensors_len_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ChunkData, delta_encoded_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ChunkData, deprecated_data_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SliceRange, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SliceRange, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SliceRange, offset_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SliceRange, length_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SliceRange, offset_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SliceRange, length_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SequenceRange, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SequenceRange, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SequenceRange, episode_id_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SequenceRange, start_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SequenceRange, end_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SequenceRange, sparse_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SequenceRange, episode_id_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SequenceRange, start_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SequenceRange, end_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SequenceRange, sparse_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::FlatTrajectory_ChunkSlice, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::FlatTrajectory_ChunkSlice, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::FlatTrajectory_ChunkSlice, chunk_key_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::FlatTrajectory_ChunkSlice, offset_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::FlatTrajectory_ChunkSlice, length_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::FlatTrajectory_ChunkSlice, index_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::FlatTrajectory_ChunkSlice, chunk_key_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::FlatTrajectory_ChunkSlice, offset_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::FlatTrajectory_ChunkSlice, length_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::FlatTrajectory_ChunkSlice, index_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::FlatTrajectory_Column, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::FlatTrajectory_Column, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::FlatTrajectory_Column, chunk_slices_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::FlatTrajectory_Column, squeeze_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::FlatTrajectory_Column, chunk_slices_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::FlatTrajectory_Column, squeeze_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::FlatTrajectory, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::FlatTrajectory, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::FlatTrajectory, columns_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::FlatTrajectory, columns_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PrioritizedItem, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PrioritizedItem, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PrioritizedItem, key_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PrioritizedItem, table_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PrioritizedItem, priority_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PrioritizedItem, times_sampled_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PrioritizedItem, inserted_at_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PrioritizedItem, flat_trajectory_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PrioritizedItem, deprecated_chunk_keys_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PrioritizedItem, deprecated_sequence_range_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PrioritizedItem, key_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PrioritizedItem, table_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PrioritizedItem, priority_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PrioritizedItem, times_sampled_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PrioritizedItem, inserted_at_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PrioritizedItem, flat_trajectory_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PrioritizedItem, deprecated_chunk_keys_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PrioritizedItem, deprecated_sequence_range_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::KeyWithPriority, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::KeyWithPriority, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::KeyWithPriority, key_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::KeyWithPriority, priority_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::KeyWithPriority, key_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::KeyWithPriority, priority_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SampleInfo, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SampleInfo, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SampleInfo, item_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SampleInfo, probability_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SampleInfo, table_size_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::SampleInfo, rate_limited_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SampleInfo, item_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SampleInfo, probability_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SampleInfo, table_size_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::SampleInfo, rate_limited_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, name_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, sampler_options_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, remover_options_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, max_size_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, max_times_sampled_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, rate_limiter_info_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, signature_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, current_size_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, num_episodes_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, num_deleted_episodes_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TableInfo, num_unique_samples_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, name_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, sampler_options_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, remover_options_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, max_size_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, max_times_sampled_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, rate_limiter_info_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, signature_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, current_size_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, num_episodes_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, num_deleted_episodes_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TableInfo, num_unique_samples_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::StructuredValue, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::StructuredValue, _internal_metadata_),
   ~0u,  // no _extensions_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::StructuredValue, _oneof_case_[0]),
+  PROTOBUF_FIELD_OFFSET(::DRPB::StructuredValue, _oneof_case_[0]),
   ~0u,  // no _weak_field_map_
   ::PROTOBUF_NAMESPACE_ID::internal::kInvalidFieldOffsetTag,
   ::PROTOBUF_NAMESPACE_ID::internal::kInvalidFieldOffsetTag,
@@ -721,377 +719,352 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_schema_2eproto::offsets[] PROT
   ::PROTOBUF_NAMESPACE_ID::internal::kInvalidFieldOffsetTag,
   ::PROTOBUF_NAMESPACE_ID::internal::kInvalidFieldOffsetTag,
   ::PROTOBUF_NAMESPACE_ID::internal::kInvalidFieldOffsetTag,
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::StructuredValue, kind_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::StructuredValue, kind_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::NoneValue, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::NoneValue, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ListValue, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ListValue, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::ListValue, values_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::ListValue, values_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TupleValue, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TupleValue, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TupleValue, values_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::DictValue_FieldsEntry_DoNotUse, _has_bits_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::DictValue_FieldsEntry_DoNotUse, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TupleValue, values_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::DictValue_FieldsEntry_DoNotUse, _has_bits_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::DictValue_FieldsEntry_DoNotUse, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::DictValue_FieldsEntry_DoNotUse, key_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::DictValue_FieldsEntry_DoNotUse, value_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::DictValue_FieldsEntry_DoNotUse, key_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::DictValue_FieldsEntry_DoNotUse, value_),
   0,
   1,
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::DictValue, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::DictValue, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::DictValue, fields_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::DictValue, fields_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PairValue, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PairValue, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PairValue, key_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::PairValue, value_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PairValue, key_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::PairValue, value_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::NamedTupleValue, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::NamedTupleValue, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::NamedTupleValue, name_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::NamedTupleValue, values_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::NamedTupleValue, name_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::NamedTupleValue, values_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorSpecProto, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorSpecProto, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorSpecProto, name_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorSpecProto, shape_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TensorSpecProto, dtype_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorSpecProto, name_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorSpecProto, shape_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TensorSpecProto, dtype_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::BoundedTensorSpecProto, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::BoundedTensorSpecProto, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::BoundedTensorSpecProto, name_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::BoundedTensorSpecProto, shape_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::BoundedTensorSpecProto, dtype_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::BoundedTensorSpecProto, minimum_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::BoundedTensorSpecProto, maximum_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::BoundedTensorSpecProto, name_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::BoundedTensorSpecProto, shape_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::BoundedTensorSpecProto, dtype_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::BoundedTensorSpecProto, minimum_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::BoundedTensorSpecProto, maximum_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TypeSpecProto, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TypeSpecProto, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TypeSpecProto, type_spec_class_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TypeSpecProto, type_state_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::TypeSpecProto, type_spec_class_name_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TypeSpecProto, type_spec_class_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TypeSpecProto, type_state_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::TypeSpecProto, type_spec_class_name_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterCallStats, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterCallStats, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterCallStats, pending_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterCallStats, completed_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterCallStats, limited_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterCallStats, completed_wait_time_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterCallStats, pending_wait_time_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterCallStats, pending_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterCallStats, completed_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterCallStats, limited_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterCallStats, completed_wait_time_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterCallStats, pending_wait_time_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterInfo, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterInfo, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterInfo, samples_per_insert_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterInfo, min_diff_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterInfo, max_diff_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterInfo, min_size_to_sample_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterInfo, insert_stats_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::RateLimiterInfo, sample_stats_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterInfo, samples_per_insert_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterInfo, min_diff_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterInfo, max_diff_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterInfo, min_size_to_sample_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterInfo, insert_stats_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::RateLimiterInfo, sample_stats_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::KeyDistributionOptions_Prioritized, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::KeyDistributionOptions_Prioritized, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::KeyDistributionOptions_Prioritized, priority_exponent_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::KeyDistributionOptions_Prioritized, priority_exponent_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::KeyDistributionOptions_Heap, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::KeyDistributionOptions_Heap, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::KeyDistributionOptions_Heap, min_heap_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::KeyDistributionOptions_Heap, min_heap_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::KeyDistributionOptions, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::KeyDistributionOptions, _internal_metadata_),
   ~0u,  // no _extensions_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::KeyDistributionOptions, _oneof_case_[0]),
+  PROTOBUF_FIELD_OFFSET(::DRPB::KeyDistributionOptions, _oneof_case_[0]),
   ~0u,  // no _weak_field_map_
   ::PROTOBUF_NAMESPACE_ID::internal::kInvalidFieldOffsetTag,
   ::PROTOBUF_NAMESPACE_ID::internal::kInvalidFieldOffsetTag,
   ::PROTOBUF_NAMESPACE_ID::internal::kInvalidFieldOffsetTag,
   ::PROTOBUF_NAMESPACE_ID::internal::kInvalidFieldOffsetTag,
   ::PROTOBUF_NAMESPACE_ID::internal::kInvalidFieldOffsetTag,
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::KeyDistributionOptions, is_deterministic_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::KeyDistributionOptions, distribution_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::KeyDistributionOptions, is_deterministic_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::KeyDistributionOptions, distribution_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::Uint128, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::Uint128, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::Uint128, high_),
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::Uint128, low_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::Uint128, high_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::Uint128, low_),
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::Timeout, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::Timeout, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DRPB::DATA::Timeout, milliseconds_),
+  PROTOBUF_FIELD_OFFSET(::DRPB::Timeout, milliseconds_),
 };
 static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(::DRPB::DATA::TensorProto)},
-  { 22, -1, sizeof(::DRPB::DATA::VariantTensorDataProto)},
-  { 30, -1, sizeof(::DRPB::DATA::TensorShapeProto_Dim)},
-  { 37, -1, sizeof(::DRPB::DATA::TensorShapeProto)},
-  { 44, -1, sizeof(::DRPB::DATA::ResourceHandleProto_DtypeAndShape)},
-  { 51, -1, sizeof(::DRPB::DATA::ResourceHandleProto)},
-  { 62, -1, sizeof(::DRPB::DATA::ChunkData_Data)},
-  { 68, -1, sizeof(::DRPB::DATA::ChunkData)},
-  { 79, -1, sizeof(::DRPB::DATA::SliceRange)},
-  { 86, -1, sizeof(::DRPB::DATA::SequenceRange)},
-  { 95, -1, sizeof(::DRPB::DATA::FlatTrajectory_ChunkSlice)},
-  { 104, -1, sizeof(::DRPB::DATA::FlatTrajectory_Column)},
-  { 111, -1, sizeof(::DRPB::DATA::FlatTrajectory)},
-  { 117, -1, sizeof(::DRPB::DATA::PrioritizedItem)},
-  { 130, -1, sizeof(::DRPB::DATA::KeyWithPriority)},
-  { 137, -1, sizeof(::DRPB::DATA::SampleInfo)},
-  { 146, -1, sizeof(::DRPB::DATA::TableInfo)},
-  { 162, -1, sizeof(::DRPB::DATA::StructuredValue)},
-  { 182, -1, sizeof(::DRPB::DATA::NoneValue)},
-  { 187, -1, sizeof(::DRPB::DATA::ListValue)},
-  { 193, -1, sizeof(::DRPB::DATA::TupleValue)},
-  { 199, 206, sizeof(::DRPB::DATA::DictValue_FieldsEntry_DoNotUse)},
-  { 208, -1, sizeof(::DRPB::DATA::DictValue)},
-  { 214, -1, sizeof(::DRPB::DATA::PairValue)},
-  { 221, -1, sizeof(::DRPB::DATA::NamedTupleValue)},
-  { 228, -1, sizeof(::DRPB::DATA::TensorSpecProto)},
-  { 236, -1, sizeof(::DRPB::DATA::BoundedTensorSpecProto)},
-  { 246, -1, sizeof(::DRPB::DATA::TypeSpecProto)},
-  { 254, -1, sizeof(::DRPB::DATA::RateLimiterCallStats)},
-  { 264, -1, sizeof(::DRPB::DATA::RateLimiterInfo)},
-  { 275, -1, sizeof(::DRPB::DATA::KeyDistributionOptions_Prioritized)},
-  { 281, -1, sizeof(::DRPB::DATA::KeyDistributionOptions_Heap)},
-  { 287, -1, sizeof(::DRPB::DATA::KeyDistributionOptions)},
-  { 299, -1, sizeof(::DRPB::DATA::Uint128)},
-  { 306, -1, sizeof(::DRPB::DATA::Timeout)},
+  { 0, -1, sizeof(::DRPB::TensorProto)},
+  { 22, -1, sizeof(::DRPB::VariantTensorDataProto)},
+  { 30, -1, sizeof(::DRPB::TensorShapeProto_Dim)},
+  { 37, -1, sizeof(::DRPB::TensorShapeProto)},
+  { 44, -1, sizeof(::DRPB::ResourceHandleProto_DtypeAndShape)},
+  { 51, -1, sizeof(::DRPB::ResourceHandleProto)},
+  { 62, -1, sizeof(::DRPB::ChunkData_Data)},
+  { 68, -1, sizeof(::DRPB::ChunkData)},
+  { 79, -1, sizeof(::DRPB::SliceRange)},
+  { 86, -1, sizeof(::DRPB::SequenceRange)},
+  { 95, -1, sizeof(::DRPB::FlatTrajectory_ChunkSlice)},
+  { 104, -1, sizeof(::DRPB::FlatTrajectory_Column)},
+  { 111, -1, sizeof(::DRPB::FlatTrajectory)},
+  { 117, -1, sizeof(::DRPB::PrioritizedItem)},
+  { 130, -1, sizeof(::DRPB::KeyWithPriority)},
+  { 137, -1, sizeof(::DRPB::SampleInfo)},
+  { 146, -1, sizeof(::DRPB::TableInfo)},
+  { 162, -1, sizeof(::DRPB::StructuredValue)},
+  { 182, -1, sizeof(::DRPB::NoneValue)},
+  { 187, -1, sizeof(::DRPB::ListValue)},
+  { 193, -1, sizeof(::DRPB::TupleValue)},
+  { 199, 206, sizeof(::DRPB::DictValue_FieldsEntry_DoNotUse)},
+  { 208, -1, sizeof(::DRPB::DictValue)},
+  { 214, -1, sizeof(::DRPB::PairValue)},
+  { 221, -1, sizeof(::DRPB::NamedTupleValue)},
+  { 228, -1, sizeof(::DRPB::TensorSpecProto)},
+  { 236, -1, sizeof(::DRPB::BoundedTensorSpecProto)},
+  { 246, -1, sizeof(::DRPB::TypeSpecProto)},
+  { 254, -1, sizeof(::DRPB::RateLimiterCallStats)},
+  { 264, -1, sizeof(::DRPB::RateLimiterInfo)},
+  { 275, -1, sizeof(::DRPB::KeyDistributionOptions_Prioritized)},
+  { 281, -1, sizeof(::DRPB::KeyDistributionOptions_Heap)},
+  { 287, -1, sizeof(::DRPB::KeyDistributionOptions)},
+  { 299, -1, sizeof(::DRPB::Uint128)},
+  { 306, -1, sizeof(::DRPB::Timeout)},
 };
 
 static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_TensorProto_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_VariantTensorDataProto_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_TensorShapeProto_Dim_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_TensorShapeProto_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_ResourceHandleProto_DtypeAndShape_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_ResourceHandleProto_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_ChunkData_Data_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_ChunkData_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_SliceRange_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_SequenceRange_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_FlatTrajectory_ChunkSlice_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_FlatTrajectory_Column_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_FlatTrajectory_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_PrioritizedItem_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_KeyWithPriority_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_SampleInfo_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_TableInfo_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_StructuredValue_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_NoneValue_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_ListValue_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_TupleValue_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_DictValue_FieldsEntry_DoNotUse_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_DictValue_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_PairValue_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_NamedTupleValue_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_TensorSpecProto_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_BoundedTensorSpecProto_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_TypeSpecProto_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_RateLimiterCallStats_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_RateLimiterInfo_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_KeyDistributionOptions_Prioritized_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_KeyDistributionOptions_Heap_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_KeyDistributionOptions_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_Uint128_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::DATA::_Timeout_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_TensorProto_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_VariantTensorDataProto_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_TensorShapeProto_Dim_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_TensorShapeProto_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_ResourceHandleProto_DtypeAndShape_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_ResourceHandleProto_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_ChunkData_Data_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_ChunkData_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_SliceRange_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_SequenceRange_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_FlatTrajectory_ChunkSlice_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_FlatTrajectory_Column_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_FlatTrajectory_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_PrioritizedItem_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_KeyWithPriority_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_SampleInfo_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_TableInfo_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_StructuredValue_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_NoneValue_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_ListValue_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_TupleValue_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_DictValue_FieldsEntry_DoNotUse_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_DictValue_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_PairValue_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_NamedTupleValue_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_TensorSpecProto_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_BoundedTensorSpecProto_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_TypeSpecProto_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_RateLimiterCallStats_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_RateLimiterInfo_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_KeyDistributionOptions_Prioritized_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_KeyDistributionOptions_Heap_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_KeyDistributionOptions_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_Uint128_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::DRPB::_Timeout_default_instance_),
 };
 
 const char descriptor_table_protodef_schema_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
-  "\n\014schema.proto\022\tDRPB.DATA\032\036google/protob"
-  "uf/duration.proto\032\037google/protobuf/times"
-  "tamp.proto\"\210\004\n\013TensorProto\022\"\n\005dtype\030\001 \001("
-  "\0162\023.DRPB.DATA.DataType\0221\n\014tensor_shape\030\002"
-  " \001(\0132\033.DRPB.DATA.TensorShapeProto\022\026\n\016ver"
-  "sion_number\030\003 \001(\005\022\026\n\016tensor_content\030\004 \001("
-  "\014\022\024\n\010half_val\030\r \003(\005B\002\020\001\022\025\n\tfloat_val\030\005 \003"
-  "(\002B\002\020\001\022\026\n\ndouble_val\030\006 \003(\001B\002\020\001\022\023\n\007int_va"
-  "l\030\007 \003(\005B\002\020\001\022\022\n\nstring_val\030\010 \003(\014\022\030\n\014scomp"
-  "lex_val\030\t \003(\002B\002\020\001\022\025\n\tint64_val\030\n \003(\003B\002\020\001"
-  "\022\024\n\010bool_val\030\013 \003(\010B\002\020\001\022\030\n\014dcomplex_val\030\014"
-  " \003(\001B\002\020\001\022;\n\023resource_handle_val\030\016 \003(\0132\036."
-  "DRPB.DATA.ResourceHandleProto\0226\n\013variant"
-  "_val\030\017 \003(\0132!.DRPB.DATA.VariantTensorData"
-  "Proto\022\026\n\nuint32_val\030\020 \003(\rB\002\020\001\022\026\n\nuint64_"
-  "val\030\021 \003(\004B\002\020\001\"f\n\026VariantTensorDataProto\022"
-  "\021\n\ttype_name\030\001 \001(\t\022\020\n\010metadata\030\002 \001(\014\022\'\n\007"
-  "tensors\030\003 \003(\0132\026.DRPB.DATA.TensorProto\"y\n"
-  "\020TensorShapeProto\022,\n\003dim\030\002 \003(\0132\037.DRPB.DA"
-  "TA.TensorShapeProto.Dim\022\024\n\014unknown_rank\030"
-  "\003 \001(\010\032!\n\003Dim\022\014\n\004size\030\001 \001(\003\022\014\n\004name\030\002 \001(\t"
-  "\"\242\002\n\023ResourceHandleProto\022\016\n\006device\030\001 \001(\t"
-  "\022\021\n\tcontainer\030\002 \001(\t\022\014\n\004name\030\003 \001(\t\022\021\n\thas"
-  "h_code\030\004 \001(\004\022\027\n\017maybe_type_name\030\005 \001(\t\022G\n"
-  "\021dtypes_and_shapes\030\006 \003(\0132,.DRPB.DATA.Res"
-  "ourceHandleProto.DtypeAndShape\032_\n\rDtypeA"
-  "ndShape\022\"\n\005dtype\030\001 \001(\0162\023.DRPB.DATA.DataT"
-  "ype\022*\n\005shape\030\002 \001(\0132\033.DRPB.DATA.TensorSha"
-  "peProtoJ\004\010\007\020\010\"\224\002\n\tChunkData\022\021\n\tchunk_key"
-  "\030\001 \001(\004\0220\n\016sequence_range\030\002 \001(\0132\030.DRPB.DA"
-  "TA.SequenceRange\022+\n\004data\030\005 \001(\0132\031.DRPB.DA"
-  "TA.ChunkData.DataB\002(\001\022\030\n\020data_tensors_le"
-  "n\030\006 \001(\005\022\025\n\rdelta_encoded\030\004 \001(\010\0223\n\017deprec"
-  "ated_data\030\003 \003(\0132\026.DRPB.DATA.TensorProtoB"
-  "\002\030\001\032/\n\004Data\022\'\n\007tensors\030\001 \003(\0132\026.DRPB.DATA"
-  ".TensorProto\",\n\nSliceRange\022\016\n\006offset\030\001 \001"
-  "(\005\022\016\n\006length\030\002 \001(\005\"O\n\rSequenceRange\022\022\n\ne"
-  "pisode_id\030\001 \001(\004\022\r\n\005start\030\002 \001(\005\022\013\n\003end\030\003 "
-  "\001(\005\022\016\n\006sparse\030\004 \001(\010\"\352\001\n\016FlatTrajectory\0221"
-  "\n\007columns\030\001 \003(\0132 .DRPB.DATA.FlatTrajecto"
-  "ry.Column\032N\n\nChunkSlice\022\021\n\tchunk_key\030\001 \001"
-  "(\004\022\016\n\006offset\030\002 \001(\005\022\016\n\006length\030\003 \001(\005\022\r\n\005in"
-  "dex\030\004 \001(\005\032U\n\006Column\022:\n\014chunk_slices\030\001 \003("
-  "\0132$.DRPB.DATA.FlatTrajectory.ChunkSlice\022"
-  "\017\n\007squeeze\030\002 \001(\010\"\234\002\n\017PrioritizedItem\022\013\n\003"
-  "key\030\001 \001(\004\022\r\n\005table\030\002 \001(\t\022\020\n\010priority\030\005 \001"
-  "(\001\022\025\n\rtimes_sampled\030\006 \001(\005\022/\n\013inserted_at"
-  "\030\007 \001(\0132\032.google.protobuf.Timestamp\0222\n\017fl"
-  "at_trajectory\030\010 \001(\0132\031.DRPB.DATA.FlatTraj"
-  "ectory\022!\n\025deprecated_chunk_keys\030\003 \003(\004B\002\030"
-  "\001\022<\n\031deprecated_sequence_range\030\004 \001(\0132\025.D"
-  "RPB.DATA.SliceRangeB\002\030\001\"0\n\017KeyWithPriori"
-  "ty\022\013\n\003key\030\001 \001(\004\022\020\n\010priority\030\002 \001(\001\"u\n\nSam"
-  "pleInfo\022(\n\004item\030\001 \001(\0132\032.DRPB.DATA.Priori"
-  "tizedItem\022\023\n\013probability\030\002 \001(\001\022\022\n\ntable_"
-  "size\030\003 \001(\003\022\024\n\014rate_limited\030\004 \001(\010\"\212\003\n\tTab"
-  "leInfo\022\014\n\004name\030\010 \001(\t\022:\n\017sampler_options\030"
-  "\001 \001(\0132!.DRPB.DATA.KeyDistributionOptions"
-  "\022:\n\017remover_options\030\002 \001(\0132!.DRPB.DATA.Ke"
-  "yDistributionOptions\022\020\n\010max_size\030\003 \001(\003\022\031"
-  "\n\021max_times_sampled\030\004 \001(\005\0225\n\021rate_limite"
-  "r_info\030\005 \001(\0132\032.DRPB.DATA.RateLimiterInfo"
-  "\022-\n\tsignature\030\006 \001(\0132\032.DRPB.DATA.Structur"
-  "edValue\022\024\n\014current_size\030\007 \001(\003\022\024\n\014num_epi"
-  "sodes\030\t \001(\003\022\034\n\024num_deleted_episodes\030\n \001("
-  "\003\022\032\n\022num_unique_samples\030\013 \001(\003\"\206\005\n\017Struct"
-  "uredValue\022*\n\nnone_value\030\001 \001(\0132\024.DRPB.DAT"
-  "A.NoneValueH\000\022\027\n\rfloat64_value\030\013 \001(\001H\000\022\025"
-  "\n\013int64_value\030\014 \001(\022H\000\022\026\n\014string_value\030\r "
-  "\001(\tH\000\022\024\n\nbool_value\030\016 \001(\010H\000\0229\n\022tensor_sh"
-  "ape_value\030\037 \001(\0132\033.DRPB.DATA.TensorShapeP"
-  "rotoH\000\0221\n\022tensor_dtype_value\030  \001(\0162\023.DRP"
-  "B.DATA.DataTypeH\000\0227\n\021tensor_spec_value\030!"
-  " \001(\0132\032.DRPB.DATA.TensorSpecProtoH\000\0223\n\017ty"
-  "pe_spec_value\030\" \001(\0132\030.DRPB.DATA.TypeSpec"
-  "ProtoH\000\022F\n\031bounded_tensor_spec_value\030# \001"
-  "(\0132!.DRPB.DATA.BoundedTensorSpecProtoH\000\022"
-  "*\n\nlist_value\0303 \001(\0132\024.DRPB.DATA.ListValu"
-  "eH\000\022,\n\013tuple_value\0304 \001(\0132\025.DRPB.DATA.Tup"
-  "leValueH\000\022*\n\ndict_value\0305 \001(\0132\024.DRPB.DAT"
-  "A.DictValueH\000\0227\n\021named_tuple_value\0306 \001(\013"
-  "2\032.DRPB.DATA.NamedTupleValueH\000B\006\n\004kind\"\013"
-  "\n\tNoneValue\"7\n\tListValue\022*\n\006values\030\001 \003(\013"
-  "2\032.DRPB.DATA.StructuredValue\"8\n\nTupleVal"
-  "ue\022*\n\006values\030\001 \003(\0132\032.DRPB.DATA.Structure"
-  "dValue\"\210\001\n\tDictValue\0220\n\006fields\030\001 \003(\0132 .D"
-  "RPB.DATA.DictValue.FieldsEntry\032I\n\013Fields"
-  "Entry\022\013\n\003key\030\001 \001(\t\022)\n\005value\030\002 \001(\0132\032.DRPB"
-  ".DATA.StructuredValue:\0028\001\"C\n\tPairValue\022\013"
-  "\n\003key\030\001 \001(\t\022)\n\005value\030\002 \001(\0132\032.DRPB.DATA.S"
-  "tructuredValue\"E\n\017NamedTupleValue\022\014\n\004nam"
-  "e\030\001 \001(\t\022$\n\006values\030\002 \003(\0132\024.DRPB.DATA.Pair"
-  "Value\"o\n\017TensorSpecProto\022\014\n\004name\030\001 \001(\t\022*"
-  "\n\005shape\030\002 \001(\0132\033.DRPB.DATA.TensorShapePro"
-  "to\022\"\n\005dtype\030\003 \001(\0162\023.DRPB.DATA.DataType\"\310"
-  "\001\n\026BoundedTensorSpecProto\022\014\n\004name\030\001 \001(\t\022"
-  "*\n\005shape\030\002 \001(\0132\033.DRPB.DATA.TensorShapePr"
-  "oto\022\"\n\005dtype\030\003 \001(\0162\023.DRPB.DATA.DataType\022"
-  "\'\n\007minimum\030\004 \001(\0132\026.DRPB.DATA.TensorProto"
-  "\022\'\n\007maximum\030\005 \001(\0132\026.DRPB.DATA.TensorProt"
-  "o\"\331\003\n\rTypeSpecProto\022\?\n\017type_spec_class\030\001"
-  " \001(\0162&.DRPB.DATA.TypeSpecProto.TypeSpecC"
-  "lass\022.\n\ntype_state\030\002 \001(\0132\032.DRPB.DATA.Str"
-  "ucturedValue\022\034\n\024type_spec_class_name\030\003 \001"
-  "(\t\"\270\002\n\rTypeSpecClass\022\013\n\007UNKNOWN\020\000\022\026\n\022SPA"
-  "RSE_TENSOR_SPEC\020\001\022\027\n\023INDEXED_SLICES_SPEC"
-  "\020\002\022\026\n\022RAGGED_TENSOR_SPEC\020\003\022\025\n\021TENSOR_ARR"
-  "AY_SPEC\020\004\022\025\n\021DATA_DATASET_SPEC\020\005\022\026\n\022DATA"
-  "_ITERATOR_SPEC\020\006\022\021\n\rOPTIONAL_SPEC\020\007\022\024\n\020P"
-  "ER_REPLICA_SPEC\020\010\022\021\n\rVARIABLE_SPEC\020\t\022\026\n\022"
-  "ROW_PARTITION_SPEC\020\n\022\030\n\024REGISTERED_TYPE_"
-  "SPEC\020\014\022\027\n\023EXTENSION_TYPE_SPEC\020\r\"\004\010\013\020\013\"\271\001"
-  "\n\024RateLimiterCallStats\022\017\n\007pending\030\001 \001(\003\022"
-  "\021\n\tcompleted\030\002 \001(\003\022\017\n\007limited\030\003 \001(\003\0226\n\023c"
-  "ompleted_wait_time\030\004 \001(\0132\031.google.protob"
-  "uf.Duration\0224\n\021pending_wait_time\030\005 \001(\0132\031"
-  ".google.protobuf.Duration\"\333\001\n\017RateLimite"
-  "rInfo\022\032\n\022samples_per_insert\030\001 \001(\001\022\020\n\010min"
-  "_diff\030\002 \001(\001\022\020\n\010max_diff\030\003 \001(\001\022\032\n\022min_siz"
-  "e_to_sample\030\004 \001(\003\0225\n\014insert_stats\030\005 \001(\0132"
-  "\037.DRPB.DATA.RateLimiterCallStats\0225\n\014samp"
-  "le_stats\030\006 \001(\0132\037.DRPB.DATA.RateLimiterCa"
-  "llStats\"\275\002\n\026KeyDistributionOptions\022\016\n\004fi"
-  "fo\030\001 \001(\010H\000\022\021\n\007uniform\030\002 \001(\010H\000\022D\n\013priorit"
-  "ized\030\003 \001(\0132-.DRPB.DATA.KeyDistributionOp"
-  "tions.PrioritizedH\000\0226\n\004heap\030\004 \001(\0132&.DRPB"
-  ".DATA.KeyDistributionOptions.HeapH\000\022\016\n\004l"
-  "ifo\030\006 \001(\010H\000\022\030\n\020is_deterministic\030\007 \001(\010\032(\n"
-  "\013Prioritized\022\031\n\021priority_exponent\030\001 \001(\001\032"
-  "\030\n\004Heap\022\020\n\010min_heap\030\001 \001(\010B\016\n\014distributio"
-  "nJ\004\010\005\020\006\"$\n\007Uint128\022\014\n\004high\030\001 \001(\004\022\013\n\003low\030"
-  "\002 \001(\004\"\037\n\007Timeout\022\024\n\014milliseconds\030\001 \001(\003*\252"
-  "\006\n\010DataType\022\016\n\nDT_INVALID\020\000\022\014\n\010DT_FLOAT\020"
-  "\001\022\r\n\tDT_DOUBLE\020\002\022\014\n\010DT_INT32\020\003\022\014\n\010DT_UIN"
-  "T8\020\004\022\014\n\010DT_INT16\020\005\022\013\n\007DT_INT8\020\006\022\r\n\tDT_ST"
-  "RING\020\007\022\020\n\014DT_COMPLEX64\020\010\022\014\n\010DT_INT64\020\t\022\013"
-  "\n\007DT_BOOL\020\n\022\014\n\010DT_QINT8\020\013\022\r\n\tDT_QUINT8\020\014"
-  "\022\r\n\tDT_QINT32\020\r\022\017\n\013DT_BFLOAT16\020\016\022\r\n\tDT_Q"
-  "INT16\020\017\022\016\n\nDT_QUINT16\020\020\022\r\n\tDT_UINT16\020\021\022\021"
-  "\n\rDT_COMPLEX128\020\022\022\013\n\007DT_HALF\020\023\022\017\n\013DT_RES"
-  "OURCE\020\024\022\016\n\nDT_VARIANT\020\025\022\r\n\tDT_UINT32\020\026\022\r"
-  "\n\tDT_UINT64\020\027\022\020\n\014DT_FLOAT_REF\020e\022\021\n\rDT_DO"
-  "UBLE_REF\020f\022\020\n\014DT_INT32_REF\020g\022\020\n\014DT_UINT8"
-  "_REF\020h\022\020\n\014DT_INT16_REF\020i\022\017\n\013DT_INT8_REF\020"
-  "j\022\021\n\rDT_STRING_REF\020k\022\024\n\020DT_COMPLEX64_REF"
-  "\020l\022\020\n\014DT_INT64_REF\020m\022\017\n\013DT_BOOL_REF\020n\022\020\n"
-  "\014DT_QINT8_REF\020o\022\021\n\rDT_QUINT8_REF\020p\022\021\n\rDT"
-  "_QINT32_REF\020q\022\023\n\017DT_BFLOAT16_REF\020r\022\021\n\rDT"
-  "_QINT16_REF\020s\022\022\n\016DT_QUINT16_REF\020t\022\021\n\rDT_"
-  "UINT16_REF\020u\022\025\n\021DT_COMPLEX128_REF\020v\022\017\n\013D"
-  "T_HALF_REF\020w\022\023\n\017DT_RESOURCE_REF\020x\022\022\n\016DT_"
-  "VARIANT_REF\020y\022\021\n\rDT_UINT32_REF\020z\022\021\n\rDT_U"
-  "INT64_REF\020{b\006proto3"
+  "\n\014schema.proto\022\004DRPB\032\036google/protobuf/du"
+  "ration.proto\032\037google/protobuf/timestamp."
+  "proto\032\013types.proto\"\364\003\n\013TensorProto\022\035\n\005dt"
+  "ype\030\001 \001(\0162\016.DRPB.DataType\022,\n\014tensor_shap"
+  "e\030\002 \001(\0132\026.DRPB.TensorShapeProto\022\026\n\016versi"
+  "on_number\030\003 \001(\005\022\026\n\016tensor_content\030\004 \001(\014\022"
+  "\024\n\010half_val\030\r \003(\005B\002\020\001\022\025\n\tfloat_val\030\005 \003(\002"
+  "B\002\020\001\022\026\n\ndouble_val\030\006 \003(\001B\002\020\001\022\023\n\007int_val\030"
+  "\007 \003(\005B\002\020\001\022\022\n\nstring_val\030\010 \003(\014\022\030\n\014scomple"
+  "x_val\030\t \003(\002B\002\020\001\022\025\n\tint64_val\030\n \003(\003B\002\020\001\022\024"
+  "\n\010bool_val\030\013 \003(\010B\002\020\001\022\030\n\014dcomplex_val\030\014 \003"
+  "(\001B\002\020\001\0226\n\023resource_handle_val\030\016 \003(\0132\031.DR"
+  "PB.ResourceHandleProto\0221\n\013variant_val\030\017 "
+  "\003(\0132\034.DRPB.VariantTensorDataProto\022\026\n\nuin"
+  "t32_val\030\020 \003(\rB\002\020\001\022\026\n\nuint64_val\030\021 \003(\004B\002\020"
+  "\001\"a\n\026VariantTensorDataProto\022\021\n\ttype_name"
+  "\030\001 \001(\t\022\020\n\010metadata\030\002 \001(\014\022\"\n\007tensors\030\003 \003("
+  "\0132\021.DRPB.TensorProto\"t\n\020TensorShapeProto"
+  "\022\'\n\003dim\030\002 \003(\0132\032.DRPB.TensorShapeProto.Di"
+  "m\022\024\n\014unknown_rank\030\003 \001(\010\032!\n\003Dim\022\014\n\004size\030\001"
+  " \001(\003\022\014\n\004name\030\002 \001(\t\"\223\002\n\023ResourceHandlePro"
+  "to\022\016\n\006device\030\001 \001(\t\022\021\n\tcontainer\030\002 \001(\t\022\014\n"
+  "\004name\030\003 \001(\t\022\021\n\thash_code\030\004 \001(\004\022\027\n\017maybe_"
+  "type_name\030\005 \001(\t\022B\n\021dtypes_and_shapes\030\006 \003"
+  "(\0132\'.DRPB.ResourceHandleProto.DtypeAndSh"
+  "ape\032U\n\rDtypeAndShape\022\035\n\005dtype\030\001 \001(\0162\016.DR"
+  "PB.DataType\022%\n\005shape\030\002 \001(\0132\026.DRPB.Tensor"
+  "ShapeProtoJ\004\010\007\020\010\"\200\002\n\tChunkData\022\021\n\tchunk_"
+  "key\030\001 \001(\004\022+\n\016sequence_range\030\002 \001(\0132\023.DRPB"
+  ".SequenceRange\022&\n\004data\030\005 \001(\0132\024.DRPB.Chun"
+  "kData.DataB\002(\001\022\030\n\020data_tensors_len\030\006 \001(\005"
+  "\022\025\n\rdelta_encoded\030\004 \001(\010\022.\n\017deprecated_da"
+  "ta\030\003 \003(\0132\021.DRPB.TensorProtoB\002\030\001\032*\n\004Data\022"
+  "\"\n\007tensors\030\001 \003(\0132\021.DRPB.TensorProto\",\n\nS"
+  "liceRange\022\016\n\006offset\030\001 \001(\005\022\016\n\006length\030\002 \001("
+  "\005\"O\n\rSequenceRange\022\022\n\nepisode_id\030\001 \001(\004\022\r"
+  "\n\005start\030\002 \001(\005\022\013\n\003end\030\003 \001(\005\022\016\n\006sparse\030\004 \001"
+  "(\010\"\340\001\n\016FlatTrajectory\022,\n\007columns\030\001 \003(\0132\033"
+  ".DRPB.FlatTrajectory.Column\032N\n\nChunkSlic"
+  "e\022\021\n\tchunk_key\030\001 \001(\004\022\016\n\006offset\030\002 \001(\005\022\016\n\006"
+  "length\030\003 \001(\005\022\r\n\005index\030\004 \001(\005\032P\n\006Column\0225\n"
+  "\014chunk_slices\030\001 \003(\0132\037.DRPB.FlatTrajector"
+  "y.ChunkSlice\022\017\n\007squeeze\030\002 \001(\010\"\222\002\n\017Priori"
+  "tizedItem\022\013\n\003key\030\001 \001(\004\022\r\n\005table\030\002 \001(\t\022\020\n"
+  "\010priority\030\005 \001(\001\022\025\n\rtimes_sampled\030\006 \001(\005\022/"
+  "\n\013inserted_at\030\007 \001(\0132\032.google.protobuf.Ti"
+  "mestamp\022-\n\017flat_trajectory\030\010 \001(\0132\024.DRPB."
+  "FlatTrajectory\022!\n\025deprecated_chunk_keys\030"
+  "\003 \003(\004B\002\030\001\0227\n\031deprecated_sequence_range\030\004"
+  " \001(\0132\020.DRPB.SliceRangeB\002\030\001\"0\n\017KeyWithPri"
+  "ority\022\013\n\003key\030\001 \001(\004\022\020\n\010priority\030\002 \001(\001\"p\n\n"
+  "SampleInfo\022#\n\004item\030\001 \001(\0132\025.DRPB.Prioriti"
+  "zedItem\022\023\n\013probability\030\002 \001(\001\022\022\n\ntable_si"
+  "ze\030\003 \001(\003\022\024\n\014rate_limited\030\004 \001(\010\"\366\002\n\tTable"
+  "Info\022\014\n\004name\030\010 \001(\t\0225\n\017sampler_options\030\001 "
+  "\001(\0132\034.DRPB.KeyDistributionOptions\0225\n\017rem"
+  "over_options\030\002 \001(\0132\034.DRPB.KeyDistributio"
+  "nOptions\022\020\n\010max_size\030\003 \001(\003\022\031\n\021max_times_"
+  "sampled\030\004 \001(\005\0220\n\021rate_limiter_info\030\005 \001(\013"
+  "2\025.DRPB.RateLimiterInfo\022(\n\tsignature\030\006 \001"
+  "(\0132\025.DRPB.StructuredValue\022\024\n\014current_siz"
+  "e\030\007 \001(\003\022\024\n\014num_episodes\030\t \001(\003\022\034\n\024num_del"
+  "eted_episodes\030\n \001(\003\022\032\n\022num_unique_sample"
+  "s\030\013 \001(\003\"\324\004\n\017StructuredValue\022%\n\nnone_valu"
+  "e\030\001 \001(\0132\017.DRPB.NoneValueH\000\022\027\n\rfloat64_va"
+  "lue\030\013 \001(\001H\000\022\025\n\013int64_value\030\014 \001(\022H\000\022\026\n\014st"
+  "ring_value\030\r \001(\tH\000\022\024\n\nbool_value\030\016 \001(\010H\000"
+  "\0224\n\022tensor_shape_value\030\037 \001(\0132\026.DRPB.Tens"
+  "orShapeProtoH\000\022,\n\022tensor_dtype_value\030  \001"
+  "(\0162\016.DRPB.DataTypeH\000\0222\n\021tensor_spec_valu"
+  "e\030! \001(\0132\025.DRPB.TensorSpecProtoH\000\022.\n\017type"
+  "_spec_value\030\" \001(\0132\023.DRPB.TypeSpecProtoH\000"
+  "\022A\n\031bounded_tensor_spec_value\030# \001(\0132\034.DR"
+  "PB.BoundedTensorSpecProtoH\000\022%\n\nlist_valu"
+  "e\0303 \001(\0132\017.DRPB.ListValueH\000\022\'\n\013tuple_valu"
+  "e\0304 \001(\0132\020.DRPB.TupleValueH\000\022%\n\ndict_valu"
+  "e\0305 \001(\0132\017.DRPB.DictValueH\000\0222\n\021named_tupl"
+  "e_value\0306 \001(\0132\025.DRPB.NamedTupleValueH\000B\006"
+  "\n\004kind\"\013\n\tNoneValue\"2\n\tListValue\022%\n\006valu"
+  "es\030\001 \003(\0132\025.DRPB.StructuredValue\"3\n\nTuple"
+  "Value\022%\n\006values\030\001 \003(\0132\025.DRPB.StructuredV"
+  "alue\"~\n\tDictValue\022+\n\006fields\030\001 \003(\0132\033.DRPB"
+  ".DictValue.FieldsEntry\032D\n\013FieldsEntry\022\013\n"
+  "\003key\030\001 \001(\t\022$\n\005value\030\002 \001(\0132\025.DRPB.Structu"
+  "redValue:\0028\001\">\n\tPairValue\022\013\n\003key\030\001 \001(\t\022$"
+  "\n\005value\030\002 \001(\0132\025.DRPB.StructuredValue\"@\n\017"
+  "NamedTupleValue\022\014\n\004name\030\001 \001(\t\022\037\n\006values\030"
+  "\002 \003(\0132\017.DRPB.PairValue\"e\n\017TensorSpecProt"
+  "o\022\014\n\004name\030\001 \001(\t\022%\n\005shape\030\002 \001(\0132\026.DRPB.Te"
+  "nsorShapeProto\022\035\n\005dtype\030\003 \001(\0162\016.DRPB.Dat"
+  "aType\"\264\001\n\026BoundedTensorSpecProto\022\014\n\004name"
+  "\030\001 \001(\t\022%\n\005shape\030\002 \001(\0132\026.DRPB.TensorShape"
+  "Proto\022\035\n\005dtype\030\003 \001(\0162\016.DRPB.DataType\022\"\n\007"
+  "minimum\030\004 \001(\0132\021.DRPB.TensorProto\022\"\n\007maxi"
+  "mum\030\005 \001(\0132\021.DRPB.TensorProto\"\317\003\n\rTypeSpe"
+  "cProto\022:\n\017type_spec_class\030\001 \001(\0162!.DRPB.T"
+  "ypeSpecProto.TypeSpecClass\022)\n\ntype_state"
+  "\030\002 \001(\0132\025.DRPB.StructuredValue\022\034\n\024type_sp"
+  "ec_class_name\030\003 \001(\t\"\270\002\n\rTypeSpecClass\022\013\n"
+  "\007UNKNOWN\020\000\022\026\n\022SPARSE_TENSOR_SPEC\020\001\022\027\n\023IN"
+  "DEXED_SLICES_SPEC\020\002\022\026\n\022RAGGED_TENSOR_SPE"
+  "C\020\003\022\025\n\021TENSOR_ARRAY_SPEC\020\004\022\025\n\021DATA_DATAS"
+  "ET_SPEC\020\005\022\026\n\022DATA_ITERATOR_SPEC\020\006\022\021\n\rOPT"
+  "IONAL_SPEC\020\007\022\024\n\020PER_REPLICA_SPEC\020\010\022\021\n\rVA"
+  "RIABLE_SPEC\020\t\022\026\n\022ROW_PARTITION_SPEC\020\n\022\030\n"
+  "\024REGISTERED_TYPE_SPEC\020\014\022\027\n\023EXTENSION_TYP"
+  "E_SPEC\020\r\"\004\010\013\020\013\"\271\001\n\024RateLimiterCallStats\022"
+  "\017\n\007pending\030\001 \001(\003\022\021\n\tcompleted\030\002 \001(\003\022\017\n\007l"
+  "imited\030\003 \001(\003\0226\n\023completed_wait_time\030\004 \001("
+  "\0132\031.google.protobuf.Duration\0224\n\021pending_"
+  "wait_time\030\005 \001(\0132\031.google.protobuf.Durati"
+  "on\"\321\001\n\017RateLimiterInfo\022\032\n\022samples_per_in"
+  "sert\030\001 \001(\001\022\020\n\010min_diff\030\002 \001(\001\022\020\n\010max_diff"
+  "\030\003 \001(\001\022\032\n\022min_size_to_sample\030\004 \001(\003\0220\n\014in"
+  "sert_stats\030\005 \001(\0132\032.DRPB.RateLimiterCallS"
+  "tats\0220\n\014sample_stats\030\006 \001(\0132\032.DRPB.RateLi"
+  "miterCallStats\"\263\002\n\026KeyDistributionOption"
+  "s\022\016\n\004fifo\030\001 \001(\010H\000\022\021\n\007uniform\030\002 \001(\010H\000\022\?\n\013"
+  "prioritized\030\003 \001(\0132(.DRPB.KeyDistribution"
+  "Options.PrioritizedH\000\0221\n\004heap\030\004 \001(\0132!.DR"
+  "PB.KeyDistributionOptions.HeapH\000\022\016\n\004lifo"
+  "\030\006 \001(\010H\000\022\030\n\020is_deterministic\030\007 \001(\010\032(\n\013Pr"
+  "ioritized\022\031\n\021priority_exponent\030\001 \001(\001\032\030\n\004"
+  "Heap\022\020\n\010min_heap\030\001 \001(\010B\016\n\014distributionJ\004"
+  "\010\005\020\006\"$\n\007Uint128\022\014\n\004high\030\001 \001(\004\022\013\n\003low\030\002 \001"
+  "(\004\"\037\n\007Timeout\022\024\n\014milliseconds\030\001 \001(\003b\006pro"
+  "to3"
   ;
-static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor_table_schema_2eproto_deps[2] = {
+static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor_table_schema_2eproto_deps[3] = {
   &::descriptor_table_google_2fprotobuf_2fduration_2eproto,
   &::descriptor_table_google_2fprotobuf_2ftimestamp_2eproto,
+  &::descriptor_table_types_2eproto,
 };
 static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_schema_2eproto_once;
 const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_schema_2eproto = {
-  false, false, 6099, descriptor_table_protodef_schema_2eproto, "schema.proto", 
-  &descriptor_table_schema_2eproto_once, descriptor_table_schema_2eproto_deps, 2, 35,
+  false, false, 5043, descriptor_table_protodef_schema_2eproto, "schema.proto", 
+  &descriptor_table_schema_2eproto_once, descriptor_table_schema_2eproto_deps, 3, 35,
   schemas, file_default_instances, TableStruct_schema_2eproto::offsets,
   file_level_metadata_schema_2eproto, file_level_enum_descriptors_schema_2eproto, file_level_service_descriptors_schema_2eproto,
 };
@@ -1104,7 +1077,6 @@ descriptor_table_schema_2eproto_metadata_getter(int index) {
 // Force running AddDescriptors() at dynamic initialization time.
 PROTOBUF_ATTRIBUTE_INIT_PRIORITY static ::PROTOBUF_NAMESPACE_ID::internal::AddDescriptorsRunner dynamic_init_dummy_schema_2eproto(&descriptor_table_schema_2eproto);
 namespace DRPB {
-namespace DATA {
 const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* TypeSpecProto_TypeSpecClass_descriptor() {
   ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_schema_2eproto);
   return file_level_enum_descriptors_schema_2eproto[0];
@@ -1148,74 +1120,15 @@ constexpr TypeSpecProto_TypeSpecClass TypeSpecProto::TypeSpecClass_MIN;
 constexpr TypeSpecProto_TypeSpecClass TypeSpecProto::TypeSpecClass_MAX;
 constexpr int TypeSpecProto::TypeSpecClass_ARRAYSIZE;
 #endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
-const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* DataType_descriptor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_schema_2eproto);
-  return file_level_enum_descriptors_schema_2eproto[1];
-}
-bool DataType_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-    case 6:
-    case 7:
-    case 8:
-    case 9:
-    case 10:
-    case 11:
-    case 12:
-    case 13:
-    case 14:
-    case 15:
-    case 16:
-    case 17:
-    case 18:
-    case 19:
-    case 20:
-    case 21:
-    case 22:
-    case 23:
-    case 101:
-    case 102:
-    case 103:
-    case 104:
-    case 105:
-    case 106:
-    case 107:
-    case 108:
-    case 109:
-    case 110:
-    case 111:
-    case 112:
-    case 113:
-    case 114:
-    case 115:
-    case 116:
-    case 117:
-    case 118:
-    case 119:
-    case 120:
-    case 121:
-    case 122:
-    case 123:
-      return true;
-    default:
-      return false;
-  }
-}
-
 
 // ===================================================================
 
 class TensorProto::_Internal {
  public:
-  static const ::DRPB::DATA::TensorShapeProto& tensor_shape(const TensorProto* msg);
+  static const ::DRPB::TensorShapeProto& tensor_shape(const TensorProto* msg);
 };
 
-const ::DRPB::DATA::TensorShapeProto&
+const ::DRPB::TensorShapeProto&
 TensorProto::_Internal::tensor_shape(const TensorProto* msg) {
   return *msg->tensor_shape_;
 }
@@ -1236,7 +1149,7 @@ TensorProto::TensorProto(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   uint64_val_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.TensorProto)
+  // @@protoc_insertion_point(arena_constructor:DRPB.TensorProto)
 }
 TensorProto::TensorProto(const TensorProto& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
@@ -1260,14 +1173,14 @@ TensorProto::TensorProto(const TensorProto& from)
       GetArena());
   }
   if (from._internal_has_tensor_shape()) {
-    tensor_shape_ = new ::DRPB::DATA::TensorShapeProto(*from.tensor_shape_);
+    tensor_shape_ = new ::DRPB::TensorShapeProto(*from.tensor_shape_);
   } else {
     tensor_shape_ = nullptr;
   }
   ::memcpy(&dtype_, &from.dtype_,
     static_cast<size_t>(reinterpret_cast<char*>(&version_number_) -
     reinterpret_cast<char*>(&dtype_)) + sizeof(version_number_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.TensorProto)
+  // @@protoc_insertion_point(copy_constructor:DRPB.TensorProto)
 }
 
 void TensorProto::SharedCtor() {
@@ -1279,7 +1192,7 @@ tensor_content_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStr
 }
 
 TensorProto::~TensorProto() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.TensorProto)
+  // @@protoc_insertion_point(destructor:DRPB.TensorProto)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -1301,7 +1214,7 @@ void TensorProto::SetCachedSize(int size) const {
 }
 
 void TensorProto::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.TensorProto)
+// @@protoc_insertion_point(message_clear_start:DRPB.TensorProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -1337,15 +1250,15 @@ const char* TensorProto::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // .DRPB.DATA.DataType dtype = 1;
+      // .DRPB.DataType dtype = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
           ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-          _internal_set_dtype(static_cast<::DRPB::DATA::DataType>(val));
+          _internal_set_dtype(static_cast<::DRPB::DataType>(val));
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.TensorShapeProto tensor_shape = 2;
+      // .DRPB.TensorShapeProto tensor_shape = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_tensor_shape(), ptr);
@@ -1460,7 +1373,7 @@ const char* TensorProto::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // repeated .DRPB.DATA.ResourceHandleProto resource_handle_val = 14;
+      // repeated .DRPB.ResourceHandleProto resource_handle_val = 14;
       case 14:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 114)) {
           ptr -= 1;
@@ -1472,7 +1385,7 @@ const char* TensorProto::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<114>(ptr));
         } else goto handle_unusual;
         continue;
-      // repeated .DRPB.DATA.VariantTensorDataProto variant_val = 15;
+      // repeated .DRPB.VariantTensorDataProto variant_val = 15;
       case 15:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 122)) {
           ptr -= 1;
@@ -1528,18 +1441,18 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* TensorProto::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.TensorProto)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.TensorProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // .DRPB.DATA.DataType dtype = 1;
+  // .DRPB.DataType dtype = 1;
   if (this->dtype() != 0) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
       1, this->_internal_dtype(), target);
   }
 
-  // .DRPB.DATA.TensorShapeProto tensor_shape = 2;
+  // .DRPB.TensorShapeProto tensor_shape = 2;
   if (this->has_tensor_shape()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -1617,7 +1530,7 @@ failure:
     }
   }
 
-  // repeated .DRPB.DATA.ResourceHandleProto resource_handle_val = 14;
+  // repeated .DRPB.ResourceHandleProto resource_handle_val = 14;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_resource_handle_val_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -1625,7 +1538,7 @@ failure:
       InternalWriteMessage(14, this->_internal_resource_handle_val(i), target, stream);
   }
 
-  // repeated .DRPB.DATA.VariantTensorDataProto variant_val = 15;
+  // repeated .DRPB.VariantTensorDataProto variant_val = 15;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_variant_val_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -1655,12 +1568,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.TensorProto)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.TensorProto)
   return target;
 }
 
 size_t TensorProto::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.TensorProto)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.TensorProto)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -1795,14 +1708,14 @@ size_t TensorProto::ByteSizeLong() const {
     total_size += data_size;
   }
 
-  // repeated .DRPB.DATA.ResourceHandleProto resource_handle_val = 14;
+  // repeated .DRPB.ResourceHandleProto resource_handle_val = 14;
   total_size += 1UL * this->_internal_resource_handle_val_size();
   for (const auto& msg : this->resource_handle_val_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
-  // repeated .DRPB.DATA.VariantTensorDataProto variant_val = 15;
+  // repeated .DRPB.VariantTensorDataProto variant_val = 15;
   total_size += 1UL * this->_internal_variant_val_size();
   for (const auto& msg : this->variant_val_) {
     total_size +=
@@ -1846,14 +1759,14 @@ size_t TensorProto::ByteSizeLong() const {
         this->_internal_tensor_content());
   }
 
-  // .DRPB.DATA.TensorShapeProto tensor_shape = 2;
+  // .DRPB.TensorShapeProto tensor_shape = 2;
   if (this->has_tensor_shape()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *tensor_shape_);
   }
 
-  // .DRPB.DATA.DataType dtype = 1;
+  // .DRPB.DataType dtype = 1;
   if (this->dtype() != 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_dtype());
@@ -1876,22 +1789,22 @@ size_t TensorProto::ByteSizeLong() const {
 }
 
 void TensorProto::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.TensorProto)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.TensorProto)
   GOOGLE_DCHECK_NE(&from, this);
   const TensorProto* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<TensorProto>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.TensorProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.TensorProto)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.TensorProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.TensorProto)
     MergeFrom(*source);
   }
 }
 
 void TensorProto::MergeFrom(const TensorProto& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.TensorProto)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.TensorProto)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -1914,7 +1827,7 @@ void TensorProto::MergeFrom(const TensorProto& from) {
     _internal_set_tensor_content(from._internal_tensor_content());
   }
   if (from.has_tensor_shape()) {
-    _internal_mutable_tensor_shape()->::DRPB::DATA::TensorShapeProto::MergeFrom(from._internal_tensor_shape());
+    _internal_mutable_tensor_shape()->::DRPB::TensorShapeProto::MergeFrom(from._internal_tensor_shape());
   }
   if (from.dtype() != 0) {
     _internal_set_dtype(from._internal_dtype());
@@ -1925,14 +1838,14 @@ void TensorProto::MergeFrom(const TensorProto& from) {
 }
 
 void TensorProto::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.TensorProto)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.TensorProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void TensorProto::CopyFrom(const TensorProto& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.TensorProto)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.TensorProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -1983,7 +1896,7 @@ VariantTensorDataProto::VariantTensorDataProto(::PROTOBUF_NAMESPACE_ID::Arena* a
   tensors_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.VariantTensorDataProto)
+  // @@protoc_insertion_point(arena_constructor:DRPB.VariantTensorDataProto)
 }
 VariantTensorDataProto::VariantTensorDataProto(const VariantTensorDataProto& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
@@ -1999,7 +1912,7 @@ VariantTensorDataProto::VariantTensorDataProto(const VariantTensorDataProto& fro
     metadata_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_metadata(), 
       GetArena());
   }
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.VariantTensorDataProto)
+  // @@protoc_insertion_point(copy_constructor:DRPB.VariantTensorDataProto)
 }
 
 void VariantTensorDataProto::SharedCtor() {
@@ -2008,7 +1921,7 @@ metadata_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlr
 }
 
 VariantTensorDataProto::~VariantTensorDataProto() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.VariantTensorDataProto)
+  // @@protoc_insertion_point(destructor:DRPB.VariantTensorDataProto)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -2030,7 +1943,7 @@ void VariantTensorDataProto::SetCachedSize(int size) const {
 }
 
 void VariantTensorDataProto::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.VariantTensorDataProto)
+// @@protoc_insertion_point(message_clear_start:DRPB.VariantTensorDataProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -2053,7 +1966,7 @@ const char* VariantTensorDataProto::_InternalParse(const char* ptr, ::PROTOBUF_N
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           auto str = _internal_mutable_type_name();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.VariantTensorDataProto.type_name"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.VariantTensorDataProto.type_name"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -2065,7 +1978,7 @@ const char* VariantTensorDataProto::_InternalParse(const char* ptr, ::PROTOBUF_N
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // repeated .DRPB.DATA.TensorProto tensors = 3;
+      // repeated .DRPB.TensorProto tensors = 3;
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
           ptr -= 1;
@@ -2101,7 +2014,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* VariantTensorDataProto::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.VariantTensorDataProto)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.VariantTensorDataProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -2110,7 +2023,7 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_type_name().data(), static_cast<int>(this->_internal_type_name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.VariantTensorDataProto.type_name");
+      "DRPB.VariantTensorDataProto.type_name");
     target = stream->WriteStringMaybeAliased(
         1, this->_internal_type_name(), target);
   }
@@ -2121,7 +2034,7 @@ failure:
         2, this->_internal_metadata(), target);
   }
 
-  // repeated .DRPB.DATA.TensorProto tensors = 3;
+  // repeated .DRPB.TensorProto tensors = 3;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_tensors_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -2133,19 +2046,19 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.VariantTensorDataProto)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.VariantTensorDataProto)
   return target;
 }
 
 size_t VariantTensorDataProto::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.VariantTensorDataProto)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.VariantTensorDataProto)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.TensorProto tensors = 3;
+  // repeated .DRPB.TensorProto tensors = 3;
   total_size += 1UL * this->_internal_tensors_size();
   for (const auto& msg : this->tensors_) {
     total_size +=
@@ -2176,22 +2089,22 @@ size_t VariantTensorDataProto::ByteSizeLong() const {
 }
 
 void VariantTensorDataProto::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.VariantTensorDataProto)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.VariantTensorDataProto)
   GOOGLE_DCHECK_NE(&from, this);
   const VariantTensorDataProto* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<VariantTensorDataProto>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.VariantTensorDataProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.VariantTensorDataProto)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.VariantTensorDataProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.VariantTensorDataProto)
     MergeFrom(*source);
   }
 }
 
 void VariantTensorDataProto::MergeFrom(const VariantTensorDataProto& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.VariantTensorDataProto)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.VariantTensorDataProto)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -2207,14 +2120,14 @@ void VariantTensorDataProto::MergeFrom(const VariantTensorDataProto& from) {
 }
 
 void VariantTensorDataProto::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.VariantTensorDataProto)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.VariantTensorDataProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void VariantTensorDataProto::CopyFrom(const VariantTensorDataProto& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.VariantTensorDataProto)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.VariantTensorDataProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2247,7 +2160,7 @@ TensorShapeProto_Dim::TensorShapeProto_Dim(::PROTOBUF_NAMESPACE_ID::Arena* arena
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.TensorShapeProto.Dim)
+  // @@protoc_insertion_point(arena_constructor:DRPB.TensorShapeProto.Dim)
 }
 TensorShapeProto_Dim::TensorShapeProto_Dim(const TensorShapeProto_Dim& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -2258,7 +2171,7 @@ TensorShapeProto_Dim::TensorShapeProto_Dim(const TensorShapeProto_Dim& from)
       GetArena());
   }
   size_ = from.size_;
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.TensorShapeProto.Dim)
+  // @@protoc_insertion_point(copy_constructor:DRPB.TensorShapeProto.Dim)
 }
 
 void TensorShapeProto_Dim::SharedCtor() {
@@ -2267,7 +2180,7 @@ size_ = PROTOBUF_LONGLONG(0);
 }
 
 TensorShapeProto_Dim::~TensorShapeProto_Dim() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.TensorShapeProto.Dim)
+  // @@protoc_insertion_point(destructor:DRPB.TensorShapeProto.Dim)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -2288,7 +2201,7 @@ void TensorShapeProto_Dim::SetCachedSize(int size) const {
 }
 
 void TensorShapeProto_Dim::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.TensorShapeProto.Dim)
+// @@protoc_insertion_point(message_clear_start:DRPB.TensorShapeProto.Dim)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -2317,7 +2230,7 @@ const char* TensorShapeProto_Dim::_InternalParse(const char* ptr, ::PROTOBUF_NAM
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           auto str = _internal_mutable_name();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.TensorShapeProto.Dim.name"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.TensorShapeProto.Dim.name"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -2345,7 +2258,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* TensorShapeProto_Dim::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.TensorShapeProto.Dim)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.TensorShapeProto.Dim)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -2360,7 +2273,7 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_name().data(), static_cast<int>(this->_internal_name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.TensorShapeProto.Dim.name");
+      "DRPB.TensorShapeProto.Dim.name");
     target = stream->WriteStringMaybeAliased(
         2, this->_internal_name(), target);
   }
@@ -2369,12 +2282,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.TensorShapeProto.Dim)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.TensorShapeProto.Dim)
   return target;
 }
 
 size_t TensorShapeProto_Dim::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.TensorShapeProto.Dim)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.TensorShapeProto.Dim)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -2405,22 +2318,22 @@ size_t TensorShapeProto_Dim::ByteSizeLong() const {
 }
 
 void TensorShapeProto_Dim::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.TensorShapeProto.Dim)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.TensorShapeProto.Dim)
   GOOGLE_DCHECK_NE(&from, this);
   const TensorShapeProto_Dim* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<TensorShapeProto_Dim>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.TensorShapeProto.Dim)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.TensorShapeProto.Dim)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.TensorShapeProto.Dim)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.TensorShapeProto.Dim)
     MergeFrom(*source);
   }
 }
 
 void TensorShapeProto_Dim::MergeFrom(const TensorShapeProto_Dim& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.TensorShapeProto.Dim)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.TensorShapeProto.Dim)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -2435,14 +2348,14 @@ void TensorShapeProto_Dim::MergeFrom(const TensorShapeProto_Dim& from) {
 }
 
 void TensorShapeProto_Dim::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.TensorShapeProto.Dim)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.TensorShapeProto.Dim)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void TensorShapeProto_Dim::CopyFrom(const TensorShapeProto_Dim& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.TensorShapeProto.Dim)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.TensorShapeProto.Dim)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2475,14 +2388,14 @@ TensorShapeProto::TensorShapeProto(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   dim_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.TensorShapeProto)
+  // @@protoc_insertion_point(arena_constructor:DRPB.TensorShapeProto)
 }
 TensorShapeProto::TensorShapeProto(const TensorShapeProto& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       dim_(from.dim_) {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   unknown_rank_ = from.unknown_rank_;
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.TensorShapeProto)
+  // @@protoc_insertion_point(copy_constructor:DRPB.TensorShapeProto)
 }
 
 void TensorShapeProto::SharedCtor() {
@@ -2490,7 +2403,7 @@ unknown_rank_ = false;
 }
 
 TensorShapeProto::~TensorShapeProto() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.TensorShapeProto)
+  // @@protoc_insertion_point(destructor:DRPB.TensorShapeProto)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -2510,7 +2423,7 @@ void TensorShapeProto::SetCachedSize(int size) const {
 }
 
 void TensorShapeProto::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.TensorShapeProto)
+// @@protoc_insertion_point(message_clear_start:DRPB.TensorShapeProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -2527,7 +2440,7 @@ const char* TensorShapeProto::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPA
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // repeated .DRPB.DATA.TensorShapeProto.Dim dim = 2;
+      // repeated .DRPB.TensorShapeProto.Dim dim = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr -= 1;
@@ -2570,11 +2483,11 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* TensorShapeProto::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.TensorShapeProto)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.TensorShapeProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.TensorShapeProto.Dim dim = 2;
+  // repeated .DRPB.TensorShapeProto.Dim dim = 2;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_dim_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -2592,19 +2505,19 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.TensorShapeProto)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.TensorShapeProto)
   return target;
 }
 
 size_t TensorShapeProto::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.TensorShapeProto)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.TensorShapeProto)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.TensorShapeProto.Dim dim = 2;
+  // repeated .DRPB.TensorShapeProto.Dim dim = 2;
   total_size += 1UL * this->_internal_dim_size();
   for (const auto& msg : this->dim_) {
     total_size +=
@@ -2626,22 +2539,22 @@ size_t TensorShapeProto::ByteSizeLong() const {
 }
 
 void TensorShapeProto::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.TensorShapeProto)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.TensorShapeProto)
   GOOGLE_DCHECK_NE(&from, this);
   const TensorShapeProto* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<TensorShapeProto>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.TensorShapeProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.TensorShapeProto)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.TensorShapeProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.TensorShapeProto)
     MergeFrom(*source);
   }
 }
 
 void TensorShapeProto::MergeFrom(const TensorShapeProto& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.TensorShapeProto)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.TensorShapeProto)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -2654,14 +2567,14 @@ void TensorShapeProto::MergeFrom(const TensorShapeProto& from) {
 }
 
 void TensorShapeProto::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.TensorShapeProto)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.TensorShapeProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void TensorShapeProto::CopyFrom(const TensorShapeProto& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.TensorShapeProto)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.TensorShapeProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2687,10 +2600,10 @@ void TensorShapeProto::InternalSwap(TensorShapeProto* other) {
 
 class ResourceHandleProto_DtypeAndShape::_Internal {
  public:
-  static const ::DRPB::DATA::TensorShapeProto& shape(const ResourceHandleProto_DtypeAndShape* msg);
+  static const ::DRPB::TensorShapeProto& shape(const ResourceHandleProto_DtypeAndShape* msg);
 };
 
-const ::DRPB::DATA::TensorShapeProto&
+const ::DRPB::TensorShapeProto&
 ResourceHandleProto_DtypeAndShape::_Internal::shape(const ResourceHandleProto_DtypeAndShape* msg) {
   return *msg->shape_;
 }
@@ -2698,18 +2611,18 @@ ResourceHandleProto_DtypeAndShape::ResourceHandleProto_DtypeAndShape(::PROTOBUF_
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+  // @@protoc_insertion_point(arena_constructor:DRPB.ResourceHandleProto.DtypeAndShape)
 }
 ResourceHandleProto_DtypeAndShape::ResourceHandleProto_DtypeAndShape(const ResourceHandleProto_DtypeAndShape& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   if (from._internal_has_shape()) {
-    shape_ = new ::DRPB::DATA::TensorShapeProto(*from.shape_);
+    shape_ = new ::DRPB::TensorShapeProto(*from.shape_);
   } else {
     shape_ = nullptr;
   }
   dtype_ = from.dtype_;
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+  // @@protoc_insertion_point(copy_constructor:DRPB.ResourceHandleProto.DtypeAndShape)
 }
 
 void ResourceHandleProto_DtypeAndShape::SharedCtor() {
@@ -2720,7 +2633,7 @@ void ResourceHandleProto_DtypeAndShape::SharedCtor() {
 }
 
 ResourceHandleProto_DtypeAndShape::~ResourceHandleProto_DtypeAndShape() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+  // @@protoc_insertion_point(destructor:DRPB.ResourceHandleProto.DtypeAndShape)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -2741,7 +2654,7 @@ void ResourceHandleProto_DtypeAndShape::SetCachedSize(int size) const {
 }
 
 void ResourceHandleProto_DtypeAndShape::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+// @@protoc_insertion_point(message_clear_start:DRPB.ResourceHandleProto.DtypeAndShape)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -2761,15 +2674,15 @@ const char* ResourceHandleProto_DtypeAndShape::_InternalParse(const char* ptr, :
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // .DRPB.DATA.DataType dtype = 1;
+      // .DRPB.DataType dtype = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
           ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-          _internal_set_dtype(static_cast<::DRPB::DATA::DataType>(val));
+          _internal_set_dtype(static_cast<::DRPB::DataType>(val));
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.TensorShapeProto shape = 2;
+      // .DRPB.TensorShapeProto shape = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_shape(), ptr);
@@ -2800,18 +2713,18 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* ResourceHandleProto_DtypeAndShape::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.ResourceHandleProto.DtypeAndShape)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // .DRPB.DATA.DataType dtype = 1;
+  // .DRPB.DataType dtype = 1;
   if (this->dtype() != 0) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
       1, this->_internal_dtype(), target);
   }
 
-  // .DRPB.DATA.TensorShapeProto shape = 2;
+  // .DRPB.TensorShapeProto shape = 2;
   if (this->has_shape()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -2823,26 +2736,26 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.ResourceHandleProto.DtypeAndShape)
   return target;
 }
 
 size_t ResourceHandleProto_DtypeAndShape::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.ResourceHandleProto.DtypeAndShape)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // .DRPB.DATA.TensorShapeProto shape = 2;
+  // .DRPB.TensorShapeProto shape = 2;
   if (this->has_shape()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *shape_);
   }
 
-  // .DRPB.DATA.DataType dtype = 1;
+  // .DRPB.DataType dtype = 1;
   if (this->dtype() != 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_dtype());
@@ -2858,29 +2771,29 @@ size_t ResourceHandleProto_DtypeAndShape::ByteSizeLong() const {
 }
 
 void ResourceHandleProto_DtypeAndShape::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.ResourceHandleProto.DtypeAndShape)
   GOOGLE_DCHECK_NE(&from, this);
   const ResourceHandleProto_DtypeAndShape* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<ResourceHandleProto_DtypeAndShape>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.ResourceHandleProto.DtypeAndShape)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.ResourceHandleProto.DtypeAndShape)
     MergeFrom(*source);
   }
 }
 
 void ResourceHandleProto_DtypeAndShape::MergeFrom(const ResourceHandleProto_DtypeAndShape& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.ResourceHandleProto.DtypeAndShape)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_shape()) {
-    _internal_mutable_shape()->::DRPB::DATA::TensorShapeProto::MergeFrom(from._internal_shape());
+    _internal_mutable_shape()->::DRPB::TensorShapeProto::MergeFrom(from._internal_shape());
   }
   if (from.dtype() != 0) {
     _internal_set_dtype(from._internal_dtype());
@@ -2888,14 +2801,14 @@ void ResourceHandleProto_DtypeAndShape::MergeFrom(const ResourceHandleProto_Dtyp
 }
 
 void ResourceHandleProto_DtypeAndShape::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.ResourceHandleProto.DtypeAndShape)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void ResourceHandleProto_DtypeAndShape::CopyFrom(const ResourceHandleProto_DtypeAndShape& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.ResourceHandleProto.DtypeAndShape)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.ResourceHandleProto.DtypeAndShape)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2932,7 +2845,7 @@ ResourceHandleProto::ResourceHandleProto(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   dtypes_and_shapes_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.ResourceHandleProto)
+  // @@protoc_insertion_point(arena_constructor:DRPB.ResourceHandleProto)
 }
 ResourceHandleProto::ResourceHandleProto(const ResourceHandleProto& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
@@ -2959,7 +2872,7 @@ ResourceHandleProto::ResourceHandleProto(const ResourceHandleProto& from)
       GetArena());
   }
   hash_code_ = from.hash_code_;
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.ResourceHandleProto)
+  // @@protoc_insertion_point(copy_constructor:DRPB.ResourceHandleProto)
 }
 
 void ResourceHandleProto::SharedCtor() {
@@ -2971,7 +2884,7 @@ hash_code_ = PROTOBUF_ULONGLONG(0);
 }
 
 ResourceHandleProto::~ResourceHandleProto() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.ResourceHandleProto)
+  // @@protoc_insertion_point(destructor:DRPB.ResourceHandleProto)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -2995,7 +2908,7 @@ void ResourceHandleProto::SetCachedSize(int size) const {
 }
 
 void ResourceHandleProto::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.ResourceHandleProto)
+// @@protoc_insertion_point(message_clear_start:DRPB.ResourceHandleProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -3021,7 +2934,7 @@ const char* ResourceHandleProto::_InternalParse(const char* ptr, ::PROTOBUF_NAME
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           auto str = _internal_mutable_device();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.ResourceHandleProto.device"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.ResourceHandleProto.device"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -3030,7 +2943,7 @@ const char* ResourceHandleProto::_InternalParse(const char* ptr, ::PROTOBUF_NAME
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           auto str = _internal_mutable_container();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.ResourceHandleProto.container"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.ResourceHandleProto.container"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -3039,7 +2952,7 @@ const char* ResourceHandleProto::_InternalParse(const char* ptr, ::PROTOBUF_NAME
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
           auto str = _internal_mutable_name();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.ResourceHandleProto.name"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.ResourceHandleProto.name"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -3055,11 +2968,11 @@ const char* ResourceHandleProto::_InternalParse(const char* ptr, ::PROTOBUF_NAME
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
           auto str = _internal_mutable_maybe_type_name();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.ResourceHandleProto.maybe_type_name"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.ResourceHandleProto.maybe_type_name"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // repeated .DRPB.DATA.ResourceHandleProto.DtypeAndShape dtypes_and_shapes = 6;
+      // repeated .DRPB.ResourceHandleProto.DtypeAndShape dtypes_and_shapes = 6;
       case 6:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
           ptr -= 1;
@@ -3095,7 +3008,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* ResourceHandleProto::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.ResourceHandleProto)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.ResourceHandleProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -3104,7 +3017,7 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_device().data(), static_cast<int>(this->_internal_device().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.ResourceHandleProto.device");
+      "DRPB.ResourceHandleProto.device");
     target = stream->WriteStringMaybeAliased(
         1, this->_internal_device(), target);
   }
@@ -3114,7 +3027,7 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_container().data(), static_cast<int>(this->_internal_container().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.ResourceHandleProto.container");
+      "DRPB.ResourceHandleProto.container");
     target = stream->WriteStringMaybeAliased(
         2, this->_internal_container(), target);
   }
@@ -3124,7 +3037,7 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_name().data(), static_cast<int>(this->_internal_name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.ResourceHandleProto.name");
+      "DRPB.ResourceHandleProto.name");
     target = stream->WriteStringMaybeAliased(
         3, this->_internal_name(), target);
   }
@@ -3140,12 +3053,12 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_maybe_type_name().data(), static_cast<int>(this->_internal_maybe_type_name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.ResourceHandleProto.maybe_type_name");
+      "DRPB.ResourceHandleProto.maybe_type_name");
     target = stream->WriteStringMaybeAliased(
         5, this->_internal_maybe_type_name(), target);
   }
 
-  // repeated .DRPB.DATA.ResourceHandleProto.DtypeAndShape dtypes_and_shapes = 6;
+  // repeated .DRPB.ResourceHandleProto.DtypeAndShape dtypes_and_shapes = 6;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_dtypes_and_shapes_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -3157,19 +3070,19 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.ResourceHandleProto)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.ResourceHandleProto)
   return target;
 }
 
 size_t ResourceHandleProto::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.ResourceHandleProto)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.ResourceHandleProto)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.ResourceHandleProto.DtypeAndShape dtypes_and_shapes = 6;
+  // repeated .DRPB.ResourceHandleProto.DtypeAndShape dtypes_and_shapes = 6;
   total_size += 1UL * this->_internal_dtypes_and_shapes_size();
   for (const auto& msg : this->dtypes_and_shapes_) {
     total_size +=
@@ -3221,22 +3134,22 @@ size_t ResourceHandleProto::ByteSizeLong() const {
 }
 
 void ResourceHandleProto::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.ResourceHandleProto)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.ResourceHandleProto)
   GOOGLE_DCHECK_NE(&from, this);
   const ResourceHandleProto* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<ResourceHandleProto>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.ResourceHandleProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.ResourceHandleProto)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.ResourceHandleProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.ResourceHandleProto)
     MergeFrom(*source);
   }
 }
 
 void ResourceHandleProto::MergeFrom(const ResourceHandleProto& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.ResourceHandleProto)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.ResourceHandleProto)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -3261,14 +3174,14 @@ void ResourceHandleProto::MergeFrom(const ResourceHandleProto& from) {
 }
 
 void ResourceHandleProto::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.ResourceHandleProto)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.ResourceHandleProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void ResourceHandleProto::CopyFrom(const ResourceHandleProto& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.ResourceHandleProto)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.ResourceHandleProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -3305,20 +3218,20 @@ ChunkData_Data::ChunkData_Data(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   tensors_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.ChunkData.Data)
+  // @@protoc_insertion_point(arena_constructor:DRPB.ChunkData.Data)
 }
 ChunkData_Data::ChunkData_Data(const ChunkData_Data& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       tensors_(from.tensors_) {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.ChunkData.Data)
+  // @@protoc_insertion_point(copy_constructor:DRPB.ChunkData.Data)
 }
 
 void ChunkData_Data::SharedCtor() {
 }
 
 ChunkData_Data::~ChunkData_Data() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.ChunkData.Data)
+  // @@protoc_insertion_point(destructor:DRPB.ChunkData.Data)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -3338,7 +3251,7 @@ void ChunkData_Data::SetCachedSize(int size) const {
 }
 
 void ChunkData_Data::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.ChunkData.Data)
+// @@protoc_insertion_point(message_clear_start:DRPB.ChunkData.Data)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -3354,7 +3267,7 @@ const char* ChunkData_Data::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // repeated .DRPB.DATA.TensorProto tensors = 1;
+      // repeated .DRPB.TensorProto tensors = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr -= 1;
@@ -3390,11 +3303,11 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* ChunkData_Data::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.ChunkData.Data)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.ChunkData.Data)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.TensorProto tensors = 1;
+  // repeated .DRPB.TensorProto tensors = 1;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_tensors_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -3406,19 +3319,19 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.ChunkData.Data)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.ChunkData.Data)
   return target;
 }
 
 size_t ChunkData_Data::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.ChunkData.Data)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.ChunkData.Data)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.TensorProto tensors = 1;
+  // repeated .DRPB.TensorProto tensors = 1;
   total_size += 1UL * this->_internal_tensors_size();
   for (const auto& msg : this->tensors_) {
     total_size +=
@@ -3435,22 +3348,22 @@ size_t ChunkData_Data::ByteSizeLong() const {
 }
 
 void ChunkData_Data::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.ChunkData.Data)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.ChunkData.Data)
   GOOGLE_DCHECK_NE(&from, this);
   const ChunkData_Data* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<ChunkData_Data>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.ChunkData.Data)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.ChunkData.Data)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.ChunkData.Data)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.ChunkData.Data)
     MergeFrom(*source);
   }
 }
 
 void ChunkData_Data::MergeFrom(const ChunkData_Data& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.ChunkData.Data)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.ChunkData.Data)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -3460,14 +3373,14 @@ void ChunkData_Data::MergeFrom(const ChunkData_Data& from) {
 }
 
 void ChunkData_Data::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.ChunkData.Data)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.ChunkData.Data)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void ChunkData_Data::CopyFrom(const ChunkData_Data& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.ChunkData.Data)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.ChunkData.Data)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -3492,15 +3405,15 @@ void ChunkData_Data::InternalSwap(ChunkData_Data* other) {
 
 class ChunkData::_Internal {
  public:
-  static const ::DRPB::DATA::SequenceRange& sequence_range(const ChunkData* msg);
-  static const ::DRPB::DATA::ChunkData_Data& data(const ChunkData* msg);
+  static const ::DRPB::SequenceRange& sequence_range(const ChunkData* msg);
+  static const ::DRPB::ChunkData_Data& data(const ChunkData* msg);
 };
 
-const ::DRPB::DATA::SequenceRange&
+const ::DRPB::SequenceRange&
 ChunkData::_Internal::sequence_range(const ChunkData* msg) {
   return *msg->sequence_range_;
 }
-const ::DRPB::DATA::ChunkData_Data&
+const ::DRPB::ChunkData_Data&
 ChunkData::_Internal::data(const ChunkData* msg) {
   return *msg->data_;
 }
@@ -3509,26 +3422,26 @@ ChunkData::ChunkData(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   deprecated_data_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.ChunkData)
+  // @@protoc_insertion_point(arena_constructor:DRPB.ChunkData)
 }
 ChunkData::ChunkData(const ChunkData& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       deprecated_data_(from.deprecated_data_) {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   if (from._internal_has_sequence_range()) {
-    sequence_range_ = new ::DRPB::DATA::SequenceRange(*from.sequence_range_);
+    sequence_range_ = new ::DRPB::SequenceRange(*from.sequence_range_);
   } else {
     sequence_range_ = nullptr;
   }
   if (from._internal_has_data()) {
-    data_ = new ::DRPB::DATA::ChunkData_Data(*from.data_);
+    data_ = new ::DRPB::ChunkData_Data(*from.data_);
   } else {
     data_ = nullptr;
   }
   ::memcpy(&chunk_key_, &from.chunk_key_,
     static_cast<size_t>(reinterpret_cast<char*>(&data_tensors_len_) -
     reinterpret_cast<char*>(&chunk_key_)) + sizeof(data_tensors_len_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.ChunkData)
+  // @@protoc_insertion_point(copy_constructor:DRPB.ChunkData)
 }
 
 void ChunkData::SharedCtor() {
@@ -3539,7 +3452,7 @@ void ChunkData::SharedCtor() {
 }
 
 ChunkData::~ChunkData() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.ChunkData)
+  // @@protoc_insertion_point(destructor:DRPB.ChunkData)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -3561,7 +3474,7 @@ void ChunkData::SetCachedSize(int size) const {
 }
 
 void ChunkData::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.ChunkData)
+// @@protoc_insertion_point(message_clear_start:DRPB.ChunkData)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -3595,14 +3508,14 @@ const char* ChunkData::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.SequenceRange sequence_range = 2;
+      // .DRPB.SequenceRange sequence_range = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_sequence_range(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // repeated .DRPB.DATA.TensorProto deprecated_data = 3 [deprecated = true];
+      // repeated .DRPB.TensorProto deprecated_data = 3 [deprecated = true];
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
           ptr -= 1;
@@ -3621,7 +3534,7 @@ const char* ChunkData::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.ChunkData.Data data = 5 [lazy = true];
+      // .DRPB.ChunkData.Data data = 5 [lazy = true];
       case 5:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
           ptr = ctx->ParseMessage(_internal_mutable_data(), ptr);
@@ -3659,7 +3572,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* ChunkData::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.ChunkData)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.ChunkData)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -3669,7 +3582,7 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(1, this->_internal_chunk_key(), target);
   }
 
-  // .DRPB.DATA.SequenceRange sequence_range = 2;
+  // .DRPB.SequenceRange sequence_range = 2;
   if (this->has_sequence_range()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -3677,7 +3590,7 @@ failure:
         2, _Internal::sequence_range(this), target, stream);
   }
 
-  // repeated .DRPB.DATA.TensorProto deprecated_data = 3 [deprecated = true];
+  // repeated .DRPB.TensorProto deprecated_data = 3 [deprecated = true];
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_deprecated_data_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -3691,7 +3604,7 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBoolToArray(4, this->_internal_delta_encoded(), target);
   }
 
-  // .DRPB.DATA.ChunkData.Data data = 5 [lazy = true];
+  // .DRPB.ChunkData.Data data = 5 [lazy = true];
   if (this->has_data()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -3709,33 +3622,33 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.ChunkData)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.ChunkData)
   return target;
 }
 
 size_t ChunkData::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.ChunkData)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.ChunkData)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.TensorProto deprecated_data = 3 [deprecated = true];
+  // repeated .DRPB.TensorProto deprecated_data = 3 [deprecated = true];
   total_size += 1UL * this->_internal_deprecated_data_size();
   for (const auto& msg : this->deprecated_data_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
-  // .DRPB.DATA.SequenceRange sequence_range = 2;
+  // .DRPB.SequenceRange sequence_range = 2;
   if (this->has_sequence_range()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *sequence_range_);
   }
 
-  // .DRPB.DATA.ChunkData.Data data = 5 [lazy = true];
+  // .DRPB.ChunkData.Data data = 5 [lazy = true];
   if (this->has_data()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -3771,22 +3684,22 @@ size_t ChunkData::ByteSizeLong() const {
 }
 
 void ChunkData::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.ChunkData)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.ChunkData)
   GOOGLE_DCHECK_NE(&from, this);
   const ChunkData* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<ChunkData>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.ChunkData)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.ChunkData)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.ChunkData)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.ChunkData)
     MergeFrom(*source);
   }
 }
 
 void ChunkData::MergeFrom(const ChunkData& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.ChunkData)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.ChunkData)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -3794,10 +3707,10 @@ void ChunkData::MergeFrom(const ChunkData& from) {
 
   deprecated_data_.MergeFrom(from.deprecated_data_);
   if (from.has_sequence_range()) {
-    _internal_mutable_sequence_range()->::DRPB::DATA::SequenceRange::MergeFrom(from._internal_sequence_range());
+    _internal_mutable_sequence_range()->::DRPB::SequenceRange::MergeFrom(from._internal_sequence_range());
   }
   if (from.has_data()) {
-    _internal_mutable_data()->::DRPB::DATA::ChunkData_Data::MergeFrom(from._internal_data());
+    _internal_mutable_data()->::DRPB::ChunkData_Data::MergeFrom(from._internal_data());
   }
   if (from.chunk_key() != 0) {
     _internal_set_chunk_key(from._internal_chunk_key());
@@ -3811,14 +3724,14 @@ void ChunkData::MergeFrom(const ChunkData& from) {
 }
 
 void ChunkData::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.ChunkData)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.ChunkData)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void ChunkData::CopyFrom(const ChunkData& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.ChunkData)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.ChunkData)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -3855,7 +3768,7 @@ SliceRange::SliceRange(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.SliceRange)
+  // @@protoc_insertion_point(arena_constructor:DRPB.SliceRange)
 }
 SliceRange::SliceRange(const SliceRange& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -3863,7 +3776,7 @@ SliceRange::SliceRange(const SliceRange& from)
   ::memcpy(&offset_, &from.offset_,
     static_cast<size_t>(reinterpret_cast<char*>(&length_) -
     reinterpret_cast<char*>(&offset_)) + sizeof(length_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.SliceRange)
+  // @@protoc_insertion_point(copy_constructor:DRPB.SliceRange)
 }
 
 void SliceRange::SharedCtor() {
@@ -3874,7 +3787,7 @@ void SliceRange::SharedCtor() {
 }
 
 SliceRange::~SliceRange() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.SliceRange)
+  // @@protoc_insertion_point(destructor:DRPB.SliceRange)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -3894,7 +3807,7 @@ void SliceRange::SetCachedSize(int size) const {
 }
 
 void SliceRange::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.SliceRange)
+// @@protoc_insertion_point(message_clear_start:DRPB.SliceRange)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -3950,7 +3863,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* SliceRange::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.SliceRange)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.SliceRange)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -3970,12 +3883,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.SliceRange)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.SliceRange)
   return target;
 }
 
 size_t SliceRange::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.SliceRange)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.SliceRange)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -4006,22 +3919,22 @@ size_t SliceRange::ByteSizeLong() const {
 }
 
 void SliceRange::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.SliceRange)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.SliceRange)
   GOOGLE_DCHECK_NE(&from, this);
   const SliceRange* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SliceRange>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.SliceRange)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.SliceRange)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.SliceRange)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.SliceRange)
     MergeFrom(*source);
   }
 }
 
 void SliceRange::MergeFrom(const SliceRange& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.SliceRange)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.SliceRange)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -4036,14 +3949,14 @@ void SliceRange::MergeFrom(const SliceRange& from) {
 }
 
 void SliceRange::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.SliceRange)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.SliceRange)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void SliceRange::CopyFrom(const SliceRange& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.SliceRange)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.SliceRange)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -4079,7 +3992,7 @@ SequenceRange::SequenceRange(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.SequenceRange)
+  // @@protoc_insertion_point(arena_constructor:DRPB.SequenceRange)
 }
 SequenceRange::SequenceRange(const SequenceRange& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -4087,7 +4000,7 @@ SequenceRange::SequenceRange(const SequenceRange& from)
   ::memcpy(&episode_id_, &from.episode_id_,
     static_cast<size_t>(reinterpret_cast<char*>(&sparse_) -
     reinterpret_cast<char*>(&episode_id_)) + sizeof(sparse_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.SequenceRange)
+  // @@protoc_insertion_point(copy_constructor:DRPB.SequenceRange)
 }
 
 void SequenceRange::SharedCtor() {
@@ -4098,7 +4011,7 @@ void SequenceRange::SharedCtor() {
 }
 
 SequenceRange::~SequenceRange() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.SequenceRange)
+  // @@protoc_insertion_point(destructor:DRPB.SequenceRange)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -4118,7 +4031,7 @@ void SequenceRange::SetCachedSize(int size) const {
 }
 
 void SequenceRange::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.SequenceRange)
+// @@protoc_insertion_point(message_clear_start:DRPB.SequenceRange)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -4188,7 +4101,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* SequenceRange::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.SequenceRange)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.SequenceRange)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -4220,12 +4133,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.SequenceRange)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.SequenceRange)
   return target;
 }
 
 size_t SequenceRange::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.SequenceRange)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.SequenceRange)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -4268,22 +4181,22 @@ size_t SequenceRange::ByteSizeLong() const {
 }
 
 void SequenceRange::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.SequenceRange)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.SequenceRange)
   GOOGLE_DCHECK_NE(&from, this);
   const SequenceRange* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SequenceRange>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.SequenceRange)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.SequenceRange)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.SequenceRange)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.SequenceRange)
     MergeFrom(*source);
   }
 }
 
 void SequenceRange::MergeFrom(const SequenceRange& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.SequenceRange)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.SequenceRange)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -4304,14 +4217,14 @@ void SequenceRange::MergeFrom(const SequenceRange& from) {
 }
 
 void SequenceRange::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.SequenceRange)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.SequenceRange)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void SequenceRange::CopyFrom(const SequenceRange& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.SequenceRange)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.SequenceRange)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -4347,7 +4260,7 @@ FlatTrajectory_ChunkSlice::FlatTrajectory_ChunkSlice(::PROTOBUF_NAMESPACE_ID::Ar
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.FlatTrajectory.ChunkSlice)
+  // @@protoc_insertion_point(arena_constructor:DRPB.FlatTrajectory.ChunkSlice)
 }
 FlatTrajectory_ChunkSlice::FlatTrajectory_ChunkSlice(const FlatTrajectory_ChunkSlice& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -4355,7 +4268,7 @@ FlatTrajectory_ChunkSlice::FlatTrajectory_ChunkSlice(const FlatTrajectory_ChunkS
   ::memcpy(&chunk_key_, &from.chunk_key_,
     static_cast<size_t>(reinterpret_cast<char*>(&index_) -
     reinterpret_cast<char*>(&chunk_key_)) + sizeof(index_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.FlatTrajectory.ChunkSlice)
+  // @@protoc_insertion_point(copy_constructor:DRPB.FlatTrajectory.ChunkSlice)
 }
 
 void FlatTrajectory_ChunkSlice::SharedCtor() {
@@ -4366,7 +4279,7 @@ void FlatTrajectory_ChunkSlice::SharedCtor() {
 }
 
 FlatTrajectory_ChunkSlice::~FlatTrajectory_ChunkSlice() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.FlatTrajectory.ChunkSlice)
+  // @@protoc_insertion_point(destructor:DRPB.FlatTrajectory.ChunkSlice)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -4386,7 +4299,7 @@ void FlatTrajectory_ChunkSlice::SetCachedSize(int size) const {
 }
 
 void FlatTrajectory_ChunkSlice::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.FlatTrajectory.ChunkSlice)
+// @@protoc_insertion_point(message_clear_start:DRPB.FlatTrajectory.ChunkSlice)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -4456,7 +4369,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* FlatTrajectory_ChunkSlice::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.FlatTrajectory.ChunkSlice)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.FlatTrajectory.ChunkSlice)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -4488,12 +4401,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.FlatTrajectory.ChunkSlice)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.FlatTrajectory.ChunkSlice)
   return target;
 }
 
 size_t FlatTrajectory_ChunkSlice::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.FlatTrajectory.ChunkSlice)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.FlatTrajectory.ChunkSlice)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -4538,22 +4451,22 @@ size_t FlatTrajectory_ChunkSlice::ByteSizeLong() const {
 }
 
 void FlatTrajectory_ChunkSlice::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.FlatTrajectory.ChunkSlice)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.FlatTrajectory.ChunkSlice)
   GOOGLE_DCHECK_NE(&from, this);
   const FlatTrajectory_ChunkSlice* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<FlatTrajectory_ChunkSlice>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.FlatTrajectory.ChunkSlice)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.FlatTrajectory.ChunkSlice)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.FlatTrajectory.ChunkSlice)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.FlatTrajectory.ChunkSlice)
     MergeFrom(*source);
   }
 }
 
 void FlatTrajectory_ChunkSlice::MergeFrom(const FlatTrajectory_ChunkSlice& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.FlatTrajectory.ChunkSlice)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.FlatTrajectory.ChunkSlice)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -4574,14 +4487,14 @@ void FlatTrajectory_ChunkSlice::MergeFrom(const FlatTrajectory_ChunkSlice& from)
 }
 
 void FlatTrajectory_ChunkSlice::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.FlatTrajectory.ChunkSlice)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.FlatTrajectory.ChunkSlice)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void FlatTrajectory_ChunkSlice::CopyFrom(const FlatTrajectory_ChunkSlice& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.FlatTrajectory.ChunkSlice)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.FlatTrajectory.ChunkSlice)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -4618,14 +4531,14 @@ FlatTrajectory_Column::FlatTrajectory_Column(::PROTOBUF_NAMESPACE_ID::Arena* are
   chunk_slices_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.FlatTrajectory.Column)
+  // @@protoc_insertion_point(arena_constructor:DRPB.FlatTrajectory.Column)
 }
 FlatTrajectory_Column::FlatTrajectory_Column(const FlatTrajectory_Column& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       chunk_slices_(from.chunk_slices_) {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   squeeze_ = from.squeeze_;
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.FlatTrajectory.Column)
+  // @@protoc_insertion_point(copy_constructor:DRPB.FlatTrajectory.Column)
 }
 
 void FlatTrajectory_Column::SharedCtor() {
@@ -4633,7 +4546,7 @@ squeeze_ = false;
 }
 
 FlatTrajectory_Column::~FlatTrajectory_Column() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.FlatTrajectory.Column)
+  // @@protoc_insertion_point(destructor:DRPB.FlatTrajectory.Column)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -4653,7 +4566,7 @@ void FlatTrajectory_Column::SetCachedSize(int size) const {
 }
 
 void FlatTrajectory_Column::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.FlatTrajectory.Column)
+// @@protoc_insertion_point(message_clear_start:DRPB.FlatTrajectory.Column)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -4670,7 +4583,7 @@ const char* FlatTrajectory_Column::_InternalParse(const char* ptr, ::PROTOBUF_NA
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // repeated .DRPB.DATA.FlatTrajectory.ChunkSlice chunk_slices = 1;
+      // repeated .DRPB.FlatTrajectory.ChunkSlice chunk_slices = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr -= 1;
@@ -4713,11 +4626,11 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* FlatTrajectory_Column::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.FlatTrajectory.Column)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.FlatTrajectory.Column)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.FlatTrajectory.ChunkSlice chunk_slices = 1;
+  // repeated .DRPB.FlatTrajectory.ChunkSlice chunk_slices = 1;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_chunk_slices_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -4735,19 +4648,19 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.FlatTrajectory.Column)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.FlatTrajectory.Column)
   return target;
 }
 
 size_t FlatTrajectory_Column::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.FlatTrajectory.Column)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.FlatTrajectory.Column)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.FlatTrajectory.ChunkSlice chunk_slices = 1;
+  // repeated .DRPB.FlatTrajectory.ChunkSlice chunk_slices = 1;
   total_size += 1UL * this->_internal_chunk_slices_size();
   for (const auto& msg : this->chunk_slices_) {
     total_size +=
@@ -4769,22 +4682,22 @@ size_t FlatTrajectory_Column::ByteSizeLong() const {
 }
 
 void FlatTrajectory_Column::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.FlatTrajectory.Column)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.FlatTrajectory.Column)
   GOOGLE_DCHECK_NE(&from, this);
   const FlatTrajectory_Column* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<FlatTrajectory_Column>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.FlatTrajectory.Column)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.FlatTrajectory.Column)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.FlatTrajectory.Column)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.FlatTrajectory.Column)
     MergeFrom(*source);
   }
 }
 
 void FlatTrajectory_Column::MergeFrom(const FlatTrajectory_Column& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.FlatTrajectory.Column)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.FlatTrajectory.Column)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -4797,14 +4710,14 @@ void FlatTrajectory_Column::MergeFrom(const FlatTrajectory_Column& from) {
 }
 
 void FlatTrajectory_Column::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.FlatTrajectory.Column)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.FlatTrajectory.Column)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void FlatTrajectory_Column::CopyFrom(const FlatTrajectory_Column& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.FlatTrajectory.Column)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.FlatTrajectory.Column)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -4837,20 +4750,20 @@ FlatTrajectory::FlatTrajectory(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   columns_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.FlatTrajectory)
+  // @@protoc_insertion_point(arena_constructor:DRPB.FlatTrajectory)
 }
 FlatTrajectory::FlatTrajectory(const FlatTrajectory& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       columns_(from.columns_) {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.FlatTrajectory)
+  // @@protoc_insertion_point(copy_constructor:DRPB.FlatTrajectory)
 }
 
 void FlatTrajectory::SharedCtor() {
 }
 
 FlatTrajectory::~FlatTrajectory() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.FlatTrajectory)
+  // @@protoc_insertion_point(destructor:DRPB.FlatTrajectory)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -4870,7 +4783,7 @@ void FlatTrajectory::SetCachedSize(int size) const {
 }
 
 void FlatTrajectory::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.FlatTrajectory)
+// @@protoc_insertion_point(message_clear_start:DRPB.FlatTrajectory)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -4886,7 +4799,7 @@ const char* FlatTrajectory::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // repeated .DRPB.DATA.FlatTrajectory.Column columns = 1;
+      // repeated .DRPB.FlatTrajectory.Column columns = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr -= 1;
@@ -4922,11 +4835,11 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* FlatTrajectory::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.FlatTrajectory)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.FlatTrajectory)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.FlatTrajectory.Column columns = 1;
+  // repeated .DRPB.FlatTrajectory.Column columns = 1;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_columns_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -4938,19 +4851,19 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.FlatTrajectory)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.FlatTrajectory)
   return target;
 }
 
 size_t FlatTrajectory::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.FlatTrajectory)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.FlatTrajectory)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.FlatTrajectory.Column columns = 1;
+  // repeated .DRPB.FlatTrajectory.Column columns = 1;
   total_size += 1UL * this->_internal_columns_size();
   for (const auto& msg : this->columns_) {
     total_size +=
@@ -4967,22 +4880,22 @@ size_t FlatTrajectory::ByteSizeLong() const {
 }
 
 void FlatTrajectory::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.FlatTrajectory)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.FlatTrajectory)
   GOOGLE_DCHECK_NE(&from, this);
   const FlatTrajectory* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<FlatTrajectory>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.FlatTrajectory)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.FlatTrajectory)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.FlatTrajectory)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.FlatTrajectory)
     MergeFrom(*source);
   }
 }
 
 void FlatTrajectory::MergeFrom(const FlatTrajectory& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.FlatTrajectory)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.FlatTrajectory)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -4992,14 +4905,14 @@ void FlatTrajectory::MergeFrom(const FlatTrajectory& from) {
 }
 
 void FlatTrajectory::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.FlatTrajectory)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.FlatTrajectory)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void FlatTrajectory::CopyFrom(const FlatTrajectory& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.FlatTrajectory)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.FlatTrajectory)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -5025,19 +4938,19 @@ void FlatTrajectory::InternalSwap(FlatTrajectory* other) {
 class PrioritizedItem::_Internal {
  public:
   static const PROTOBUF_NAMESPACE_ID::Timestamp& inserted_at(const PrioritizedItem* msg);
-  static const ::DRPB::DATA::FlatTrajectory& flat_trajectory(const PrioritizedItem* msg);
-  static const ::DRPB::DATA::SliceRange& deprecated_sequence_range(const PrioritizedItem* msg);
+  static const ::DRPB::FlatTrajectory& flat_trajectory(const PrioritizedItem* msg);
+  static const ::DRPB::SliceRange& deprecated_sequence_range(const PrioritizedItem* msg);
 };
 
 const PROTOBUF_NAMESPACE_ID::Timestamp&
 PrioritizedItem::_Internal::inserted_at(const PrioritizedItem* msg) {
   return *msg->inserted_at_;
 }
-const ::DRPB::DATA::FlatTrajectory&
+const ::DRPB::FlatTrajectory&
 PrioritizedItem::_Internal::flat_trajectory(const PrioritizedItem* msg) {
   return *msg->flat_trajectory_;
 }
-const ::DRPB::DATA::SliceRange&
+const ::DRPB::SliceRange&
 PrioritizedItem::_Internal::deprecated_sequence_range(const PrioritizedItem* msg) {
   return *msg->deprecated_sequence_range_;
 }
@@ -5052,7 +4965,7 @@ PrioritizedItem::PrioritizedItem(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   deprecated_chunk_keys_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.PrioritizedItem)
+  // @@protoc_insertion_point(arena_constructor:DRPB.PrioritizedItem)
 }
 PrioritizedItem::PrioritizedItem(const PrioritizedItem& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
@@ -5064,7 +4977,7 @@ PrioritizedItem::PrioritizedItem(const PrioritizedItem& from)
       GetArena());
   }
   if (from._internal_has_deprecated_sequence_range()) {
-    deprecated_sequence_range_ = new ::DRPB::DATA::SliceRange(*from.deprecated_sequence_range_);
+    deprecated_sequence_range_ = new ::DRPB::SliceRange(*from.deprecated_sequence_range_);
   } else {
     deprecated_sequence_range_ = nullptr;
   }
@@ -5074,14 +4987,14 @@ PrioritizedItem::PrioritizedItem(const PrioritizedItem& from)
     inserted_at_ = nullptr;
   }
   if (from._internal_has_flat_trajectory()) {
-    flat_trajectory_ = new ::DRPB::DATA::FlatTrajectory(*from.flat_trajectory_);
+    flat_trajectory_ = new ::DRPB::FlatTrajectory(*from.flat_trajectory_);
   } else {
     flat_trajectory_ = nullptr;
   }
   ::memcpy(&key_, &from.key_,
     static_cast<size_t>(reinterpret_cast<char*>(&times_sampled_) -
     reinterpret_cast<char*>(&key_)) + sizeof(times_sampled_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.PrioritizedItem)
+  // @@protoc_insertion_point(copy_constructor:DRPB.PrioritizedItem)
 }
 
 void PrioritizedItem::SharedCtor() {
@@ -5093,7 +5006,7 @@ table_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlread
 }
 
 PrioritizedItem::~PrioritizedItem() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.PrioritizedItem)
+  // @@protoc_insertion_point(destructor:DRPB.PrioritizedItem)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -5117,7 +5030,7 @@ void PrioritizedItem::SetCachedSize(int size) const {
 }
 
 void PrioritizedItem::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.PrioritizedItem)
+// @@protoc_insertion_point(message_clear_start:DRPB.PrioritizedItem)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -5161,7 +5074,7 @@ const char* PrioritizedItem::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           auto str = _internal_mutable_table();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.PrioritizedItem.table"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.PrioritizedItem.table"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -5175,7 +5088,7 @@ const char* PrioritizedItem::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.SliceRange deprecated_sequence_range = 4 [deprecated = true];
+      // .DRPB.SliceRange deprecated_sequence_range = 4 [deprecated = true];
       case 4:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
           ptr = ctx->ParseMessage(_internal_mutable_deprecated_sequence_range(), ptr);
@@ -5203,7 +5116,7 @@ const char* PrioritizedItem::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.FlatTrajectory flat_trajectory = 8;
+      // .DRPB.FlatTrajectory flat_trajectory = 8;
       case 8:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
           ptr = ctx->ParseMessage(_internal_mutable_flat_trajectory(), ptr);
@@ -5234,7 +5147,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* PrioritizedItem::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.PrioritizedItem)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.PrioritizedItem)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -5249,7 +5162,7 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_table().data(), static_cast<int>(this->_internal_table().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.PrioritizedItem.table");
+      "DRPB.PrioritizedItem.table");
     target = stream->WriteStringMaybeAliased(
         2, this->_internal_table(), target);
   }
@@ -5263,7 +5176,7 @@ failure:
     }
   }
 
-  // .DRPB.DATA.SliceRange deprecated_sequence_range = 4 [deprecated = true];
+  // .DRPB.SliceRange deprecated_sequence_range = 4 [deprecated = true];
   if (this->has_deprecated_sequence_range()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -5291,7 +5204,7 @@ failure:
         7, _Internal::inserted_at(this), target, stream);
   }
 
-  // .DRPB.DATA.FlatTrajectory flat_trajectory = 8;
+  // .DRPB.FlatTrajectory flat_trajectory = 8;
   if (this->has_flat_trajectory()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -5303,12 +5216,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.PrioritizedItem)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.PrioritizedItem)
   return target;
 }
 
 size_t PrioritizedItem::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.PrioritizedItem)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.PrioritizedItem)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -5337,7 +5250,7 @@ size_t PrioritizedItem::ByteSizeLong() const {
         this->_internal_table());
   }
 
-  // .DRPB.DATA.SliceRange deprecated_sequence_range = 4 [deprecated = true];
+  // .DRPB.SliceRange deprecated_sequence_range = 4 [deprecated = true];
   if (this->has_deprecated_sequence_range()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -5351,7 +5264,7 @@ size_t PrioritizedItem::ByteSizeLong() const {
         *inserted_at_);
   }
 
-  // .DRPB.DATA.FlatTrajectory flat_trajectory = 8;
+  // .DRPB.FlatTrajectory flat_trajectory = 8;
   if (this->has_flat_trajectory()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -5387,22 +5300,22 @@ size_t PrioritizedItem::ByteSizeLong() const {
 }
 
 void PrioritizedItem::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.PrioritizedItem)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.PrioritizedItem)
   GOOGLE_DCHECK_NE(&from, this);
   const PrioritizedItem* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<PrioritizedItem>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.PrioritizedItem)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.PrioritizedItem)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.PrioritizedItem)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.PrioritizedItem)
     MergeFrom(*source);
   }
 }
 
 void PrioritizedItem::MergeFrom(const PrioritizedItem& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.PrioritizedItem)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.PrioritizedItem)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -5413,13 +5326,13 @@ void PrioritizedItem::MergeFrom(const PrioritizedItem& from) {
     _internal_set_table(from._internal_table());
   }
   if (from.has_deprecated_sequence_range()) {
-    _internal_mutable_deprecated_sequence_range()->::DRPB::DATA::SliceRange::MergeFrom(from._internal_deprecated_sequence_range());
+    _internal_mutable_deprecated_sequence_range()->::DRPB::SliceRange::MergeFrom(from._internal_deprecated_sequence_range());
   }
   if (from.has_inserted_at()) {
     _internal_mutable_inserted_at()->PROTOBUF_NAMESPACE_ID::Timestamp::MergeFrom(from._internal_inserted_at());
   }
   if (from.has_flat_trajectory()) {
-    _internal_mutable_flat_trajectory()->::DRPB::DATA::FlatTrajectory::MergeFrom(from._internal_flat_trajectory());
+    _internal_mutable_flat_trajectory()->::DRPB::FlatTrajectory::MergeFrom(from._internal_flat_trajectory());
   }
   if (from.key() != 0) {
     _internal_set_key(from._internal_key());
@@ -5433,14 +5346,14 @@ void PrioritizedItem::MergeFrom(const PrioritizedItem& from) {
 }
 
 void PrioritizedItem::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.PrioritizedItem)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.PrioritizedItem)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void PrioritizedItem::CopyFrom(const PrioritizedItem& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.PrioritizedItem)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.PrioritizedItem)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -5478,7 +5391,7 @@ KeyWithPriority::KeyWithPriority(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.KeyWithPriority)
+  // @@protoc_insertion_point(arena_constructor:DRPB.KeyWithPriority)
 }
 KeyWithPriority::KeyWithPriority(const KeyWithPriority& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -5486,7 +5399,7 @@ KeyWithPriority::KeyWithPriority(const KeyWithPriority& from)
   ::memcpy(&key_, &from.key_,
     static_cast<size_t>(reinterpret_cast<char*>(&priority_) -
     reinterpret_cast<char*>(&key_)) + sizeof(priority_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.KeyWithPriority)
+  // @@protoc_insertion_point(copy_constructor:DRPB.KeyWithPriority)
 }
 
 void KeyWithPriority::SharedCtor() {
@@ -5497,7 +5410,7 @@ void KeyWithPriority::SharedCtor() {
 }
 
 KeyWithPriority::~KeyWithPriority() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.KeyWithPriority)
+  // @@protoc_insertion_point(destructor:DRPB.KeyWithPriority)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -5517,7 +5430,7 @@ void KeyWithPriority::SetCachedSize(int size) const {
 }
 
 void KeyWithPriority::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.KeyWithPriority)
+// @@protoc_insertion_point(message_clear_start:DRPB.KeyWithPriority)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -5573,7 +5486,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* KeyWithPriority::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.KeyWithPriority)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.KeyWithPriority)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -5593,12 +5506,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.KeyWithPriority)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.KeyWithPriority)
   return target;
 }
 
 size_t KeyWithPriority::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.KeyWithPriority)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.KeyWithPriority)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -5627,22 +5540,22 @@ size_t KeyWithPriority::ByteSizeLong() const {
 }
 
 void KeyWithPriority::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.KeyWithPriority)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.KeyWithPriority)
   GOOGLE_DCHECK_NE(&from, this);
   const KeyWithPriority* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<KeyWithPriority>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.KeyWithPriority)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.KeyWithPriority)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.KeyWithPriority)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.KeyWithPriority)
     MergeFrom(*source);
   }
 }
 
 void KeyWithPriority::MergeFrom(const KeyWithPriority& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.KeyWithPriority)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.KeyWithPriority)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -5657,14 +5570,14 @@ void KeyWithPriority::MergeFrom(const KeyWithPriority& from) {
 }
 
 void KeyWithPriority::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.KeyWithPriority)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.KeyWithPriority)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void KeyWithPriority::CopyFrom(const KeyWithPriority& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.KeyWithPriority)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.KeyWithPriority)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -5694,10 +5607,10 @@ void KeyWithPriority::InternalSwap(KeyWithPriority* other) {
 
 class SampleInfo::_Internal {
  public:
-  static const ::DRPB::DATA::PrioritizedItem& item(const SampleInfo* msg);
+  static const ::DRPB::PrioritizedItem& item(const SampleInfo* msg);
 };
 
-const ::DRPB::DATA::PrioritizedItem&
+const ::DRPB::PrioritizedItem&
 SampleInfo::_Internal::item(const SampleInfo* msg) {
   return *msg->item_;
 }
@@ -5705,20 +5618,20 @@ SampleInfo::SampleInfo(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.SampleInfo)
+  // @@protoc_insertion_point(arena_constructor:DRPB.SampleInfo)
 }
 SampleInfo::SampleInfo(const SampleInfo& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   if (from._internal_has_item()) {
-    item_ = new ::DRPB::DATA::PrioritizedItem(*from.item_);
+    item_ = new ::DRPB::PrioritizedItem(*from.item_);
   } else {
     item_ = nullptr;
   }
   ::memcpy(&probability_, &from.probability_,
     static_cast<size_t>(reinterpret_cast<char*>(&rate_limited_) -
     reinterpret_cast<char*>(&probability_)) + sizeof(rate_limited_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.SampleInfo)
+  // @@protoc_insertion_point(copy_constructor:DRPB.SampleInfo)
 }
 
 void SampleInfo::SharedCtor() {
@@ -5729,7 +5642,7 @@ void SampleInfo::SharedCtor() {
 }
 
 SampleInfo::~SampleInfo() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.SampleInfo)
+  // @@protoc_insertion_point(destructor:DRPB.SampleInfo)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -5750,7 +5663,7 @@ void SampleInfo::SetCachedSize(int size) const {
 }
 
 void SampleInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.SampleInfo)
+// @@protoc_insertion_point(message_clear_start:DRPB.SampleInfo)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -5772,7 +5685,7 @@ const char* SampleInfo::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID:
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // .DRPB.DATA.PrioritizedItem item = 1;
+      // .DRPB.PrioritizedItem item = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr = ctx->ParseMessage(_internal_mutable_item(), ptr);
@@ -5824,11 +5737,11 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* SampleInfo::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.SampleInfo)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.SampleInfo)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // .DRPB.DATA.PrioritizedItem item = 1;
+  // .DRPB.PrioritizedItem item = 1;
   if (this->has_item()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -5858,19 +5771,19 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.SampleInfo)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.SampleInfo)
   return target;
 }
 
 size_t SampleInfo::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.SampleInfo)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.SampleInfo)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // .DRPB.DATA.PrioritizedItem item = 1;
+  // .DRPB.PrioritizedItem item = 1;
   if (this->has_item()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -5904,29 +5817,29 @@ size_t SampleInfo::ByteSizeLong() const {
 }
 
 void SampleInfo::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.SampleInfo)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.SampleInfo)
   GOOGLE_DCHECK_NE(&from, this);
   const SampleInfo* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SampleInfo>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.SampleInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.SampleInfo)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.SampleInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.SampleInfo)
     MergeFrom(*source);
   }
 }
 
 void SampleInfo::MergeFrom(const SampleInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.SampleInfo)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.SampleInfo)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_item()) {
-    _internal_mutable_item()->::DRPB::DATA::PrioritizedItem::MergeFrom(from._internal_item());
+    _internal_mutable_item()->::DRPB::PrioritizedItem::MergeFrom(from._internal_item());
   }
   if (!(from.probability() <= 0 && from.probability() >= 0)) {
     _internal_set_probability(from._internal_probability());
@@ -5940,14 +5853,14 @@ void SampleInfo::MergeFrom(const SampleInfo& from) {
 }
 
 void SampleInfo::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.SampleInfo)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.SampleInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void SampleInfo::CopyFrom(const SampleInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.SampleInfo)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.SampleInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -5977,25 +5890,25 @@ void SampleInfo::InternalSwap(SampleInfo* other) {
 
 class TableInfo::_Internal {
  public:
-  static const ::DRPB::DATA::KeyDistributionOptions& sampler_options(const TableInfo* msg);
-  static const ::DRPB::DATA::KeyDistributionOptions& remover_options(const TableInfo* msg);
-  static const ::DRPB::DATA::RateLimiterInfo& rate_limiter_info(const TableInfo* msg);
-  static const ::DRPB::DATA::StructuredValue& signature(const TableInfo* msg);
+  static const ::DRPB::KeyDistributionOptions& sampler_options(const TableInfo* msg);
+  static const ::DRPB::KeyDistributionOptions& remover_options(const TableInfo* msg);
+  static const ::DRPB::RateLimiterInfo& rate_limiter_info(const TableInfo* msg);
+  static const ::DRPB::StructuredValue& signature(const TableInfo* msg);
 };
 
-const ::DRPB::DATA::KeyDistributionOptions&
+const ::DRPB::KeyDistributionOptions&
 TableInfo::_Internal::sampler_options(const TableInfo* msg) {
   return *msg->sampler_options_;
 }
-const ::DRPB::DATA::KeyDistributionOptions&
+const ::DRPB::KeyDistributionOptions&
 TableInfo::_Internal::remover_options(const TableInfo* msg) {
   return *msg->remover_options_;
 }
-const ::DRPB::DATA::RateLimiterInfo&
+const ::DRPB::RateLimiterInfo&
 TableInfo::_Internal::rate_limiter_info(const TableInfo* msg) {
   return *msg->rate_limiter_info_;
 }
-const ::DRPB::DATA::StructuredValue&
+const ::DRPB::StructuredValue&
 TableInfo::_Internal::signature(const TableInfo* msg) {
   return *msg->signature_;
 }
@@ -6003,7 +5916,7 @@ TableInfo::TableInfo(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.TableInfo)
+  // @@protoc_insertion_point(arena_constructor:DRPB.TableInfo)
 }
 TableInfo::TableInfo(const TableInfo& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -6014,29 +5927,29 @@ TableInfo::TableInfo(const TableInfo& from)
       GetArena());
   }
   if (from._internal_has_sampler_options()) {
-    sampler_options_ = new ::DRPB::DATA::KeyDistributionOptions(*from.sampler_options_);
+    sampler_options_ = new ::DRPB::KeyDistributionOptions(*from.sampler_options_);
   } else {
     sampler_options_ = nullptr;
   }
   if (from._internal_has_remover_options()) {
-    remover_options_ = new ::DRPB::DATA::KeyDistributionOptions(*from.remover_options_);
+    remover_options_ = new ::DRPB::KeyDistributionOptions(*from.remover_options_);
   } else {
     remover_options_ = nullptr;
   }
   if (from._internal_has_rate_limiter_info()) {
-    rate_limiter_info_ = new ::DRPB::DATA::RateLimiterInfo(*from.rate_limiter_info_);
+    rate_limiter_info_ = new ::DRPB::RateLimiterInfo(*from.rate_limiter_info_);
   } else {
     rate_limiter_info_ = nullptr;
   }
   if (from._internal_has_signature()) {
-    signature_ = new ::DRPB::DATA::StructuredValue(*from.signature_);
+    signature_ = new ::DRPB::StructuredValue(*from.signature_);
   } else {
     signature_ = nullptr;
   }
   ::memcpy(&max_size_, &from.max_size_,
     static_cast<size_t>(reinterpret_cast<char*>(&max_times_sampled_) -
     reinterpret_cast<char*>(&max_size_)) + sizeof(max_times_sampled_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.TableInfo)
+  // @@protoc_insertion_point(copy_constructor:DRPB.TableInfo)
 }
 
 void TableInfo::SharedCtor() {
@@ -6048,7 +5961,7 @@ name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlready
 }
 
 TableInfo::~TableInfo() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.TableInfo)
+  // @@protoc_insertion_point(destructor:DRPB.TableInfo)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -6073,7 +5986,7 @@ void TableInfo::SetCachedSize(int size) const {
 }
 
 void TableInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.TableInfo)
+// @@protoc_insertion_point(message_clear_start:DRPB.TableInfo)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -6108,14 +6021,14 @@ const char* TableInfo::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // .DRPB.DATA.KeyDistributionOptions sampler_options = 1;
+      // .DRPB.KeyDistributionOptions sampler_options = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr = ctx->ParseMessage(_internal_mutable_sampler_options(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.KeyDistributionOptions remover_options = 2;
+      // .DRPB.KeyDistributionOptions remover_options = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_remover_options(), ptr);
@@ -6136,14 +6049,14 @@ const char* TableInfo::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.RateLimiterInfo rate_limiter_info = 5;
+      // .DRPB.RateLimiterInfo rate_limiter_info = 5;
       case 5:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
           ptr = ctx->ParseMessage(_internal_mutable_rate_limiter_info(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.StructuredValue signature = 6;
+      // .DRPB.StructuredValue signature = 6;
       case 6:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
           ptr = ctx->ParseMessage(_internal_mutable_signature(), ptr);
@@ -6162,7 +6075,7 @@ const char* TableInfo::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
           auto str = _internal_mutable_name();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.TableInfo.name"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.TableInfo.name"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -6211,11 +6124,11 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* TableInfo::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.TableInfo)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.TableInfo)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // .DRPB.DATA.KeyDistributionOptions sampler_options = 1;
+  // .DRPB.KeyDistributionOptions sampler_options = 1;
   if (this->has_sampler_options()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -6223,7 +6136,7 @@ failure:
         1, _Internal::sampler_options(this), target, stream);
   }
 
-  // .DRPB.DATA.KeyDistributionOptions remover_options = 2;
+  // .DRPB.KeyDistributionOptions remover_options = 2;
   if (this->has_remover_options()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -6243,7 +6156,7 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(4, this->_internal_max_times_sampled(), target);
   }
 
-  // .DRPB.DATA.RateLimiterInfo rate_limiter_info = 5;
+  // .DRPB.RateLimiterInfo rate_limiter_info = 5;
   if (this->has_rate_limiter_info()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -6251,7 +6164,7 @@ failure:
         5, _Internal::rate_limiter_info(this), target, stream);
   }
 
-  // .DRPB.DATA.StructuredValue signature = 6;
+  // .DRPB.StructuredValue signature = 6;
   if (this->has_signature()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -6270,7 +6183,7 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_name().data(), static_cast<int>(this->_internal_name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.TableInfo.name");
+      "DRPB.TableInfo.name");
     target = stream->WriteStringMaybeAliased(
         8, this->_internal_name(), target);
   }
@@ -6297,12 +6210,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.TableInfo)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.TableInfo)
   return target;
 }
 
 size_t TableInfo::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.TableInfo)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.TableInfo)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -6316,28 +6229,28 @@ size_t TableInfo::ByteSizeLong() const {
         this->_internal_name());
   }
 
-  // .DRPB.DATA.KeyDistributionOptions sampler_options = 1;
+  // .DRPB.KeyDistributionOptions sampler_options = 1;
   if (this->has_sampler_options()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *sampler_options_);
   }
 
-  // .DRPB.DATA.KeyDistributionOptions remover_options = 2;
+  // .DRPB.KeyDistributionOptions remover_options = 2;
   if (this->has_remover_options()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *remover_options_);
   }
 
-  // .DRPB.DATA.RateLimiterInfo rate_limiter_info = 5;
+  // .DRPB.RateLimiterInfo rate_limiter_info = 5;
   if (this->has_rate_limiter_info()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *rate_limiter_info_);
   }
 
-  // .DRPB.DATA.StructuredValue signature = 6;
+  // .DRPB.StructuredValue signature = 6;
   if (this->has_signature()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -6396,22 +6309,22 @@ size_t TableInfo::ByteSizeLong() const {
 }
 
 void TableInfo::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.TableInfo)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.TableInfo)
   GOOGLE_DCHECK_NE(&from, this);
   const TableInfo* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<TableInfo>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.TableInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.TableInfo)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.TableInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.TableInfo)
     MergeFrom(*source);
   }
 }
 
 void TableInfo::MergeFrom(const TableInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.TableInfo)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.TableInfo)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -6421,16 +6334,16 @@ void TableInfo::MergeFrom(const TableInfo& from) {
     _internal_set_name(from._internal_name());
   }
   if (from.has_sampler_options()) {
-    _internal_mutable_sampler_options()->::DRPB::DATA::KeyDistributionOptions::MergeFrom(from._internal_sampler_options());
+    _internal_mutable_sampler_options()->::DRPB::KeyDistributionOptions::MergeFrom(from._internal_sampler_options());
   }
   if (from.has_remover_options()) {
-    _internal_mutable_remover_options()->::DRPB::DATA::KeyDistributionOptions::MergeFrom(from._internal_remover_options());
+    _internal_mutable_remover_options()->::DRPB::KeyDistributionOptions::MergeFrom(from._internal_remover_options());
   }
   if (from.has_rate_limiter_info()) {
-    _internal_mutable_rate_limiter_info()->::DRPB::DATA::RateLimiterInfo::MergeFrom(from._internal_rate_limiter_info());
+    _internal_mutable_rate_limiter_info()->::DRPB::RateLimiterInfo::MergeFrom(from._internal_rate_limiter_info());
   }
   if (from.has_signature()) {
-    _internal_mutable_signature()->::DRPB::DATA::StructuredValue::MergeFrom(from._internal_signature());
+    _internal_mutable_signature()->::DRPB::StructuredValue::MergeFrom(from._internal_signature());
   }
   if (from.max_size() != 0) {
     _internal_set_max_size(from._internal_max_size());
@@ -6453,14 +6366,14 @@ void TableInfo::MergeFrom(const TableInfo& from) {
 }
 
 void TableInfo::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.TableInfo)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.TableInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void TableInfo::CopyFrom(const TableInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.TableInfo)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.TableInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -6491,54 +6404,54 @@ void TableInfo::InternalSwap(TableInfo* other) {
 
 class StructuredValue::_Internal {
  public:
-  static const ::DRPB::DATA::NoneValue& none_value(const StructuredValue* msg);
-  static const ::DRPB::DATA::TensorShapeProto& tensor_shape_value(const StructuredValue* msg);
-  static const ::DRPB::DATA::TensorSpecProto& tensor_spec_value(const StructuredValue* msg);
-  static const ::DRPB::DATA::TypeSpecProto& type_spec_value(const StructuredValue* msg);
-  static const ::DRPB::DATA::BoundedTensorSpecProto& bounded_tensor_spec_value(const StructuredValue* msg);
-  static const ::DRPB::DATA::ListValue& list_value(const StructuredValue* msg);
-  static const ::DRPB::DATA::TupleValue& tuple_value(const StructuredValue* msg);
-  static const ::DRPB::DATA::DictValue& dict_value(const StructuredValue* msg);
-  static const ::DRPB::DATA::NamedTupleValue& named_tuple_value(const StructuredValue* msg);
+  static const ::DRPB::NoneValue& none_value(const StructuredValue* msg);
+  static const ::DRPB::TensorShapeProto& tensor_shape_value(const StructuredValue* msg);
+  static const ::DRPB::TensorSpecProto& tensor_spec_value(const StructuredValue* msg);
+  static const ::DRPB::TypeSpecProto& type_spec_value(const StructuredValue* msg);
+  static const ::DRPB::BoundedTensorSpecProto& bounded_tensor_spec_value(const StructuredValue* msg);
+  static const ::DRPB::ListValue& list_value(const StructuredValue* msg);
+  static const ::DRPB::TupleValue& tuple_value(const StructuredValue* msg);
+  static const ::DRPB::DictValue& dict_value(const StructuredValue* msg);
+  static const ::DRPB::NamedTupleValue& named_tuple_value(const StructuredValue* msg);
 };
 
-const ::DRPB::DATA::NoneValue&
+const ::DRPB::NoneValue&
 StructuredValue::_Internal::none_value(const StructuredValue* msg) {
   return *msg->kind_.none_value_;
 }
-const ::DRPB::DATA::TensorShapeProto&
+const ::DRPB::TensorShapeProto&
 StructuredValue::_Internal::tensor_shape_value(const StructuredValue* msg) {
   return *msg->kind_.tensor_shape_value_;
 }
-const ::DRPB::DATA::TensorSpecProto&
+const ::DRPB::TensorSpecProto&
 StructuredValue::_Internal::tensor_spec_value(const StructuredValue* msg) {
   return *msg->kind_.tensor_spec_value_;
 }
-const ::DRPB::DATA::TypeSpecProto&
+const ::DRPB::TypeSpecProto&
 StructuredValue::_Internal::type_spec_value(const StructuredValue* msg) {
   return *msg->kind_.type_spec_value_;
 }
-const ::DRPB::DATA::BoundedTensorSpecProto&
+const ::DRPB::BoundedTensorSpecProto&
 StructuredValue::_Internal::bounded_tensor_spec_value(const StructuredValue* msg) {
   return *msg->kind_.bounded_tensor_spec_value_;
 }
-const ::DRPB::DATA::ListValue&
+const ::DRPB::ListValue&
 StructuredValue::_Internal::list_value(const StructuredValue* msg) {
   return *msg->kind_.list_value_;
 }
-const ::DRPB::DATA::TupleValue&
+const ::DRPB::TupleValue&
 StructuredValue::_Internal::tuple_value(const StructuredValue* msg) {
   return *msg->kind_.tuple_value_;
 }
-const ::DRPB::DATA::DictValue&
+const ::DRPB::DictValue&
 StructuredValue::_Internal::dict_value(const StructuredValue* msg) {
   return *msg->kind_.dict_value_;
 }
-const ::DRPB::DATA::NamedTupleValue&
+const ::DRPB::NamedTupleValue&
 StructuredValue::_Internal::named_tuple_value(const StructuredValue* msg) {
   return *msg->kind_.named_tuple_value_;
 }
-void StructuredValue::set_allocated_none_value(::DRPB::DATA::NoneValue* none_value) {
+void StructuredValue::set_allocated_none_value(::DRPB::NoneValue* none_value) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArena();
   clear_kind();
   if (none_value) {
@@ -6551,9 +6464,9 @@ void StructuredValue::set_allocated_none_value(::DRPB::DATA::NoneValue* none_val
     set_has_none_value();
     kind_.none_value_ = none_value;
   }
-  // @@protoc_insertion_point(field_set_allocated:DRPB.DATA.StructuredValue.none_value)
+  // @@protoc_insertion_point(field_set_allocated:DRPB.StructuredValue.none_value)
 }
-void StructuredValue::set_allocated_tensor_shape_value(::DRPB::DATA::TensorShapeProto* tensor_shape_value) {
+void StructuredValue::set_allocated_tensor_shape_value(::DRPB::TensorShapeProto* tensor_shape_value) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArena();
   clear_kind();
   if (tensor_shape_value) {
@@ -6566,9 +6479,9 @@ void StructuredValue::set_allocated_tensor_shape_value(::DRPB::DATA::TensorShape
     set_has_tensor_shape_value();
     kind_.tensor_shape_value_ = tensor_shape_value;
   }
-  // @@protoc_insertion_point(field_set_allocated:DRPB.DATA.StructuredValue.tensor_shape_value)
+  // @@protoc_insertion_point(field_set_allocated:DRPB.StructuredValue.tensor_shape_value)
 }
-void StructuredValue::set_allocated_tensor_spec_value(::DRPB::DATA::TensorSpecProto* tensor_spec_value) {
+void StructuredValue::set_allocated_tensor_spec_value(::DRPB::TensorSpecProto* tensor_spec_value) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArena();
   clear_kind();
   if (tensor_spec_value) {
@@ -6581,9 +6494,9 @@ void StructuredValue::set_allocated_tensor_spec_value(::DRPB::DATA::TensorSpecPr
     set_has_tensor_spec_value();
     kind_.tensor_spec_value_ = tensor_spec_value;
   }
-  // @@protoc_insertion_point(field_set_allocated:DRPB.DATA.StructuredValue.tensor_spec_value)
+  // @@protoc_insertion_point(field_set_allocated:DRPB.StructuredValue.tensor_spec_value)
 }
-void StructuredValue::set_allocated_type_spec_value(::DRPB::DATA::TypeSpecProto* type_spec_value) {
+void StructuredValue::set_allocated_type_spec_value(::DRPB::TypeSpecProto* type_spec_value) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArena();
   clear_kind();
   if (type_spec_value) {
@@ -6596,9 +6509,9 @@ void StructuredValue::set_allocated_type_spec_value(::DRPB::DATA::TypeSpecProto*
     set_has_type_spec_value();
     kind_.type_spec_value_ = type_spec_value;
   }
-  // @@protoc_insertion_point(field_set_allocated:DRPB.DATA.StructuredValue.type_spec_value)
+  // @@protoc_insertion_point(field_set_allocated:DRPB.StructuredValue.type_spec_value)
 }
-void StructuredValue::set_allocated_bounded_tensor_spec_value(::DRPB::DATA::BoundedTensorSpecProto* bounded_tensor_spec_value) {
+void StructuredValue::set_allocated_bounded_tensor_spec_value(::DRPB::BoundedTensorSpecProto* bounded_tensor_spec_value) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArena();
   clear_kind();
   if (bounded_tensor_spec_value) {
@@ -6611,9 +6524,9 @@ void StructuredValue::set_allocated_bounded_tensor_spec_value(::DRPB::DATA::Boun
     set_has_bounded_tensor_spec_value();
     kind_.bounded_tensor_spec_value_ = bounded_tensor_spec_value;
   }
-  // @@protoc_insertion_point(field_set_allocated:DRPB.DATA.StructuredValue.bounded_tensor_spec_value)
+  // @@protoc_insertion_point(field_set_allocated:DRPB.StructuredValue.bounded_tensor_spec_value)
 }
-void StructuredValue::set_allocated_list_value(::DRPB::DATA::ListValue* list_value) {
+void StructuredValue::set_allocated_list_value(::DRPB::ListValue* list_value) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArena();
   clear_kind();
   if (list_value) {
@@ -6626,9 +6539,9 @@ void StructuredValue::set_allocated_list_value(::DRPB::DATA::ListValue* list_val
     set_has_list_value();
     kind_.list_value_ = list_value;
   }
-  // @@protoc_insertion_point(field_set_allocated:DRPB.DATA.StructuredValue.list_value)
+  // @@protoc_insertion_point(field_set_allocated:DRPB.StructuredValue.list_value)
 }
-void StructuredValue::set_allocated_tuple_value(::DRPB::DATA::TupleValue* tuple_value) {
+void StructuredValue::set_allocated_tuple_value(::DRPB::TupleValue* tuple_value) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArena();
   clear_kind();
   if (tuple_value) {
@@ -6641,9 +6554,9 @@ void StructuredValue::set_allocated_tuple_value(::DRPB::DATA::TupleValue* tuple_
     set_has_tuple_value();
     kind_.tuple_value_ = tuple_value;
   }
-  // @@protoc_insertion_point(field_set_allocated:DRPB.DATA.StructuredValue.tuple_value)
+  // @@protoc_insertion_point(field_set_allocated:DRPB.StructuredValue.tuple_value)
 }
-void StructuredValue::set_allocated_dict_value(::DRPB::DATA::DictValue* dict_value) {
+void StructuredValue::set_allocated_dict_value(::DRPB::DictValue* dict_value) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArena();
   clear_kind();
   if (dict_value) {
@@ -6656,9 +6569,9 @@ void StructuredValue::set_allocated_dict_value(::DRPB::DATA::DictValue* dict_val
     set_has_dict_value();
     kind_.dict_value_ = dict_value;
   }
-  // @@protoc_insertion_point(field_set_allocated:DRPB.DATA.StructuredValue.dict_value)
+  // @@protoc_insertion_point(field_set_allocated:DRPB.StructuredValue.dict_value)
 }
-void StructuredValue::set_allocated_named_tuple_value(::DRPB::DATA::NamedTupleValue* named_tuple_value) {
+void StructuredValue::set_allocated_named_tuple_value(::DRPB::NamedTupleValue* named_tuple_value) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArena();
   clear_kind();
   if (named_tuple_value) {
@@ -6671,13 +6584,13 @@ void StructuredValue::set_allocated_named_tuple_value(::DRPB::DATA::NamedTupleVa
     set_has_named_tuple_value();
     kind_.named_tuple_value_ = named_tuple_value;
   }
-  // @@protoc_insertion_point(field_set_allocated:DRPB.DATA.StructuredValue.named_tuple_value)
+  // @@protoc_insertion_point(field_set_allocated:DRPB.StructuredValue.named_tuple_value)
 }
 StructuredValue::StructuredValue(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.StructuredValue)
+  // @@protoc_insertion_point(arena_constructor:DRPB.StructuredValue)
 }
 StructuredValue::StructuredValue(const StructuredValue& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -6685,7 +6598,7 @@ StructuredValue::StructuredValue(const StructuredValue& from)
   clear_has_kind();
   switch (from.kind_case()) {
     case kNoneValue: {
-      _internal_mutable_none_value()->::DRPB::DATA::NoneValue::MergeFrom(from._internal_none_value());
+      _internal_mutable_none_value()->::DRPB::NoneValue::MergeFrom(from._internal_none_value());
       break;
     }
     case kFloat64Value: {
@@ -6705,7 +6618,7 @@ StructuredValue::StructuredValue(const StructuredValue& from)
       break;
     }
     case kTensorShapeValue: {
-      _internal_mutable_tensor_shape_value()->::DRPB::DATA::TensorShapeProto::MergeFrom(from._internal_tensor_shape_value());
+      _internal_mutable_tensor_shape_value()->::DRPB::TensorShapeProto::MergeFrom(from._internal_tensor_shape_value());
       break;
     }
     case kTensorDtypeValue: {
@@ -6713,38 +6626,38 @@ StructuredValue::StructuredValue(const StructuredValue& from)
       break;
     }
     case kTensorSpecValue: {
-      _internal_mutable_tensor_spec_value()->::DRPB::DATA::TensorSpecProto::MergeFrom(from._internal_tensor_spec_value());
+      _internal_mutable_tensor_spec_value()->::DRPB::TensorSpecProto::MergeFrom(from._internal_tensor_spec_value());
       break;
     }
     case kTypeSpecValue: {
-      _internal_mutable_type_spec_value()->::DRPB::DATA::TypeSpecProto::MergeFrom(from._internal_type_spec_value());
+      _internal_mutable_type_spec_value()->::DRPB::TypeSpecProto::MergeFrom(from._internal_type_spec_value());
       break;
     }
     case kBoundedTensorSpecValue: {
-      _internal_mutable_bounded_tensor_spec_value()->::DRPB::DATA::BoundedTensorSpecProto::MergeFrom(from._internal_bounded_tensor_spec_value());
+      _internal_mutable_bounded_tensor_spec_value()->::DRPB::BoundedTensorSpecProto::MergeFrom(from._internal_bounded_tensor_spec_value());
       break;
     }
     case kListValue: {
-      _internal_mutable_list_value()->::DRPB::DATA::ListValue::MergeFrom(from._internal_list_value());
+      _internal_mutable_list_value()->::DRPB::ListValue::MergeFrom(from._internal_list_value());
       break;
     }
     case kTupleValue: {
-      _internal_mutable_tuple_value()->::DRPB::DATA::TupleValue::MergeFrom(from._internal_tuple_value());
+      _internal_mutable_tuple_value()->::DRPB::TupleValue::MergeFrom(from._internal_tuple_value());
       break;
     }
     case kDictValue: {
-      _internal_mutable_dict_value()->::DRPB::DATA::DictValue::MergeFrom(from._internal_dict_value());
+      _internal_mutable_dict_value()->::DRPB::DictValue::MergeFrom(from._internal_dict_value());
       break;
     }
     case kNamedTupleValue: {
-      _internal_mutable_named_tuple_value()->::DRPB::DATA::NamedTupleValue::MergeFrom(from._internal_named_tuple_value());
+      _internal_mutable_named_tuple_value()->::DRPB::NamedTupleValue::MergeFrom(from._internal_named_tuple_value());
       break;
     }
     case KIND_NOT_SET: {
       break;
     }
   }
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.StructuredValue)
+  // @@protoc_insertion_point(copy_constructor:DRPB.StructuredValue)
 }
 
 void StructuredValue::SharedCtor() {
@@ -6752,7 +6665,7 @@ clear_has_kind();
 }
 
 StructuredValue::~StructuredValue() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.StructuredValue)
+  // @@protoc_insertion_point(destructor:DRPB.StructuredValue)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -6775,7 +6688,7 @@ void StructuredValue::SetCachedSize(int size) const {
 }
 
 void StructuredValue::clear_kind() {
-// @@protoc_insertion_point(one_of_clear_start:DRPB.DATA.StructuredValue)
+// @@protoc_insertion_point(one_of_clear_start:DRPB.StructuredValue)
   switch (kind_case()) {
     case kNoneValue: {
       if (GetArena() == nullptr) {
@@ -6860,7 +6773,7 @@ void StructuredValue::clear_kind() {
 
 
 void StructuredValue::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.StructuredValue)
+// @@protoc_insertion_point(message_clear_start:DRPB.StructuredValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -6876,7 +6789,7 @@ const char* StructuredValue::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // .DRPB.DATA.NoneValue none_value = 1;
+      // .DRPB.NoneValue none_value = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr = ctx->ParseMessage(_internal_mutable_none_value(), ptr);
@@ -6902,7 +6815,7 @@ const char* StructuredValue::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 106)) {
           auto str = _internal_mutable_string_value();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.StructuredValue.string_value"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.StructuredValue.string_value"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -6913,64 +6826,64 @@ const char* StructuredValue::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.TensorShapeProto tensor_shape_value = 31;
+      // .DRPB.TensorShapeProto tensor_shape_value = 31;
       case 31:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 250)) {
           ptr = ctx->ParseMessage(_internal_mutable_tensor_shape_value(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.DataType tensor_dtype_value = 32;
+      // .DRPB.DataType tensor_dtype_value = 32;
       case 32:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 0)) {
           ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-          _internal_set_tensor_dtype_value(static_cast<::DRPB::DATA::DataType>(val));
+          _internal_set_tensor_dtype_value(static_cast<::DRPB::DataType>(val));
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.TensorSpecProto tensor_spec_value = 33;
+      // .DRPB.TensorSpecProto tensor_spec_value = 33;
       case 33:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr = ctx->ParseMessage(_internal_mutable_tensor_spec_value(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.TypeSpecProto type_spec_value = 34;
+      // .DRPB.TypeSpecProto type_spec_value = 34;
       case 34:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_type_spec_value(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.BoundedTensorSpecProto bounded_tensor_spec_value = 35;
+      // .DRPB.BoundedTensorSpecProto bounded_tensor_spec_value = 35;
       case 35:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
           ptr = ctx->ParseMessage(_internal_mutable_bounded_tensor_spec_value(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.ListValue list_value = 51;
+      // .DRPB.ListValue list_value = 51;
       case 51:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 154)) {
           ptr = ctx->ParseMessage(_internal_mutable_list_value(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.TupleValue tuple_value = 52;
+      // .DRPB.TupleValue tuple_value = 52;
       case 52:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 162)) {
           ptr = ctx->ParseMessage(_internal_mutable_tuple_value(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.DictValue dict_value = 53;
+      // .DRPB.DictValue dict_value = 53;
       case 53:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 170)) {
           ptr = ctx->ParseMessage(_internal_mutable_dict_value(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.NamedTupleValue named_tuple_value = 54;
+      // .DRPB.NamedTupleValue named_tuple_value = 54;
       case 54:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 178)) {
           ptr = ctx->ParseMessage(_internal_mutable_named_tuple_value(), ptr);
@@ -7001,11 +6914,11 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* StructuredValue::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.StructuredValue)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.StructuredValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // .DRPB.DATA.NoneValue none_value = 1;
+  // .DRPB.NoneValue none_value = 1;
   if (_internal_has_none_value()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -7030,7 +6943,7 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_string_value().data(), static_cast<int>(this->_internal_string_value().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.StructuredValue.string_value");
+      "DRPB.StructuredValue.string_value");
     target = stream->WriteStringMaybeAliased(
         13, this->_internal_string_value(), target);
   }
@@ -7041,7 +6954,7 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBoolToArray(14, this->_internal_bool_value(), target);
   }
 
-  // .DRPB.DATA.TensorShapeProto tensor_shape_value = 31;
+  // .DRPB.TensorShapeProto tensor_shape_value = 31;
   if (_internal_has_tensor_shape_value()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -7049,14 +6962,14 @@ failure:
         31, _Internal::tensor_shape_value(this), target, stream);
   }
 
-  // .DRPB.DATA.DataType tensor_dtype_value = 32;
+  // .DRPB.DataType tensor_dtype_value = 32;
   if (_internal_has_tensor_dtype_value()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
       32, this->_internal_tensor_dtype_value(), target);
   }
 
-  // .DRPB.DATA.TensorSpecProto tensor_spec_value = 33;
+  // .DRPB.TensorSpecProto tensor_spec_value = 33;
   if (_internal_has_tensor_spec_value()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -7064,7 +6977,7 @@ failure:
         33, _Internal::tensor_spec_value(this), target, stream);
   }
 
-  // .DRPB.DATA.TypeSpecProto type_spec_value = 34;
+  // .DRPB.TypeSpecProto type_spec_value = 34;
   if (_internal_has_type_spec_value()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -7072,7 +6985,7 @@ failure:
         34, _Internal::type_spec_value(this), target, stream);
   }
 
-  // .DRPB.DATA.BoundedTensorSpecProto bounded_tensor_spec_value = 35;
+  // .DRPB.BoundedTensorSpecProto bounded_tensor_spec_value = 35;
   if (_internal_has_bounded_tensor_spec_value()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -7080,7 +6993,7 @@ failure:
         35, _Internal::bounded_tensor_spec_value(this), target, stream);
   }
 
-  // .DRPB.DATA.ListValue list_value = 51;
+  // .DRPB.ListValue list_value = 51;
   if (_internal_has_list_value()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -7088,7 +7001,7 @@ failure:
         51, _Internal::list_value(this), target, stream);
   }
 
-  // .DRPB.DATA.TupleValue tuple_value = 52;
+  // .DRPB.TupleValue tuple_value = 52;
   if (_internal_has_tuple_value()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -7096,7 +7009,7 @@ failure:
         52, _Internal::tuple_value(this), target, stream);
   }
 
-  // .DRPB.DATA.DictValue dict_value = 53;
+  // .DRPB.DictValue dict_value = 53;
   if (_internal_has_dict_value()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -7104,7 +7017,7 @@ failure:
         53, _Internal::dict_value(this), target, stream);
   }
 
-  // .DRPB.DATA.NamedTupleValue named_tuple_value = 54;
+  // .DRPB.NamedTupleValue named_tuple_value = 54;
   if (_internal_has_named_tuple_value()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -7116,12 +7029,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.StructuredValue)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.StructuredValue)
   return target;
 }
 
 size_t StructuredValue::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.StructuredValue)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.StructuredValue)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -7129,7 +7042,7 @@ size_t StructuredValue::ByteSizeLong() const {
   (void) cached_has_bits;
 
   switch (kind_case()) {
-    // .DRPB.DATA.NoneValue none_value = 1;
+    // .DRPB.NoneValue none_value = 1;
     case kNoneValue: {
       total_size += 1 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -7160,62 +7073,62 @@ size_t StructuredValue::ByteSizeLong() const {
       total_size += 1 + 1;
       break;
     }
-    // .DRPB.DATA.TensorShapeProto tensor_shape_value = 31;
+    // .DRPB.TensorShapeProto tensor_shape_value = 31;
     case kTensorShapeValue: {
       total_size += 2 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
           *kind_.tensor_shape_value_);
       break;
     }
-    // .DRPB.DATA.DataType tensor_dtype_value = 32;
+    // .DRPB.DataType tensor_dtype_value = 32;
     case kTensorDtypeValue: {
       total_size += 2 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_tensor_dtype_value());
       break;
     }
-    // .DRPB.DATA.TensorSpecProto tensor_spec_value = 33;
+    // .DRPB.TensorSpecProto tensor_spec_value = 33;
     case kTensorSpecValue: {
       total_size += 2 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
           *kind_.tensor_spec_value_);
       break;
     }
-    // .DRPB.DATA.TypeSpecProto type_spec_value = 34;
+    // .DRPB.TypeSpecProto type_spec_value = 34;
     case kTypeSpecValue: {
       total_size += 2 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
           *kind_.type_spec_value_);
       break;
     }
-    // .DRPB.DATA.BoundedTensorSpecProto bounded_tensor_spec_value = 35;
+    // .DRPB.BoundedTensorSpecProto bounded_tensor_spec_value = 35;
     case kBoundedTensorSpecValue: {
       total_size += 2 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
           *kind_.bounded_tensor_spec_value_);
       break;
     }
-    // .DRPB.DATA.ListValue list_value = 51;
+    // .DRPB.ListValue list_value = 51;
     case kListValue: {
       total_size += 2 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
           *kind_.list_value_);
       break;
     }
-    // .DRPB.DATA.TupleValue tuple_value = 52;
+    // .DRPB.TupleValue tuple_value = 52;
     case kTupleValue: {
       total_size += 2 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
           *kind_.tuple_value_);
       break;
     }
-    // .DRPB.DATA.DictValue dict_value = 53;
+    // .DRPB.DictValue dict_value = 53;
     case kDictValue: {
       total_size += 2 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
           *kind_.dict_value_);
       break;
     }
-    // .DRPB.DATA.NamedTupleValue named_tuple_value = 54;
+    // .DRPB.NamedTupleValue named_tuple_value = 54;
     case kNamedTupleValue: {
       total_size += 2 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -7236,22 +7149,22 @@ size_t StructuredValue::ByteSizeLong() const {
 }
 
 void StructuredValue::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.StructuredValue)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.StructuredValue)
   GOOGLE_DCHECK_NE(&from, this);
   const StructuredValue* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<StructuredValue>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.StructuredValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.StructuredValue)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.StructuredValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.StructuredValue)
     MergeFrom(*source);
   }
 }
 
 void StructuredValue::MergeFrom(const StructuredValue& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.StructuredValue)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.StructuredValue)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -7259,7 +7172,7 @@ void StructuredValue::MergeFrom(const StructuredValue& from) {
 
   switch (from.kind_case()) {
     case kNoneValue: {
-      _internal_mutable_none_value()->::DRPB::DATA::NoneValue::MergeFrom(from._internal_none_value());
+      _internal_mutable_none_value()->::DRPB::NoneValue::MergeFrom(from._internal_none_value());
       break;
     }
     case kFloat64Value: {
@@ -7279,7 +7192,7 @@ void StructuredValue::MergeFrom(const StructuredValue& from) {
       break;
     }
     case kTensorShapeValue: {
-      _internal_mutable_tensor_shape_value()->::DRPB::DATA::TensorShapeProto::MergeFrom(from._internal_tensor_shape_value());
+      _internal_mutable_tensor_shape_value()->::DRPB::TensorShapeProto::MergeFrom(from._internal_tensor_shape_value());
       break;
     }
     case kTensorDtypeValue: {
@@ -7287,31 +7200,31 @@ void StructuredValue::MergeFrom(const StructuredValue& from) {
       break;
     }
     case kTensorSpecValue: {
-      _internal_mutable_tensor_spec_value()->::DRPB::DATA::TensorSpecProto::MergeFrom(from._internal_tensor_spec_value());
+      _internal_mutable_tensor_spec_value()->::DRPB::TensorSpecProto::MergeFrom(from._internal_tensor_spec_value());
       break;
     }
     case kTypeSpecValue: {
-      _internal_mutable_type_spec_value()->::DRPB::DATA::TypeSpecProto::MergeFrom(from._internal_type_spec_value());
+      _internal_mutable_type_spec_value()->::DRPB::TypeSpecProto::MergeFrom(from._internal_type_spec_value());
       break;
     }
     case kBoundedTensorSpecValue: {
-      _internal_mutable_bounded_tensor_spec_value()->::DRPB::DATA::BoundedTensorSpecProto::MergeFrom(from._internal_bounded_tensor_spec_value());
+      _internal_mutable_bounded_tensor_spec_value()->::DRPB::BoundedTensorSpecProto::MergeFrom(from._internal_bounded_tensor_spec_value());
       break;
     }
     case kListValue: {
-      _internal_mutable_list_value()->::DRPB::DATA::ListValue::MergeFrom(from._internal_list_value());
+      _internal_mutable_list_value()->::DRPB::ListValue::MergeFrom(from._internal_list_value());
       break;
     }
     case kTupleValue: {
-      _internal_mutable_tuple_value()->::DRPB::DATA::TupleValue::MergeFrom(from._internal_tuple_value());
+      _internal_mutable_tuple_value()->::DRPB::TupleValue::MergeFrom(from._internal_tuple_value());
       break;
     }
     case kDictValue: {
-      _internal_mutable_dict_value()->::DRPB::DATA::DictValue::MergeFrom(from._internal_dict_value());
+      _internal_mutable_dict_value()->::DRPB::DictValue::MergeFrom(from._internal_dict_value());
       break;
     }
     case kNamedTupleValue: {
-      _internal_mutable_named_tuple_value()->::DRPB::DATA::NamedTupleValue::MergeFrom(from._internal_named_tuple_value());
+      _internal_mutable_named_tuple_value()->::DRPB::NamedTupleValue::MergeFrom(from._internal_named_tuple_value());
       break;
     }
     case KIND_NOT_SET: {
@@ -7321,14 +7234,14 @@ void StructuredValue::MergeFrom(const StructuredValue& from) {
 }
 
 void StructuredValue::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.StructuredValue)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.StructuredValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void StructuredValue::CopyFrom(const StructuredValue& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.StructuredValue)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.StructuredValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -7360,19 +7273,19 @@ NoneValue::NoneValue(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.NoneValue)
+  // @@protoc_insertion_point(arena_constructor:DRPB.NoneValue)
 }
 NoneValue::NoneValue(const NoneValue& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.NoneValue)
+  // @@protoc_insertion_point(copy_constructor:DRPB.NoneValue)
 }
 
 void NoneValue::SharedCtor() {
 }
 
 NoneValue::~NoneValue() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.NoneValue)
+  // @@protoc_insertion_point(destructor:DRPB.NoneValue)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -7392,7 +7305,7 @@ void NoneValue::SetCachedSize(int size) const {
 }
 
 void NoneValue::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.NoneValue)
+// @@protoc_insertion_point(message_clear_start:DRPB.NoneValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -7426,7 +7339,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* NoneValue::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.NoneValue)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.NoneValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -7434,12 +7347,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.NoneValue)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.NoneValue)
   return target;
 }
 
 size_t NoneValue::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.NoneValue)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.NoneValue)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -7456,22 +7369,22 @@ size_t NoneValue::ByteSizeLong() const {
 }
 
 void NoneValue::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.NoneValue)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.NoneValue)
   GOOGLE_DCHECK_NE(&from, this);
   const NoneValue* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<NoneValue>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.NoneValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.NoneValue)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.NoneValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.NoneValue)
     MergeFrom(*source);
   }
 }
 
 void NoneValue::MergeFrom(const NoneValue& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.NoneValue)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.NoneValue)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -7480,14 +7393,14 @@ void NoneValue::MergeFrom(const NoneValue& from) {
 }
 
 void NoneValue::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.NoneValue)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.NoneValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void NoneValue::CopyFrom(const NoneValue& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.NoneValue)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.NoneValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -7518,20 +7431,20 @@ ListValue::ListValue(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   values_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.ListValue)
+  // @@protoc_insertion_point(arena_constructor:DRPB.ListValue)
 }
 ListValue::ListValue(const ListValue& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       values_(from.values_) {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.ListValue)
+  // @@protoc_insertion_point(copy_constructor:DRPB.ListValue)
 }
 
 void ListValue::SharedCtor() {
 }
 
 ListValue::~ListValue() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.ListValue)
+  // @@protoc_insertion_point(destructor:DRPB.ListValue)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -7551,7 +7464,7 @@ void ListValue::SetCachedSize(int size) const {
 }
 
 void ListValue::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.ListValue)
+// @@protoc_insertion_point(message_clear_start:DRPB.ListValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -7567,7 +7480,7 @@ const char* ListValue::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // repeated .DRPB.DATA.StructuredValue values = 1;
+      // repeated .DRPB.StructuredValue values = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr -= 1;
@@ -7603,11 +7516,11 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* ListValue::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.ListValue)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.ListValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.StructuredValue values = 1;
+  // repeated .DRPB.StructuredValue values = 1;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_values_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -7619,19 +7532,19 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.ListValue)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.ListValue)
   return target;
 }
 
 size_t ListValue::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.ListValue)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.ListValue)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.StructuredValue values = 1;
+  // repeated .DRPB.StructuredValue values = 1;
   total_size += 1UL * this->_internal_values_size();
   for (const auto& msg : this->values_) {
     total_size +=
@@ -7648,22 +7561,22 @@ size_t ListValue::ByteSizeLong() const {
 }
 
 void ListValue::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.ListValue)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.ListValue)
   GOOGLE_DCHECK_NE(&from, this);
   const ListValue* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<ListValue>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.ListValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.ListValue)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.ListValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.ListValue)
     MergeFrom(*source);
   }
 }
 
 void ListValue::MergeFrom(const ListValue& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.ListValue)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.ListValue)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -7673,14 +7586,14 @@ void ListValue::MergeFrom(const ListValue& from) {
 }
 
 void ListValue::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.ListValue)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.ListValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void ListValue::CopyFrom(const ListValue& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.ListValue)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.ListValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -7712,20 +7625,20 @@ TupleValue::TupleValue(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   values_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.TupleValue)
+  // @@protoc_insertion_point(arena_constructor:DRPB.TupleValue)
 }
 TupleValue::TupleValue(const TupleValue& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       values_(from.values_) {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.TupleValue)
+  // @@protoc_insertion_point(copy_constructor:DRPB.TupleValue)
 }
 
 void TupleValue::SharedCtor() {
 }
 
 TupleValue::~TupleValue() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.TupleValue)
+  // @@protoc_insertion_point(destructor:DRPB.TupleValue)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -7745,7 +7658,7 @@ void TupleValue::SetCachedSize(int size) const {
 }
 
 void TupleValue::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.TupleValue)
+// @@protoc_insertion_point(message_clear_start:DRPB.TupleValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -7761,7 +7674,7 @@ const char* TupleValue::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID:
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // repeated .DRPB.DATA.StructuredValue values = 1;
+      // repeated .DRPB.StructuredValue values = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr -= 1;
@@ -7797,11 +7710,11 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* TupleValue::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.TupleValue)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.TupleValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.StructuredValue values = 1;
+  // repeated .DRPB.StructuredValue values = 1;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_values_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -7813,19 +7726,19 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.TupleValue)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.TupleValue)
   return target;
 }
 
 size_t TupleValue::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.TupleValue)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.TupleValue)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.StructuredValue values = 1;
+  // repeated .DRPB.StructuredValue values = 1;
   total_size += 1UL * this->_internal_values_size();
   for (const auto& msg : this->values_) {
     total_size +=
@@ -7842,22 +7755,22 @@ size_t TupleValue::ByteSizeLong() const {
 }
 
 void TupleValue::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.TupleValue)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.TupleValue)
   GOOGLE_DCHECK_NE(&from, this);
   const TupleValue* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<TupleValue>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.TupleValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.TupleValue)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.TupleValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.TupleValue)
     MergeFrom(*source);
   }
 }
 
 void TupleValue::MergeFrom(const TupleValue& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.TupleValue)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.TupleValue)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -7867,14 +7780,14 @@ void TupleValue::MergeFrom(const TupleValue& from) {
 }
 
 void TupleValue::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.TupleValue)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.TupleValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void TupleValue::CopyFrom(const TupleValue& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.TupleValue)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.TupleValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -7923,20 +7836,20 @@ DictValue::DictValue(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   fields_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.DictValue)
+  // @@protoc_insertion_point(arena_constructor:DRPB.DictValue)
 }
 DictValue::DictValue(const DictValue& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   fields_.MergeFrom(from.fields_);
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.DictValue)
+  // @@protoc_insertion_point(copy_constructor:DRPB.DictValue)
 }
 
 void DictValue::SharedCtor() {
 }
 
 DictValue::~DictValue() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.DictValue)
+  // @@protoc_insertion_point(destructor:DRPB.DictValue)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -7956,7 +7869,7 @@ void DictValue::SetCachedSize(int size) const {
 }
 
 void DictValue::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.DictValue)
+// @@protoc_insertion_point(message_clear_start:DRPB.DictValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -7972,7 +7885,7 @@ const char* DictValue::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // map<string, .DRPB.DATA.StructuredValue> fields = 1;
+      // map<string, .DRPB.StructuredValue> fields = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr -= 1;
@@ -8008,13 +7921,13 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* DictValue::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.DictValue)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DictValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // map<string, .DRPB.DATA.StructuredValue> fields = 1;
+  // map<string, .DRPB.StructuredValue> fields = 1;
   if (!this->_internal_fields().empty()) {
-    typedef ::PROTOBUF_NAMESPACE_ID::Map< std::string, ::DRPB::DATA::StructuredValue >::const_pointer
+    typedef ::PROTOBUF_NAMESPACE_ID::Map< std::string, ::DRPB::StructuredValue >::const_pointer
         ConstPtr;
     typedef ConstPtr SortItem;
     typedef ::PROTOBUF_NAMESPACE_ID::internal::CompareByDerefFirst<SortItem> Less;
@@ -8023,7 +7936,7 @@ failure:
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
           p->first.data(), static_cast<int>(p->first.length()),
           ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-          "DRPB.DATA.DictValue.FieldsEntry.key");
+          "DRPB.DictValue.FieldsEntry.key");
       }
     };
 
@@ -8031,9 +7944,9 @@ failure:
         this->_internal_fields().size() > 1) {
       ::std::unique_ptr<SortItem[]> items(
           new SortItem[this->_internal_fields().size()]);
-      typedef ::PROTOBUF_NAMESPACE_ID::Map< std::string, ::DRPB::DATA::StructuredValue >::size_type size_type;
+      typedef ::PROTOBUF_NAMESPACE_ID::Map< std::string, ::DRPB::StructuredValue >::size_type size_type;
       size_type n = 0;
-      for (::PROTOBUF_NAMESPACE_ID::Map< std::string, ::DRPB::DATA::StructuredValue >::const_iterator
+      for (::PROTOBUF_NAMESPACE_ID::Map< std::string, ::DRPB::StructuredValue >::const_iterator
           it = this->_internal_fields().begin();
           it != this->_internal_fields().end(); ++it, ++n) {
         items[static_cast<ptrdiff_t>(n)] = SortItem(&*it);
@@ -8044,7 +7957,7 @@ failure:
         Utf8Check::Check(&(*items[static_cast<ptrdiff_t>(i)]));
       }
     } else {
-      for (::PROTOBUF_NAMESPACE_ID::Map< std::string, ::DRPB::DATA::StructuredValue >::const_iterator
+      for (::PROTOBUF_NAMESPACE_ID::Map< std::string, ::DRPB::StructuredValue >::const_iterator
           it = this->_internal_fields().begin();
           it != this->_internal_fields().end(); ++it) {
         target = DictValue_FieldsEntry_DoNotUse::Funcs::InternalSerialize(1, it->first, it->second, target, stream);
@@ -8057,22 +7970,22 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.DictValue)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DictValue)
   return target;
 }
 
 size_t DictValue::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.DictValue)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.DictValue)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // map<string, .DRPB.DATA.StructuredValue> fields = 1;
+  // map<string, .DRPB.StructuredValue> fields = 1;
   total_size += 1 *
       ::PROTOBUF_NAMESPACE_ID::internal::FromIntSize(this->_internal_fields_size());
-  for (::PROTOBUF_NAMESPACE_ID::Map< std::string, ::DRPB::DATA::StructuredValue >::const_iterator
+  for (::PROTOBUF_NAMESPACE_ID::Map< std::string, ::DRPB::StructuredValue >::const_iterator
       it = this->_internal_fields().begin();
       it != this->_internal_fields().end(); ++it) {
     total_size += DictValue_FieldsEntry_DoNotUse::Funcs::ByteSizeLong(it->first, it->second);
@@ -8088,22 +8001,22 @@ size_t DictValue::ByteSizeLong() const {
 }
 
 void DictValue::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.DictValue)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DictValue)
   GOOGLE_DCHECK_NE(&from, this);
   const DictValue* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<DictValue>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.DictValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DictValue)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.DictValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DictValue)
     MergeFrom(*source);
   }
 }
 
 void DictValue::MergeFrom(const DictValue& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.DictValue)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DictValue)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -8113,14 +8026,14 @@ void DictValue::MergeFrom(const DictValue& from) {
 }
 
 void DictValue::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.DictValue)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DictValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void DictValue::CopyFrom(const DictValue& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.DictValue)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DictValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -8145,10 +8058,10 @@ void DictValue::InternalSwap(DictValue* other) {
 
 class PairValue::_Internal {
  public:
-  static const ::DRPB::DATA::StructuredValue& value(const PairValue* msg);
+  static const ::DRPB::StructuredValue& value(const PairValue* msg);
 };
 
-const ::DRPB::DATA::StructuredValue&
+const ::DRPB::StructuredValue&
 PairValue::_Internal::value(const PairValue* msg) {
   return *msg->value_;
 }
@@ -8156,7 +8069,7 @@ PairValue::PairValue(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.PairValue)
+  // @@protoc_insertion_point(arena_constructor:DRPB.PairValue)
 }
 PairValue::PairValue(const PairValue& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -8167,11 +8080,11 @@ PairValue::PairValue(const PairValue& from)
       GetArena());
   }
   if (from._internal_has_value()) {
-    value_ = new ::DRPB::DATA::StructuredValue(*from.value_);
+    value_ = new ::DRPB::StructuredValue(*from.value_);
   } else {
     value_ = nullptr;
   }
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.PairValue)
+  // @@protoc_insertion_point(copy_constructor:DRPB.PairValue)
 }
 
 void PairValue::SharedCtor() {
@@ -8180,7 +8093,7 @@ value_ = nullptr;
 }
 
 PairValue::~PairValue() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.PairValue)
+  // @@protoc_insertion_point(destructor:DRPB.PairValue)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -8202,7 +8115,7 @@ void PairValue::SetCachedSize(int size) const {
 }
 
 void PairValue::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.PairValue)
+// @@protoc_insertion_point(message_clear_start:DRPB.PairValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -8227,11 +8140,11 @@ const char* PairValue::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           auto str = _internal_mutable_key();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.PairValue.key"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.PairValue.key"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.StructuredValue value = 2;
+      // .DRPB.StructuredValue value = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_value(), ptr);
@@ -8262,7 +8175,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* PairValue::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.PairValue)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.PairValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -8271,12 +8184,12 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_key().data(), static_cast<int>(this->_internal_key().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.PairValue.key");
+      "DRPB.PairValue.key");
     target = stream->WriteStringMaybeAliased(
         1, this->_internal_key(), target);
   }
 
-  // .DRPB.DATA.StructuredValue value = 2;
+  // .DRPB.StructuredValue value = 2;
   if (this->has_value()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -8288,12 +8201,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.PairValue)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.PairValue)
   return target;
 }
 
 size_t PairValue::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.PairValue)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.PairValue)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -8307,7 +8220,7 @@ size_t PairValue::ByteSizeLong() const {
         this->_internal_key());
   }
 
-  // .DRPB.DATA.StructuredValue value = 2;
+  // .DRPB.StructuredValue value = 2;
   if (this->has_value()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -8324,22 +8237,22 @@ size_t PairValue::ByteSizeLong() const {
 }
 
 void PairValue::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.PairValue)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.PairValue)
   GOOGLE_DCHECK_NE(&from, this);
   const PairValue* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<PairValue>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.PairValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.PairValue)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.PairValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.PairValue)
     MergeFrom(*source);
   }
 }
 
 void PairValue::MergeFrom(const PairValue& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.PairValue)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.PairValue)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -8349,19 +8262,19 @@ void PairValue::MergeFrom(const PairValue& from) {
     _internal_set_key(from._internal_key());
   }
   if (from.has_value()) {
-    _internal_mutable_value()->::DRPB::DATA::StructuredValue::MergeFrom(from._internal_value());
+    _internal_mutable_value()->::DRPB::StructuredValue::MergeFrom(from._internal_value());
   }
 }
 
 void PairValue::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.PairValue)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.PairValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void PairValue::CopyFrom(const PairValue& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.PairValue)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.PairValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -8394,7 +8307,7 @@ NamedTupleValue::NamedTupleValue(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   values_(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.NamedTupleValue)
+  // @@protoc_insertion_point(arena_constructor:DRPB.NamedTupleValue)
 }
 NamedTupleValue::NamedTupleValue(const NamedTupleValue& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
@@ -8405,7 +8318,7 @@ NamedTupleValue::NamedTupleValue(const NamedTupleValue& from)
     name_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_name(), 
       GetArena());
   }
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.NamedTupleValue)
+  // @@protoc_insertion_point(copy_constructor:DRPB.NamedTupleValue)
 }
 
 void NamedTupleValue::SharedCtor() {
@@ -8413,7 +8326,7 @@ name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlready
 }
 
 NamedTupleValue::~NamedTupleValue() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.NamedTupleValue)
+  // @@protoc_insertion_point(destructor:DRPB.NamedTupleValue)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -8434,7 +8347,7 @@ void NamedTupleValue::SetCachedSize(int size) const {
 }
 
 void NamedTupleValue::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.NamedTupleValue)
+// @@protoc_insertion_point(message_clear_start:DRPB.NamedTupleValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -8456,11 +8369,11 @@ const char* NamedTupleValue::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           auto str = _internal_mutable_name();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.NamedTupleValue.name"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.NamedTupleValue.name"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // repeated .DRPB.DATA.PairValue values = 2;
+      // repeated .DRPB.PairValue values = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr -= 1;
@@ -8496,7 +8409,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* NamedTupleValue::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.NamedTupleValue)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.NamedTupleValue)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -8505,12 +8418,12 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_name().data(), static_cast<int>(this->_internal_name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.NamedTupleValue.name");
+      "DRPB.NamedTupleValue.name");
     target = stream->WriteStringMaybeAliased(
         1, this->_internal_name(), target);
   }
 
-  // repeated .DRPB.DATA.PairValue values = 2;
+  // repeated .DRPB.PairValue values = 2;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_values_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
@@ -8522,19 +8435,19 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.NamedTupleValue)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.NamedTupleValue)
   return target;
 }
 
 size_t NamedTupleValue::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.NamedTupleValue)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.NamedTupleValue)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .DRPB.DATA.PairValue values = 2;
+  // repeated .DRPB.PairValue values = 2;
   total_size += 1UL * this->_internal_values_size();
   for (const auto& msg : this->values_) {
     total_size +=
@@ -8558,22 +8471,22 @@ size_t NamedTupleValue::ByteSizeLong() const {
 }
 
 void NamedTupleValue::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.NamedTupleValue)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.NamedTupleValue)
   GOOGLE_DCHECK_NE(&from, this);
   const NamedTupleValue* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<NamedTupleValue>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.NamedTupleValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.NamedTupleValue)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.NamedTupleValue)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.NamedTupleValue)
     MergeFrom(*source);
   }
 }
 
 void NamedTupleValue::MergeFrom(const NamedTupleValue& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.NamedTupleValue)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.NamedTupleValue)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -8586,14 +8499,14 @@ void NamedTupleValue::MergeFrom(const NamedTupleValue& from) {
 }
 
 void NamedTupleValue::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.NamedTupleValue)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.NamedTupleValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void NamedTupleValue::CopyFrom(const NamedTupleValue& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.NamedTupleValue)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.NamedTupleValue)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -8619,10 +8532,10 @@ void NamedTupleValue::InternalSwap(NamedTupleValue* other) {
 
 class TensorSpecProto::_Internal {
  public:
-  static const ::DRPB::DATA::TensorShapeProto& shape(const TensorSpecProto* msg);
+  static const ::DRPB::TensorShapeProto& shape(const TensorSpecProto* msg);
 };
 
-const ::DRPB::DATA::TensorShapeProto&
+const ::DRPB::TensorShapeProto&
 TensorSpecProto::_Internal::shape(const TensorSpecProto* msg) {
   return *msg->shape_;
 }
@@ -8630,7 +8543,7 @@ TensorSpecProto::TensorSpecProto(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.TensorSpecProto)
+  // @@protoc_insertion_point(arena_constructor:DRPB.TensorSpecProto)
 }
 TensorSpecProto::TensorSpecProto(const TensorSpecProto& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -8641,12 +8554,12 @@ TensorSpecProto::TensorSpecProto(const TensorSpecProto& from)
       GetArena());
   }
   if (from._internal_has_shape()) {
-    shape_ = new ::DRPB::DATA::TensorShapeProto(*from.shape_);
+    shape_ = new ::DRPB::TensorShapeProto(*from.shape_);
   } else {
     shape_ = nullptr;
   }
   dtype_ = from.dtype_;
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.TensorSpecProto)
+  // @@protoc_insertion_point(copy_constructor:DRPB.TensorSpecProto)
 }
 
 void TensorSpecProto::SharedCtor() {
@@ -8658,7 +8571,7 @@ name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlready
 }
 
 TensorSpecProto::~TensorSpecProto() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.TensorSpecProto)
+  // @@protoc_insertion_point(destructor:DRPB.TensorSpecProto)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -8680,7 +8593,7 @@ void TensorSpecProto::SetCachedSize(int size) const {
 }
 
 void TensorSpecProto::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.TensorSpecProto)
+// @@protoc_insertion_point(message_clear_start:DRPB.TensorSpecProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -8706,23 +8619,23 @@ const char* TensorSpecProto::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           auto str = _internal_mutable_name();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.TensorSpecProto.name"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.TensorSpecProto.name"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.TensorShapeProto shape = 2;
+      // .DRPB.TensorShapeProto shape = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_shape(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.DataType dtype = 3;
+      // .DRPB.DataType dtype = 3;
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
           ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-          _internal_set_dtype(static_cast<::DRPB::DATA::DataType>(val));
+          _internal_set_dtype(static_cast<::DRPB::DataType>(val));
         } else goto handle_unusual;
         continue;
       default: {
@@ -8749,7 +8662,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* TensorSpecProto::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.TensorSpecProto)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.TensorSpecProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -8758,12 +8671,12 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_name().data(), static_cast<int>(this->_internal_name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.TensorSpecProto.name");
+      "DRPB.TensorSpecProto.name");
     target = stream->WriteStringMaybeAliased(
         1, this->_internal_name(), target);
   }
 
-  // .DRPB.DATA.TensorShapeProto shape = 2;
+  // .DRPB.TensorShapeProto shape = 2;
   if (this->has_shape()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -8771,7 +8684,7 @@ failure:
         2, _Internal::shape(this), target, stream);
   }
 
-  // .DRPB.DATA.DataType dtype = 3;
+  // .DRPB.DataType dtype = 3;
   if (this->dtype() != 0) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
@@ -8782,12 +8695,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.TensorSpecProto)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.TensorSpecProto)
   return target;
 }
 
 size_t TensorSpecProto::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.TensorSpecProto)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.TensorSpecProto)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -8801,14 +8714,14 @@ size_t TensorSpecProto::ByteSizeLong() const {
         this->_internal_name());
   }
 
-  // .DRPB.DATA.TensorShapeProto shape = 2;
+  // .DRPB.TensorShapeProto shape = 2;
   if (this->has_shape()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *shape_);
   }
 
-  // .DRPB.DATA.DataType dtype = 3;
+  // .DRPB.DataType dtype = 3;
   if (this->dtype() != 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_dtype());
@@ -8824,22 +8737,22 @@ size_t TensorSpecProto::ByteSizeLong() const {
 }
 
 void TensorSpecProto::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.TensorSpecProto)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.TensorSpecProto)
   GOOGLE_DCHECK_NE(&from, this);
   const TensorSpecProto* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<TensorSpecProto>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.TensorSpecProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.TensorSpecProto)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.TensorSpecProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.TensorSpecProto)
     MergeFrom(*source);
   }
 }
 
 void TensorSpecProto::MergeFrom(const TensorSpecProto& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.TensorSpecProto)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.TensorSpecProto)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -8849,7 +8762,7 @@ void TensorSpecProto::MergeFrom(const TensorSpecProto& from) {
     _internal_set_name(from._internal_name());
   }
   if (from.has_shape()) {
-    _internal_mutable_shape()->::DRPB::DATA::TensorShapeProto::MergeFrom(from._internal_shape());
+    _internal_mutable_shape()->::DRPB::TensorShapeProto::MergeFrom(from._internal_shape());
   }
   if (from.dtype() != 0) {
     _internal_set_dtype(from._internal_dtype());
@@ -8857,14 +8770,14 @@ void TensorSpecProto::MergeFrom(const TensorSpecProto& from) {
 }
 
 void TensorSpecProto::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.TensorSpecProto)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.TensorSpecProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void TensorSpecProto::CopyFrom(const TensorSpecProto& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.TensorSpecProto)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.TensorSpecProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -8895,20 +8808,20 @@ void TensorSpecProto::InternalSwap(TensorSpecProto* other) {
 
 class BoundedTensorSpecProto::_Internal {
  public:
-  static const ::DRPB::DATA::TensorShapeProto& shape(const BoundedTensorSpecProto* msg);
-  static const ::DRPB::DATA::TensorProto& minimum(const BoundedTensorSpecProto* msg);
-  static const ::DRPB::DATA::TensorProto& maximum(const BoundedTensorSpecProto* msg);
+  static const ::DRPB::TensorShapeProto& shape(const BoundedTensorSpecProto* msg);
+  static const ::DRPB::TensorProto& minimum(const BoundedTensorSpecProto* msg);
+  static const ::DRPB::TensorProto& maximum(const BoundedTensorSpecProto* msg);
 };
 
-const ::DRPB::DATA::TensorShapeProto&
+const ::DRPB::TensorShapeProto&
 BoundedTensorSpecProto::_Internal::shape(const BoundedTensorSpecProto* msg) {
   return *msg->shape_;
 }
-const ::DRPB::DATA::TensorProto&
+const ::DRPB::TensorProto&
 BoundedTensorSpecProto::_Internal::minimum(const BoundedTensorSpecProto* msg) {
   return *msg->minimum_;
 }
-const ::DRPB::DATA::TensorProto&
+const ::DRPB::TensorProto&
 BoundedTensorSpecProto::_Internal::maximum(const BoundedTensorSpecProto* msg) {
   return *msg->maximum_;
 }
@@ -8916,7 +8829,7 @@ BoundedTensorSpecProto::BoundedTensorSpecProto(::PROTOBUF_NAMESPACE_ID::Arena* a
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.BoundedTensorSpecProto)
+  // @@protoc_insertion_point(arena_constructor:DRPB.BoundedTensorSpecProto)
 }
 BoundedTensorSpecProto::BoundedTensorSpecProto(const BoundedTensorSpecProto& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -8927,22 +8840,22 @@ BoundedTensorSpecProto::BoundedTensorSpecProto(const BoundedTensorSpecProto& fro
       GetArena());
   }
   if (from._internal_has_shape()) {
-    shape_ = new ::DRPB::DATA::TensorShapeProto(*from.shape_);
+    shape_ = new ::DRPB::TensorShapeProto(*from.shape_);
   } else {
     shape_ = nullptr;
   }
   if (from._internal_has_minimum()) {
-    minimum_ = new ::DRPB::DATA::TensorProto(*from.minimum_);
+    minimum_ = new ::DRPB::TensorProto(*from.minimum_);
   } else {
     minimum_ = nullptr;
   }
   if (from._internal_has_maximum()) {
-    maximum_ = new ::DRPB::DATA::TensorProto(*from.maximum_);
+    maximum_ = new ::DRPB::TensorProto(*from.maximum_);
   } else {
     maximum_ = nullptr;
   }
   dtype_ = from.dtype_;
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.BoundedTensorSpecProto)
+  // @@protoc_insertion_point(copy_constructor:DRPB.BoundedTensorSpecProto)
 }
 
 void BoundedTensorSpecProto::SharedCtor() {
@@ -8954,7 +8867,7 @@ name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlready
 }
 
 BoundedTensorSpecProto::~BoundedTensorSpecProto() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.BoundedTensorSpecProto)
+  // @@protoc_insertion_point(destructor:DRPB.BoundedTensorSpecProto)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -8978,7 +8891,7 @@ void BoundedTensorSpecProto::SetCachedSize(int size) const {
 }
 
 void BoundedTensorSpecProto::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.BoundedTensorSpecProto)
+// @@protoc_insertion_point(message_clear_start:DRPB.BoundedTensorSpecProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -9012,33 +8925,33 @@ const char* BoundedTensorSpecProto::_InternalParse(const char* ptr, ::PROTOBUF_N
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           auto str = _internal_mutable_name();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.BoundedTensorSpecProto.name"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.BoundedTensorSpecProto.name"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.TensorShapeProto shape = 2;
+      // .DRPB.TensorShapeProto shape = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_shape(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.DataType dtype = 3;
+      // .DRPB.DataType dtype = 3;
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
           ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-          _internal_set_dtype(static_cast<::DRPB::DATA::DataType>(val));
+          _internal_set_dtype(static_cast<::DRPB::DataType>(val));
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.TensorProto minimum = 4;
+      // .DRPB.TensorProto minimum = 4;
       case 4:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
           ptr = ctx->ParseMessage(_internal_mutable_minimum(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.TensorProto maximum = 5;
+      // .DRPB.TensorProto maximum = 5;
       case 5:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
           ptr = ctx->ParseMessage(_internal_mutable_maximum(), ptr);
@@ -9069,7 +8982,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* BoundedTensorSpecProto::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.BoundedTensorSpecProto)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.BoundedTensorSpecProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -9078,12 +8991,12 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_name().data(), static_cast<int>(this->_internal_name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.BoundedTensorSpecProto.name");
+      "DRPB.BoundedTensorSpecProto.name");
     target = stream->WriteStringMaybeAliased(
         1, this->_internal_name(), target);
   }
 
-  // .DRPB.DATA.TensorShapeProto shape = 2;
+  // .DRPB.TensorShapeProto shape = 2;
   if (this->has_shape()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -9091,14 +9004,14 @@ failure:
         2, _Internal::shape(this), target, stream);
   }
 
-  // .DRPB.DATA.DataType dtype = 3;
+  // .DRPB.DataType dtype = 3;
   if (this->dtype() != 0) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
       3, this->_internal_dtype(), target);
   }
 
-  // .DRPB.DATA.TensorProto minimum = 4;
+  // .DRPB.TensorProto minimum = 4;
   if (this->has_minimum()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -9106,7 +9019,7 @@ failure:
         4, _Internal::minimum(this), target, stream);
   }
 
-  // .DRPB.DATA.TensorProto maximum = 5;
+  // .DRPB.TensorProto maximum = 5;
   if (this->has_maximum()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -9118,12 +9031,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.BoundedTensorSpecProto)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.BoundedTensorSpecProto)
   return target;
 }
 
 size_t BoundedTensorSpecProto::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.BoundedTensorSpecProto)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.BoundedTensorSpecProto)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -9137,28 +9050,28 @@ size_t BoundedTensorSpecProto::ByteSizeLong() const {
         this->_internal_name());
   }
 
-  // .DRPB.DATA.TensorShapeProto shape = 2;
+  // .DRPB.TensorShapeProto shape = 2;
   if (this->has_shape()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *shape_);
   }
 
-  // .DRPB.DATA.TensorProto minimum = 4;
+  // .DRPB.TensorProto minimum = 4;
   if (this->has_minimum()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *minimum_);
   }
 
-  // .DRPB.DATA.TensorProto maximum = 5;
+  // .DRPB.TensorProto maximum = 5;
   if (this->has_maximum()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *maximum_);
   }
 
-  // .DRPB.DATA.DataType dtype = 3;
+  // .DRPB.DataType dtype = 3;
   if (this->dtype() != 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_dtype());
@@ -9174,22 +9087,22 @@ size_t BoundedTensorSpecProto::ByteSizeLong() const {
 }
 
 void BoundedTensorSpecProto::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.BoundedTensorSpecProto)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.BoundedTensorSpecProto)
   GOOGLE_DCHECK_NE(&from, this);
   const BoundedTensorSpecProto* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<BoundedTensorSpecProto>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.BoundedTensorSpecProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.BoundedTensorSpecProto)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.BoundedTensorSpecProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.BoundedTensorSpecProto)
     MergeFrom(*source);
   }
 }
 
 void BoundedTensorSpecProto::MergeFrom(const BoundedTensorSpecProto& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.BoundedTensorSpecProto)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.BoundedTensorSpecProto)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -9199,13 +9112,13 @@ void BoundedTensorSpecProto::MergeFrom(const BoundedTensorSpecProto& from) {
     _internal_set_name(from._internal_name());
   }
   if (from.has_shape()) {
-    _internal_mutable_shape()->::DRPB::DATA::TensorShapeProto::MergeFrom(from._internal_shape());
+    _internal_mutable_shape()->::DRPB::TensorShapeProto::MergeFrom(from._internal_shape());
   }
   if (from.has_minimum()) {
-    _internal_mutable_minimum()->::DRPB::DATA::TensorProto::MergeFrom(from._internal_minimum());
+    _internal_mutable_minimum()->::DRPB::TensorProto::MergeFrom(from._internal_minimum());
   }
   if (from.has_maximum()) {
-    _internal_mutable_maximum()->::DRPB::DATA::TensorProto::MergeFrom(from._internal_maximum());
+    _internal_mutable_maximum()->::DRPB::TensorProto::MergeFrom(from._internal_maximum());
   }
   if (from.dtype() != 0) {
     _internal_set_dtype(from._internal_dtype());
@@ -9213,14 +9126,14 @@ void BoundedTensorSpecProto::MergeFrom(const BoundedTensorSpecProto& from) {
 }
 
 void BoundedTensorSpecProto::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.BoundedTensorSpecProto)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.BoundedTensorSpecProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void BoundedTensorSpecProto::CopyFrom(const BoundedTensorSpecProto& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.BoundedTensorSpecProto)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.BoundedTensorSpecProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -9251,10 +9164,10 @@ void BoundedTensorSpecProto::InternalSwap(BoundedTensorSpecProto* other) {
 
 class TypeSpecProto::_Internal {
  public:
-  static const ::DRPB::DATA::StructuredValue& type_state(const TypeSpecProto* msg);
+  static const ::DRPB::StructuredValue& type_state(const TypeSpecProto* msg);
 };
 
-const ::DRPB::DATA::StructuredValue&
+const ::DRPB::StructuredValue&
 TypeSpecProto::_Internal::type_state(const TypeSpecProto* msg) {
   return *msg->type_state_;
 }
@@ -9262,7 +9175,7 @@ TypeSpecProto::TypeSpecProto(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.TypeSpecProto)
+  // @@protoc_insertion_point(arena_constructor:DRPB.TypeSpecProto)
 }
 TypeSpecProto::TypeSpecProto(const TypeSpecProto& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -9273,12 +9186,12 @@ TypeSpecProto::TypeSpecProto(const TypeSpecProto& from)
       GetArena());
   }
   if (from._internal_has_type_state()) {
-    type_state_ = new ::DRPB::DATA::StructuredValue(*from.type_state_);
+    type_state_ = new ::DRPB::StructuredValue(*from.type_state_);
   } else {
     type_state_ = nullptr;
   }
   type_spec_class_ = from.type_spec_class_;
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.TypeSpecProto)
+  // @@protoc_insertion_point(copy_constructor:DRPB.TypeSpecProto)
 }
 
 void TypeSpecProto::SharedCtor() {
@@ -9290,7 +9203,7 @@ type_spec_class_name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEm
 }
 
 TypeSpecProto::~TypeSpecProto() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.TypeSpecProto)
+  // @@protoc_insertion_point(destructor:DRPB.TypeSpecProto)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -9312,7 +9225,7 @@ void TypeSpecProto::SetCachedSize(int size) const {
 }
 
 void TypeSpecProto::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.TypeSpecProto)
+// @@protoc_insertion_point(message_clear_start:DRPB.TypeSpecProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -9333,15 +9246,15 @@ const char* TypeSpecProto::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // .DRPB.DATA.TypeSpecProto.TypeSpecClass type_spec_class = 1;
+      // .DRPB.TypeSpecProto.TypeSpecClass type_spec_class = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
           ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-          _internal_set_type_spec_class(static_cast<::DRPB::DATA::TypeSpecProto_TypeSpecClass>(val));
+          _internal_set_type_spec_class(static_cast<::DRPB::TypeSpecProto_TypeSpecClass>(val));
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.StructuredValue type_state = 2;
+      // .DRPB.StructuredValue type_state = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_type_state(), ptr);
@@ -9353,7 +9266,7 @@ const char* TypeSpecProto::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
           auto str = _internal_mutable_type_spec_class_name();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.DATA.TypeSpecProto.type_spec_class_name"));
+          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DRPB.TypeSpecProto.type_spec_class_name"));
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -9381,18 +9294,18 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* TypeSpecProto::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.TypeSpecProto)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.TypeSpecProto)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // .DRPB.DATA.TypeSpecProto.TypeSpecClass type_spec_class = 1;
+  // .DRPB.TypeSpecProto.TypeSpecClass type_spec_class = 1;
   if (this->type_spec_class() != 0) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
       1, this->_internal_type_spec_class(), target);
   }
 
-  // .DRPB.DATA.StructuredValue type_state = 2;
+  // .DRPB.StructuredValue type_state = 2;
   if (this->has_type_state()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -9405,7 +9318,7 @@ failure:
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_type_spec_class_name().data(), static_cast<int>(this->_internal_type_spec_class_name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "DRPB.DATA.TypeSpecProto.type_spec_class_name");
+      "DRPB.TypeSpecProto.type_spec_class_name");
     target = stream->WriteStringMaybeAliased(
         3, this->_internal_type_spec_class_name(), target);
   }
@@ -9414,12 +9327,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.TypeSpecProto)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.TypeSpecProto)
   return target;
 }
 
 size_t TypeSpecProto::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.TypeSpecProto)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.TypeSpecProto)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -9433,14 +9346,14 @@ size_t TypeSpecProto::ByteSizeLong() const {
         this->_internal_type_spec_class_name());
   }
 
-  // .DRPB.DATA.StructuredValue type_state = 2;
+  // .DRPB.StructuredValue type_state = 2;
   if (this->has_type_state()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *type_state_);
   }
 
-  // .DRPB.DATA.TypeSpecProto.TypeSpecClass type_spec_class = 1;
+  // .DRPB.TypeSpecProto.TypeSpecClass type_spec_class = 1;
   if (this->type_spec_class() != 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_type_spec_class());
@@ -9456,22 +9369,22 @@ size_t TypeSpecProto::ByteSizeLong() const {
 }
 
 void TypeSpecProto::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.TypeSpecProto)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.TypeSpecProto)
   GOOGLE_DCHECK_NE(&from, this);
   const TypeSpecProto* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<TypeSpecProto>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.TypeSpecProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.TypeSpecProto)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.TypeSpecProto)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.TypeSpecProto)
     MergeFrom(*source);
   }
 }
 
 void TypeSpecProto::MergeFrom(const TypeSpecProto& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.TypeSpecProto)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.TypeSpecProto)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -9481,7 +9394,7 @@ void TypeSpecProto::MergeFrom(const TypeSpecProto& from) {
     _internal_set_type_spec_class_name(from._internal_type_spec_class_name());
   }
   if (from.has_type_state()) {
-    _internal_mutable_type_state()->::DRPB::DATA::StructuredValue::MergeFrom(from._internal_type_state());
+    _internal_mutable_type_state()->::DRPB::StructuredValue::MergeFrom(from._internal_type_state());
   }
   if (from.type_spec_class() != 0) {
     _internal_set_type_spec_class(from._internal_type_spec_class());
@@ -9489,14 +9402,14 @@ void TypeSpecProto::MergeFrom(const TypeSpecProto& from) {
 }
 
 void TypeSpecProto::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.TypeSpecProto)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.TypeSpecProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void TypeSpecProto::CopyFrom(const TypeSpecProto& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.TypeSpecProto)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.TypeSpecProto)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -9555,7 +9468,7 @@ RateLimiterCallStats::RateLimiterCallStats(::PROTOBUF_NAMESPACE_ID::Arena* arena
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.RateLimiterCallStats)
+  // @@protoc_insertion_point(arena_constructor:DRPB.RateLimiterCallStats)
 }
 RateLimiterCallStats::RateLimiterCallStats(const RateLimiterCallStats& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -9573,7 +9486,7 @@ RateLimiterCallStats::RateLimiterCallStats(const RateLimiterCallStats& from)
   ::memcpy(&pending_, &from.pending_,
     static_cast<size_t>(reinterpret_cast<char*>(&limited_) -
     reinterpret_cast<char*>(&pending_)) + sizeof(limited_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.RateLimiterCallStats)
+  // @@protoc_insertion_point(copy_constructor:DRPB.RateLimiterCallStats)
 }
 
 void RateLimiterCallStats::SharedCtor() {
@@ -9584,7 +9497,7 @@ void RateLimiterCallStats::SharedCtor() {
 }
 
 RateLimiterCallStats::~RateLimiterCallStats() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.RateLimiterCallStats)
+  // @@protoc_insertion_point(destructor:DRPB.RateLimiterCallStats)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -9606,7 +9519,7 @@ void RateLimiterCallStats::SetCachedSize(int size) const {
 }
 
 void RateLimiterCallStats::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.RateLimiterCallStats)
+// @@protoc_insertion_point(message_clear_start:DRPB.RateLimiterCallStats)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -9691,7 +9604,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* RateLimiterCallStats::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.RateLimiterCallStats)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.RateLimiterCallStats)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -9733,12 +9646,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.RateLimiterCallStats)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.RateLimiterCallStats)
   return target;
 }
 
 size_t RateLimiterCallStats::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.RateLimiterCallStats)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.RateLimiterCallStats)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -9790,22 +9703,22 @@ size_t RateLimiterCallStats::ByteSizeLong() const {
 }
 
 void RateLimiterCallStats::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.RateLimiterCallStats)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.RateLimiterCallStats)
   GOOGLE_DCHECK_NE(&from, this);
   const RateLimiterCallStats* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<RateLimiterCallStats>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.RateLimiterCallStats)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.RateLimiterCallStats)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.RateLimiterCallStats)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.RateLimiterCallStats)
     MergeFrom(*source);
   }
 }
 
 void RateLimiterCallStats::MergeFrom(const RateLimiterCallStats& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.RateLimiterCallStats)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.RateLimiterCallStats)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -9829,14 +9742,14 @@ void RateLimiterCallStats::MergeFrom(const RateLimiterCallStats& from) {
 }
 
 void RateLimiterCallStats::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.RateLimiterCallStats)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.RateLimiterCallStats)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void RateLimiterCallStats::CopyFrom(const RateLimiterCallStats& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.RateLimiterCallStats)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.RateLimiterCallStats)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -9866,15 +9779,15 @@ void RateLimiterCallStats::InternalSwap(RateLimiterCallStats* other) {
 
 class RateLimiterInfo::_Internal {
  public:
-  static const ::DRPB::DATA::RateLimiterCallStats& insert_stats(const RateLimiterInfo* msg);
-  static const ::DRPB::DATA::RateLimiterCallStats& sample_stats(const RateLimiterInfo* msg);
+  static const ::DRPB::RateLimiterCallStats& insert_stats(const RateLimiterInfo* msg);
+  static const ::DRPB::RateLimiterCallStats& sample_stats(const RateLimiterInfo* msg);
 };
 
-const ::DRPB::DATA::RateLimiterCallStats&
+const ::DRPB::RateLimiterCallStats&
 RateLimiterInfo::_Internal::insert_stats(const RateLimiterInfo* msg) {
   return *msg->insert_stats_;
 }
-const ::DRPB::DATA::RateLimiterCallStats&
+const ::DRPB::RateLimiterCallStats&
 RateLimiterInfo::_Internal::sample_stats(const RateLimiterInfo* msg) {
   return *msg->sample_stats_;
 }
@@ -9882,25 +9795,25 @@ RateLimiterInfo::RateLimiterInfo(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.RateLimiterInfo)
+  // @@protoc_insertion_point(arena_constructor:DRPB.RateLimiterInfo)
 }
 RateLimiterInfo::RateLimiterInfo(const RateLimiterInfo& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   if (from._internal_has_insert_stats()) {
-    insert_stats_ = new ::DRPB::DATA::RateLimiterCallStats(*from.insert_stats_);
+    insert_stats_ = new ::DRPB::RateLimiterCallStats(*from.insert_stats_);
   } else {
     insert_stats_ = nullptr;
   }
   if (from._internal_has_sample_stats()) {
-    sample_stats_ = new ::DRPB::DATA::RateLimiterCallStats(*from.sample_stats_);
+    sample_stats_ = new ::DRPB::RateLimiterCallStats(*from.sample_stats_);
   } else {
     sample_stats_ = nullptr;
   }
   ::memcpy(&samples_per_insert_, &from.samples_per_insert_,
     static_cast<size_t>(reinterpret_cast<char*>(&min_size_to_sample_) -
     reinterpret_cast<char*>(&samples_per_insert_)) + sizeof(min_size_to_sample_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.RateLimiterInfo)
+  // @@protoc_insertion_point(copy_constructor:DRPB.RateLimiterInfo)
 }
 
 void RateLimiterInfo::SharedCtor() {
@@ -9911,7 +9824,7 @@ void RateLimiterInfo::SharedCtor() {
 }
 
 RateLimiterInfo::~RateLimiterInfo() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.RateLimiterInfo)
+  // @@protoc_insertion_point(destructor:DRPB.RateLimiterInfo)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -9933,7 +9846,7 @@ void RateLimiterInfo::SetCachedSize(int size) const {
 }
 
 void RateLimiterInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.RateLimiterInfo)
+// @@protoc_insertion_point(message_clear_start:DRPB.RateLimiterInfo)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -9987,14 +9900,14 @@ const char* RateLimiterInfo::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.RateLimiterCallStats insert_stats = 5;
+      // .DRPB.RateLimiterCallStats insert_stats = 5;
       case 5:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
           ptr = ctx->ParseMessage(_internal_mutable_insert_stats(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.RateLimiterCallStats sample_stats = 6;
+      // .DRPB.RateLimiterCallStats sample_stats = 6;
       case 6:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
           ptr = ctx->ParseMessage(_internal_mutable_sample_stats(), ptr);
@@ -10025,7 +9938,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* RateLimiterInfo::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.RateLimiterInfo)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.RateLimiterInfo)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -10053,7 +9966,7 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt64ToArray(4, this->_internal_min_size_to_sample(), target);
   }
 
-  // .DRPB.DATA.RateLimiterCallStats insert_stats = 5;
+  // .DRPB.RateLimiterCallStats insert_stats = 5;
   if (this->has_insert_stats()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -10061,7 +9974,7 @@ failure:
         5, _Internal::insert_stats(this), target, stream);
   }
 
-  // .DRPB.DATA.RateLimiterCallStats sample_stats = 6;
+  // .DRPB.RateLimiterCallStats sample_stats = 6;
   if (this->has_sample_stats()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -10073,26 +9986,26 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.RateLimiterInfo)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.RateLimiterInfo)
   return target;
 }
 
 size_t RateLimiterInfo::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.RateLimiterInfo)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.RateLimiterInfo)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // .DRPB.DATA.RateLimiterCallStats insert_stats = 5;
+  // .DRPB.RateLimiterCallStats insert_stats = 5;
   if (this->has_insert_stats()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *insert_stats_);
   }
 
-  // .DRPB.DATA.RateLimiterCallStats sample_stats = 6;
+  // .DRPB.RateLimiterCallStats sample_stats = 6;
   if (this->has_sample_stats()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -10131,32 +10044,32 @@ size_t RateLimiterInfo::ByteSizeLong() const {
 }
 
 void RateLimiterInfo::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.RateLimiterInfo)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.RateLimiterInfo)
   GOOGLE_DCHECK_NE(&from, this);
   const RateLimiterInfo* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<RateLimiterInfo>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.RateLimiterInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.RateLimiterInfo)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.RateLimiterInfo)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.RateLimiterInfo)
     MergeFrom(*source);
   }
 }
 
 void RateLimiterInfo::MergeFrom(const RateLimiterInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.RateLimiterInfo)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.RateLimiterInfo)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
   if (from.has_insert_stats()) {
-    _internal_mutable_insert_stats()->::DRPB::DATA::RateLimiterCallStats::MergeFrom(from._internal_insert_stats());
+    _internal_mutable_insert_stats()->::DRPB::RateLimiterCallStats::MergeFrom(from._internal_insert_stats());
   }
   if (from.has_sample_stats()) {
-    _internal_mutable_sample_stats()->::DRPB::DATA::RateLimiterCallStats::MergeFrom(from._internal_sample_stats());
+    _internal_mutable_sample_stats()->::DRPB::RateLimiterCallStats::MergeFrom(from._internal_sample_stats());
   }
   if (!(from.samples_per_insert() <= 0 && from.samples_per_insert() >= 0)) {
     _internal_set_samples_per_insert(from._internal_samples_per_insert());
@@ -10173,14 +10086,14 @@ void RateLimiterInfo::MergeFrom(const RateLimiterInfo& from) {
 }
 
 void RateLimiterInfo::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.RateLimiterInfo)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.RateLimiterInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void RateLimiterInfo::CopyFrom(const RateLimiterInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.RateLimiterInfo)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.RateLimiterInfo)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -10216,13 +10129,13 @@ KeyDistributionOptions_Prioritized::KeyDistributionOptions_Prioritized(::PROTOBU
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.KeyDistributionOptions.Prioritized)
+  // @@protoc_insertion_point(arena_constructor:DRPB.KeyDistributionOptions.Prioritized)
 }
 KeyDistributionOptions_Prioritized::KeyDistributionOptions_Prioritized(const KeyDistributionOptions_Prioritized& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   priority_exponent_ = from.priority_exponent_;
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.KeyDistributionOptions.Prioritized)
+  // @@protoc_insertion_point(copy_constructor:DRPB.KeyDistributionOptions.Prioritized)
 }
 
 void KeyDistributionOptions_Prioritized::SharedCtor() {
@@ -10230,7 +10143,7 @@ priority_exponent_ = 0;
 }
 
 KeyDistributionOptions_Prioritized::~KeyDistributionOptions_Prioritized() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.KeyDistributionOptions.Prioritized)
+  // @@protoc_insertion_point(destructor:DRPB.KeyDistributionOptions.Prioritized)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -10250,7 +10163,7 @@ void KeyDistributionOptions_Prioritized::SetCachedSize(int size) const {
 }
 
 void KeyDistributionOptions_Prioritized::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.KeyDistributionOptions.Prioritized)
+// @@protoc_insertion_point(message_clear_start:DRPB.KeyDistributionOptions.Prioritized)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -10297,7 +10210,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* KeyDistributionOptions_Prioritized::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.KeyDistributionOptions.Prioritized)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.KeyDistributionOptions.Prioritized)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -10311,12 +10224,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.KeyDistributionOptions.Prioritized)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.KeyDistributionOptions.Prioritized)
   return target;
 }
 
 size_t KeyDistributionOptions_Prioritized::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.KeyDistributionOptions.Prioritized)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.KeyDistributionOptions.Prioritized)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -10338,22 +10251,22 @@ size_t KeyDistributionOptions_Prioritized::ByteSizeLong() const {
 }
 
 void KeyDistributionOptions_Prioritized::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.KeyDistributionOptions.Prioritized)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.KeyDistributionOptions.Prioritized)
   GOOGLE_DCHECK_NE(&from, this);
   const KeyDistributionOptions_Prioritized* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<KeyDistributionOptions_Prioritized>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.KeyDistributionOptions.Prioritized)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.KeyDistributionOptions.Prioritized)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.KeyDistributionOptions.Prioritized)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.KeyDistributionOptions.Prioritized)
     MergeFrom(*source);
   }
 }
 
 void KeyDistributionOptions_Prioritized::MergeFrom(const KeyDistributionOptions_Prioritized& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.KeyDistributionOptions.Prioritized)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.KeyDistributionOptions.Prioritized)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -10365,14 +10278,14 @@ void KeyDistributionOptions_Prioritized::MergeFrom(const KeyDistributionOptions_
 }
 
 void KeyDistributionOptions_Prioritized::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.KeyDistributionOptions.Prioritized)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.KeyDistributionOptions.Prioritized)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void KeyDistributionOptions_Prioritized::CopyFrom(const KeyDistributionOptions_Prioritized& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.KeyDistributionOptions.Prioritized)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.KeyDistributionOptions.Prioritized)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -10403,13 +10316,13 @@ KeyDistributionOptions_Heap::KeyDistributionOptions_Heap(::PROTOBUF_NAMESPACE_ID
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.KeyDistributionOptions.Heap)
+  // @@protoc_insertion_point(arena_constructor:DRPB.KeyDistributionOptions.Heap)
 }
 KeyDistributionOptions_Heap::KeyDistributionOptions_Heap(const KeyDistributionOptions_Heap& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   min_heap_ = from.min_heap_;
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.KeyDistributionOptions.Heap)
+  // @@protoc_insertion_point(copy_constructor:DRPB.KeyDistributionOptions.Heap)
 }
 
 void KeyDistributionOptions_Heap::SharedCtor() {
@@ -10417,7 +10330,7 @@ min_heap_ = false;
 }
 
 KeyDistributionOptions_Heap::~KeyDistributionOptions_Heap() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.KeyDistributionOptions.Heap)
+  // @@protoc_insertion_point(destructor:DRPB.KeyDistributionOptions.Heap)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -10437,7 +10350,7 @@ void KeyDistributionOptions_Heap::SetCachedSize(int size) const {
 }
 
 void KeyDistributionOptions_Heap::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.KeyDistributionOptions.Heap)
+// @@protoc_insertion_point(message_clear_start:DRPB.KeyDistributionOptions.Heap)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -10484,7 +10397,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* KeyDistributionOptions_Heap::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.KeyDistributionOptions.Heap)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.KeyDistributionOptions.Heap)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -10498,12 +10411,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.KeyDistributionOptions.Heap)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.KeyDistributionOptions.Heap)
   return target;
 }
 
 size_t KeyDistributionOptions_Heap::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.KeyDistributionOptions.Heap)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.KeyDistributionOptions.Heap)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -10525,22 +10438,22 @@ size_t KeyDistributionOptions_Heap::ByteSizeLong() const {
 }
 
 void KeyDistributionOptions_Heap::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.KeyDistributionOptions.Heap)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.KeyDistributionOptions.Heap)
   GOOGLE_DCHECK_NE(&from, this);
   const KeyDistributionOptions_Heap* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<KeyDistributionOptions_Heap>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.KeyDistributionOptions.Heap)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.KeyDistributionOptions.Heap)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.KeyDistributionOptions.Heap)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.KeyDistributionOptions.Heap)
     MergeFrom(*source);
   }
 }
 
 void KeyDistributionOptions_Heap::MergeFrom(const KeyDistributionOptions_Heap& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.KeyDistributionOptions.Heap)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.KeyDistributionOptions.Heap)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -10552,14 +10465,14 @@ void KeyDistributionOptions_Heap::MergeFrom(const KeyDistributionOptions_Heap& f
 }
 
 void KeyDistributionOptions_Heap::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.KeyDistributionOptions.Heap)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.KeyDistributionOptions.Heap)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void KeyDistributionOptions_Heap::CopyFrom(const KeyDistributionOptions_Heap& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.KeyDistributionOptions.Heap)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.KeyDistributionOptions.Heap)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -10584,19 +10497,19 @@ void KeyDistributionOptions_Heap::InternalSwap(KeyDistributionOptions_Heap* othe
 
 class KeyDistributionOptions::_Internal {
  public:
-  static const ::DRPB::DATA::KeyDistributionOptions_Prioritized& prioritized(const KeyDistributionOptions* msg);
-  static const ::DRPB::DATA::KeyDistributionOptions_Heap& heap(const KeyDistributionOptions* msg);
+  static const ::DRPB::KeyDistributionOptions_Prioritized& prioritized(const KeyDistributionOptions* msg);
+  static const ::DRPB::KeyDistributionOptions_Heap& heap(const KeyDistributionOptions* msg);
 };
 
-const ::DRPB::DATA::KeyDistributionOptions_Prioritized&
+const ::DRPB::KeyDistributionOptions_Prioritized&
 KeyDistributionOptions::_Internal::prioritized(const KeyDistributionOptions* msg) {
   return *msg->distribution_.prioritized_;
 }
-const ::DRPB::DATA::KeyDistributionOptions_Heap&
+const ::DRPB::KeyDistributionOptions_Heap&
 KeyDistributionOptions::_Internal::heap(const KeyDistributionOptions* msg) {
   return *msg->distribution_.heap_;
 }
-void KeyDistributionOptions::set_allocated_prioritized(::DRPB::DATA::KeyDistributionOptions_Prioritized* prioritized) {
+void KeyDistributionOptions::set_allocated_prioritized(::DRPB::KeyDistributionOptions_Prioritized* prioritized) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArena();
   clear_distribution();
   if (prioritized) {
@@ -10609,9 +10522,9 @@ void KeyDistributionOptions::set_allocated_prioritized(::DRPB::DATA::KeyDistribu
     set_has_prioritized();
     distribution_.prioritized_ = prioritized;
   }
-  // @@protoc_insertion_point(field_set_allocated:DRPB.DATA.KeyDistributionOptions.prioritized)
+  // @@protoc_insertion_point(field_set_allocated:DRPB.KeyDistributionOptions.prioritized)
 }
-void KeyDistributionOptions::set_allocated_heap(::DRPB::DATA::KeyDistributionOptions_Heap* heap) {
+void KeyDistributionOptions::set_allocated_heap(::DRPB::KeyDistributionOptions_Heap* heap) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArena();
   clear_distribution();
   if (heap) {
@@ -10624,13 +10537,13 @@ void KeyDistributionOptions::set_allocated_heap(::DRPB::DATA::KeyDistributionOpt
     set_has_heap();
     distribution_.heap_ = heap;
   }
-  // @@protoc_insertion_point(field_set_allocated:DRPB.DATA.KeyDistributionOptions.heap)
+  // @@protoc_insertion_point(field_set_allocated:DRPB.KeyDistributionOptions.heap)
 }
 KeyDistributionOptions::KeyDistributionOptions(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.KeyDistributionOptions)
+  // @@protoc_insertion_point(arena_constructor:DRPB.KeyDistributionOptions)
 }
 KeyDistributionOptions::KeyDistributionOptions(const KeyDistributionOptions& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -10647,11 +10560,11 @@ KeyDistributionOptions::KeyDistributionOptions(const KeyDistributionOptions& fro
       break;
     }
     case kPrioritized: {
-      _internal_mutable_prioritized()->::DRPB::DATA::KeyDistributionOptions_Prioritized::MergeFrom(from._internal_prioritized());
+      _internal_mutable_prioritized()->::DRPB::KeyDistributionOptions_Prioritized::MergeFrom(from._internal_prioritized());
       break;
     }
     case kHeap: {
-      _internal_mutable_heap()->::DRPB::DATA::KeyDistributionOptions_Heap::MergeFrom(from._internal_heap());
+      _internal_mutable_heap()->::DRPB::KeyDistributionOptions_Heap::MergeFrom(from._internal_heap());
       break;
     }
     case kLifo: {
@@ -10662,7 +10575,7 @@ KeyDistributionOptions::KeyDistributionOptions(const KeyDistributionOptions& fro
       break;
     }
   }
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.KeyDistributionOptions)
+  // @@protoc_insertion_point(copy_constructor:DRPB.KeyDistributionOptions)
 }
 
 void KeyDistributionOptions::SharedCtor() {
@@ -10671,7 +10584,7 @@ clear_has_distribution();
 }
 
 KeyDistributionOptions::~KeyDistributionOptions() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.KeyDistributionOptions)
+  // @@protoc_insertion_point(destructor:DRPB.KeyDistributionOptions)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -10694,7 +10607,7 @@ void KeyDistributionOptions::SetCachedSize(int size) const {
 }
 
 void KeyDistributionOptions::clear_distribution() {
-// @@protoc_insertion_point(one_of_clear_start:DRPB.DATA.KeyDistributionOptions)
+// @@protoc_insertion_point(one_of_clear_start:DRPB.KeyDistributionOptions)
   switch (distribution_case()) {
     case kFifo: {
       // No need to clear
@@ -10729,7 +10642,7 @@ void KeyDistributionOptions::clear_distribution() {
 
 
 void KeyDistributionOptions::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.KeyDistributionOptions)
+// @@protoc_insertion_point(message_clear_start:DRPB.KeyDistributionOptions)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -10760,14 +10673,14 @@ const char* KeyDistributionOptions::_InternalParse(const char* ptr, ::PROTOBUF_N
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.KeyDistributionOptions.Prioritized prioritized = 3;
+      // .DRPB.KeyDistributionOptions.Prioritized prioritized = 3;
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
           ptr = ctx->ParseMessage(_internal_mutable_prioritized(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .DRPB.DATA.KeyDistributionOptions.Heap heap = 4;
+      // .DRPB.KeyDistributionOptions.Heap heap = 4;
       case 4:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
           ptr = ctx->ParseMessage(_internal_mutable_heap(), ptr);
@@ -10812,7 +10725,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* KeyDistributionOptions::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.KeyDistributionOptions)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.KeyDistributionOptions)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -10828,7 +10741,7 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBoolToArray(2, this->_internal_uniform(), target);
   }
 
-  // .DRPB.DATA.KeyDistributionOptions.Prioritized prioritized = 3;
+  // .DRPB.KeyDistributionOptions.Prioritized prioritized = 3;
   if (_internal_has_prioritized()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -10836,7 +10749,7 @@ failure:
         3, _Internal::prioritized(this), target, stream);
   }
 
-  // .DRPB.DATA.KeyDistributionOptions.Heap heap = 4;
+  // .DRPB.KeyDistributionOptions.Heap heap = 4;
   if (_internal_has_heap()) {
     target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -10860,12 +10773,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.KeyDistributionOptions)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.KeyDistributionOptions)
   return target;
 }
 
 size_t KeyDistributionOptions::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.KeyDistributionOptions)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.KeyDistributionOptions)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -10888,14 +10801,14 @@ size_t KeyDistributionOptions::ByteSizeLong() const {
       total_size += 1 + 1;
       break;
     }
-    // .DRPB.DATA.KeyDistributionOptions.Prioritized prioritized = 3;
+    // .DRPB.KeyDistributionOptions.Prioritized prioritized = 3;
     case kPrioritized: {
       total_size += 1 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
           *distribution_.prioritized_);
       break;
     }
-    // .DRPB.DATA.KeyDistributionOptions.Heap heap = 4;
+    // .DRPB.KeyDistributionOptions.Heap heap = 4;
     case kHeap: {
       total_size += 1 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -10921,22 +10834,22 @@ size_t KeyDistributionOptions::ByteSizeLong() const {
 }
 
 void KeyDistributionOptions::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.KeyDistributionOptions)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.KeyDistributionOptions)
   GOOGLE_DCHECK_NE(&from, this);
   const KeyDistributionOptions* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<KeyDistributionOptions>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.KeyDistributionOptions)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.KeyDistributionOptions)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.KeyDistributionOptions)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.KeyDistributionOptions)
     MergeFrom(*source);
   }
 }
 
 void KeyDistributionOptions::MergeFrom(const KeyDistributionOptions& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.KeyDistributionOptions)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.KeyDistributionOptions)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -10955,11 +10868,11 @@ void KeyDistributionOptions::MergeFrom(const KeyDistributionOptions& from) {
       break;
     }
     case kPrioritized: {
-      _internal_mutable_prioritized()->::DRPB::DATA::KeyDistributionOptions_Prioritized::MergeFrom(from._internal_prioritized());
+      _internal_mutable_prioritized()->::DRPB::KeyDistributionOptions_Prioritized::MergeFrom(from._internal_prioritized());
       break;
     }
     case kHeap: {
-      _internal_mutable_heap()->::DRPB::DATA::KeyDistributionOptions_Heap::MergeFrom(from._internal_heap());
+      _internal_mutable_heap()->::DRPB::KeyDistributionOptions_Heap::MergeFrom(from._internal_heap());
       break;
     }
     case kLifo: {
@@ -10973,14 +10886,14 @@ void KeyDistributionOptions::MergeFrom(const KeyDistributionOptions& from) {
 }
 
 void KeyDistributionOptions::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.KeyDistributionOptions)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.KeyDistributionOptions)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void KeyDistributionOptions::CopyFrom(const KeyDistributionOptions& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.KeyDistributionOptions)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.KeyDistributionOptions)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -11013,7 +10926,7 @@ Uint128::Uint128(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.Uint128)
+  // @@protoc_insertion_point(arena_constructor:DRPB.Uint128)
 }
 Uint128::Uint128(const Uint128& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -11021,7 +10934,7 @@ Uint128::Uint128(const Uint128& from)
   ::memcpy(&high_, &from.high_,
     static_cast<size_t>(reinterpret_cast<char*>(&low_) -
     reinterpret_cast<char*>(&high_)) + sizeof(low_));
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.Uint128)
+  // @@protoc_insertion_point(copy_constructor:DRPB.Uint128)
 }
 
 void Uint128::SharedCtor() {
@@ -11032,7 +10945,7 @@ void Uint128::SharedCtor() {
 }
 
 Uint128::~Uint128() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.Uint128)
+  // @@protoc_insertion_point(destructor:DRPB.Uint128)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -11052,7 +10965,7 @@ void Uint128::SetCachedSize(int size) const {
 }
 
 void Uint128::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.Uint128)
+// @@protoc_insertion_point(message_clear_start:DRPB.Uint128)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -11108,7 +11021,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* Uint128::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.Uint128)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.Uint128)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -11128,12 +11041,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.Uint128)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.Uint128)
   return target;
 }
 
 size_t Uint128::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.Uint128)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.Uint128)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -11164,22 +11077,22 @@ size_t Uint128::ByteSizeLong() const {
 }
 
 void Uint128::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.Uint128)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.Uint128)
   GOOGLE_DCHECK_NE(&from, this);
   const Uint128* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Uint128>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.Uint128)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.Uint128)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.Uint128)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.Uint128)
     MergeFrom(*source);
   }
 }
 
 void Uint128::MergeFrom(const Uint128& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.Uint128)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.Uint128)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -11194,14 +11107,14 @@ void Uint128::MergeFrom(const Uint128& from) {
 }
 
 void Uint128::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.Uint128)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.Uint128)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void Uint128::CopyFrom(const Uint128& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.Uint128)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.Uint128)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -11237,13 +11150,13 @@ Timeout::Timeout(::PROTOBUF_NAMESPACE_ID::Arena* arena)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
   SharedCtor();
   RegisterArenaDtor(arena);
-  // @@protoc_insertion_point(arena_constructor:DRPB.DATA.Timeout)
+  // @@protoc_insertion_point(arena_constructor:DRPB.Timeout)
 }
 Timeout::Timeout(const Timeout& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   milliseconds_ = from.milliseconds_;
-  // @@protoc_insertion_point(copy_constructor:DRPB.DATA.Timeout)
+  // @@protoc_insertion_point(copy_constructor:DRPB.Timeout)
 }
 
 void Timeout::SharedCtor() {
@@ -11251,7 +11164,7 @@ milliseconds_ = PROTOBUF_LONGLONG(0);
 }
 
 Timeout::~Timeout() {
-  // @@protoc_insertion_point(destructor:DRPB.DATA.Timeout)
+  // @@protoc_insertion_point(destructor:DRPB.Timeout)
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
@@ -11271,7 +11184,7 @@ void Timeout::SetCachedSize(int size) const {
 }
 
 void Timeout::Clear() {
-// @@protoc_insertion_point(message_clear_start:DRPB.DATA.Timeout)
+// @@protoc_insertion_point(message_clear_start:DRPB.Timeout)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -11318,7 +11231,7 @@ failure:
 
 ::PROTOBUF_NAMESPACE_ID::uint8* Timeout::_InternalSerialize(
     ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:DRPB.DATA.Timeout)
+  // @@protoc_insertion_point(serialize_to_array_start:DRPB.Timeout)
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -11332,12 +11245,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:DRPB.DATA.Timeout)
+  // @@protoc_insertion_point(serialize_to_array_end:DRPB.Timeout)
   return target;
 }
 
 size_t Timeout::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:DRPB.DATA.Timeout)
+// @@protoc_insertion_point(message_byte_size_start:DRPB.Timeout)
   size_t total_size = 0;
 
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -11361,22 +11274,22 @@ size_t Timeout::ByteSizeLong() const {
 }
 
 void Timeout::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DRPB.DATA.Timeout)
+// @@protoc_insertion_point(generalized_merge_from_start:DRPB.Timeout)
   GOOGLE_DCHECK_NE(&from, this);
   const Timeout* source =
       ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Timeout>(
           &from);
   if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.DATA.Timeout)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DRPB.Timeout)
     ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.DATA.Timeout)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:DRPB.Timeout)
     MergeFrom(*source);
   }
 }
 
 void Timeout::MergeFrom(const Timeout& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.DATA.Timeout)
+// @@protoc_insertion_point(class_specific_merge_from_start:DRPB.Timeout)
   GOOGLE_DCHECK_NE(&from, this);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
@@ -11388,14 +11301,14 @@ void Timeout::MergeFrom(const Timeout& from) {
 }
 
 void Timeout::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DRPB.DATA.Timeout)
+// @@protoc_insertion_point(generalized_copy_from_start:DRPB.Timeout)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void Timeout::CopyFrom(const Timeout& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.DATA.Timeout)
+// @@protoc_insertion_point(class_specific_copy_from_start:DRPB.Timeout)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -11417,113 +11330,112 @@ void Timeout::InternalSwap(Timeout* other) {
 
 
 // @@protoc_insertion_point(namespace_scope)
-}  // namespace DATA
 }  // namespace DRPB
 PROTOBUF_NAMESPACE_OPEN
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::TensorProto* Arena::CreateMaybeMessage< ::DRPB::DATA::TensorProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::TensorProto >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::TensorProto* Arena::CreateMaybeMessage< ::DRPB::TensorProto >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::TensorProto >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::VariantTensorDataProto* Arena::CreateMaybeMessage< ::DRPB::DATA::VariantTensorDataProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::VariantTensorDataProto >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::VariantTensorDataProto* Arena::CreateMaybeMessage< ::DRPB::VariantTensorDataProto >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::VariantTensorDataProto >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::TensorShapeProto_Dim* Arena::CreateMaybeMessage< ::DRPB::DATA::TensorShapeProto_Dim >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::TensorShapeProto_Dim >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::TensorShapeProto_Dim* Arena::CreateMaybeMessage< ::DRPB::TensorShapeProto_Dim >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::TensorShapeProto_Dim >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::TensorShapeProto* Arena::CreateMaybeMessage< ::DRPB::DATA::TensorShapeProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::TensorShapeProto >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::TensorShapeProto* Arena::CreateMaybeMessage< ::DRPB::TensorShapeProto >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::TensorShapeProto >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::ResourceHandleProto_DtypeAndShape* Arena::CreateMaybeMessage< ::DRPB::DATA::ResourceHandleProto_DtypeAndShape >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::ResourceHandleProto_DtypeAndShape >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::ResourceHandleProto_DtypeAndShape* Arena::CreateMaybeMessage< ::DRPB::ResourceHandleProto_DtypeAndShape >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::ResourceHandleProto_DtypeAndShape >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::ResourceHandleProto* Arena::CreateMaybeMessage< ::DRPB::DATA::ResourceHandleProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::ResourceHandleProto >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::ResourceHandleProto* Arena::CreateMaybeMessage< ::DRPB::ResourceHandleProto >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::ResourceHandleProto >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::ChunkData_Data* Arena::CreateMaybeMessage< ::DRPB::DATA::ChunkData_Data >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::ChunkData_Data >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::ChunkData_Data* Arena::CreateMaybeMessage< ::DRPB::ChunkData_Data >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::ChunkData_Data >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::ChunkData* Arena::CreateMaybeMessage< ::DRPB::DATA::ChunkData >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::ChunkData >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::ChunkData* Arena::CreateMaybeMessage< ::DRPB::ChunkData >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::ChunkData >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::SliceRange* Arena::CreateMaybeMessage< ::DRPB::DATA::SliceRange >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::SliceRange >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::SliceRange* Arena::CreateMaybeMessage< ::DRPB::SliceRange >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::SliceRange >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::SequenceRange* Arena::CreateMaybeMessage< ::DRPB::DATA::SequenceRange >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::SequenceRange >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::SequenceRange* Arena::CreateMaybeMessage< ::DRPB::SequenceRange >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::SequenceRange >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::FlatTrajectory_ChunkSlice* Arena::CreateMaybeMessage< ::DRPB::DATA::FlatTrajectory_ChunkSlice >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::FlatTrajectory_ChunkSlice >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::FlatTrajectory_ChunkSlice* Arena::CreateMaybeMessage< ::DRPB::FlatTrajectory_ChunkSlice >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::FlatTrajectory_ChunkSlice >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::FlatTrajectory_Column* Arena::CreateMaybeMessage< ::DRPB::DATA::FlatTrajectory_Column >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::FlatTrajectory_Column >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::FlatTrajectory_Column* Arena::CreateMaybeMessage< ::DRPB::FlatTrajectory_Column >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::FlatTrajectory_Column >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::FlatTrajectory* Arena::CreateMaybeMessage< ::DRPB::DATA::FlatTrajectory >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::FlatTrajectory >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::FlatTrajectory* Arena::CreateMaybeMessage< ::DRPB::FlatTrajectory >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::FlatTrajectory >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::PrioritizedItem* Arena::CreateMaybeMessage< ::DRPB::DATA::PrioritizedItem >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::PrioritizedItem >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::PrioritizedItem* Arena::CreateMaybeMessage< ::DRPB::PrioritizedItem >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::PrioritizedItem >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::KeyWithPriority* Arena::CreateMaybeMessage< ::DRPB::DATA::KeyWithPriority >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::KeyWithPriority >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::KeyWithPriority* Arena::CreateMaybeMessage< ::DRPB::KeyWithPriority >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::KeyWithPriority >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::SampleInfo* Arena::CreateMaybeMessage< ::DRPB::DATA::SampleInfo >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::SampleInfo >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::SampleInfo* Arena::CreateMaybeMessage< ::DRPB::SampleInfo >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::SampleInfo >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::TableInfo* Arena::CreateMaybeMessage< ::DRPB::DATA::TableInfo >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::TableInfo >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::TableInfo* Arena::CreateMaybeMessage< ::DRPB::TableInfo >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::TableInfo >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::StructuredValue* Arena::CreateMaybeMessage< ::DRPB::DATA::StructuredValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::StructuredValue >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::StructuredValue* Arena::CreateMaybeMessage< ::DRPB::StructuredValue >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::StructuredValue >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::NoneValue* Arena::CreateMaybeMessage< ::DRPB::DATA::NoneValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::NoneValue >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::NoneValue* Arena::CreateMaybeMessage< ::DRPB::NoneValue >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::NoneValue >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::ListValue* Arena::CreateMaybeMessage< ::DRPB::DATA::ListValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::ListValue >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::ListValue* Arena::CreateMaybeMessage< ::DRPB::ListValue >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::ListValue >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::TupleValue* Arena::CreateMaybeMessage< ::DRPB::DATA::TupleValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::TupleValue >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::TupleValue* Arena::CreateMaybeMessage< ::DRPB::TupleValue >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::TupleValue >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::DictValue_FieldsEntry_DoNotUse* Arena::CreateMaybeMessage< ::DRPB::DATA::DictValue_FieldsEntry_DoNotUse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::DictValue_FieldsEntry_DoNotUse >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::DictValue_FieldsEntry_DoNotUse* Arena::CreateMaybeMessage< ::DRPB::DictValue_FieldsEntry_DoNotUse >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::DictValue_FieldsEntry_DoNotUse >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::DictValue* Arena::CreateMaybeMessage< ::DRPB::DATA::DictValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::DictValue >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::DictValue* Arena::CreateMaybeMessage< ::DRPB::DictValue >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::DictValue >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::PairValue* Arena::CreateMaybeMessage< ::DRPB::DATA::PairValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::PairValue >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::PairValue* Arena::CreateMaybeMessage< ::DRPB::PairValue >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::PairValue >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::NamedTupleValue* Arena::CreateMaybeMessage< ::DRPB::DATA::NamedTupleValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::NamedTupleValue >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::NamedTupleValue* Arena::CreateMaybeMessage< ::DRPB::NamedTupleValue >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::NamedTupleValue >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::TensorSpecProto* Arena::CreateMaybeMessage< ::DRPB::DATA::TensorSpecProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::TensorSpecProto >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::TensorSpecProto* Arena::CreateMaybeMessage< ::DRPB::TensorSpecProto >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::TensorSpecProto >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::BoundedTensorSpecProto* Arena::CreateMaybeMessage< ::DRPB::DATA::BoundedTensorSpecProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::BoundedTensorSpecProto >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::BoundedTensorSpecProto* Arena::CreateMaybeMessage< ::DRPB::BoundedTensorSpecProto >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::BoundedTensorSpecProto >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::TypeSpecProto* Arena::CreateMaybeMessage< ::DRPB::DATA::TypeSpecProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::TypeSpecProto >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::TypeSpecProto* Arena::CreateMaybeMessage< ::DRPB::TypeSpecProto >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::TypeSpecProto >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::RateLimiterCallStats* Arena::CreateMaybeMessage< ::DRPB::DATA::RateLimiterCallStats >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::RateLimiterCallStats >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::RateLimiterCallStats* Arena::CreateMaybeMessage< ::DRPB::RateLimiterCallStats >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::RateLimiterCallStats >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::RateLimiterInfo* Arena::CreateMaybeMessage< ::DRPB::DATA::RateLimiterInfo >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::RateLimiterInfo >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::RateLimiterInfo* Arena::CreateMaybeMessage< ::DRPB::RateLimiterInfo >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::RateLimiterInfo >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::KeyDistributionOptions_Prioritized* Arena::CreateMaybeMessage< ::DRPB::DATA::KeyDistributionOptions_Prioritized >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::KeyDistributionOptions_Prioritized >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::KeyDistributionOptions_Prioritized* Arena::CreateMaybeMessage< ::DRPB::KeyDistributionOptions_Prioritized >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::KeyDistributionOptions_Prioritized >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::KeyDistributionOptions_Heap* Arena::CreateMaybeMessage< ::DRPB::DATA::KeyDistributionOptions_Heap >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::KeyDistributionOptions_Heap >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::KeyDistributionOptions_Heap* Arena::CreateMaybeMessage< ::DRPB::KeyDistributionOptions_Heap >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::KeyDistributionOptions_Heap >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::KeyDistributionOptions* Arena::CreateMaybeMessage< ::DRPB::DATA::KeyDistributionOptions >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::KeyDistributionOptions >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::KeyDistributionOptions* Arena::CreateMaybeMessage< ::DRPB::KeyDistributionOptions >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::KeyDistributionOptions >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::Uint128* Arena::CreateMaybeMessage< ::DRPB::DATA::Uint128 >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::Uint128 >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::Uint128* Arena::CreateMaybeMessage< ::DRPB::Uint128 >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::Uint128 >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DRPB::DATA::Timeout* Arena::CreateMaybeMessage< ::DRPB::DATA::Timeout >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::DRPB::DATA::Timeout >(arena);
+template<> PROTOBUF_NOINLINE ::DRPB::Timeout* Arena::CreateMaybeMessage< ::DRPB::Timeout >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::DRPB::Timeout >(arena);
 }
 PROTOBUF_NAMESPACE_CLOSE
 

@@ -1,12 +1,12 @@
 '''
 Author: your name
 Date: 2022-01-05 16:35:40
-LastEditTime: 2022-01-06 15:55:55
+LastEditTime: 2022-01-15 19:17:08
 LastEditors: Please set LastEditors
 Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 FilePath: /DRPC/src/Test_develop/Matrix_test.py
 '''
-import demo9.numpy_demo2 as numpy_demo2
+import demo as numpy_demo2
 import numpy as np
 
 
@@ -26,3 +26,8 @@ var3 = numpy_demo2.add_arrays_3d(input1,
                                  input2)
 print('-'*50)
 print('var3', var3)
+
+
+input_test = np.array(range(0, 1151)).reshape([4, 4, 3, 4, 6])
+
+numpy_demo2.test_not_sure_dim(input_test)

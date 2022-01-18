@@ -1,23 +1,21 @@
 // Modified by wangjun
 
-// not finished
-
 #ifndef DISTRIRPB_CC_CHUNKER_H_
 #define DISTRIRPB_CHUNKER_H_
 
 #include <deque>
 #include <memory>
 #include <vector>
+#include <iostream>
 
 #include "absl/base/thread_annotations.h"
 #include "absl/status/status.h"
 #include "absl/synchronization/mutex.h"
 #include "absl/types/optional.h"
 #include "absl/types/span.h"
+#include "src/proto/schema.pb.h"
 
-
-namespace airctrl {
-namespace distrirpb {
+namespace DRPB {
 
 // TODO(b/178096736): Write high level API documentation with examples.
 
@@ -37,9 +35,10 @@ struct ChunkDataContainer {
       : chunk(std::move(chunk)) {}
 
   const ChunkData* get() const {
-    REVERB_CHECK(chunk != nullptr)
-        << "Chunk data was deleted. This usually happens when using "
-           "StreamingTrajectoryWriter, which releases memory greedily.";
+    if (chunk != nullptr)
+    {
+        std::cout<<"Chunk data was deleted. This usually happens when using StreamingTrajectoryWriter, which releases memory greedily.";
+    }
     return chunk.get();
   }
 
@@ -416,7 +415,6 @@ class AutoTunedChunkerOptions : public ChunkerOptions {
   std::deque<Statistic> chunks_ ABSL_GUARDED_BY(mu_);
 };
 
-}  // namespace reverb
-}  // namespace deepmind
+}// namespace DRPB
 
 #endif  // REVERB_CC_CHUNKER_H_

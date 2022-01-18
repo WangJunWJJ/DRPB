@@ -2,7 +2,7 @@
 
 syntax = "proto3";
 
-package DRPB.DATA;
+package DRPB;
 
 import "google/protobuf/duration.proto";
 import "google/protobuf/timestamp.proto";
@@ -14,7 +14,6 @@ message TensorProto {
 
   // Shape of the tensor.  TODO(touts): sort out the 0-rank issues.
   TensorShapeProto tensor_shape = 2;
-
   // Only one of the representations below is set, one of "tensor_contents" and
   // the "xxx_val" attributes.  We are not using oneof because as oneofs cannot
   // contain repeated fields it would require another extra set of messages.
@@ -25,6 +24,7 @@ message TensorProto {
   // element, that element is repeated to fill the shape.  This makes it easy
   // to represent a constant Tensor with a single value.
   int32 version_number = 3;
+
 
   // Serialized raw tensor content from either Tensor::AsProtoTensorContent or
   // memcpy in tensorflow::grpc::EncodeTensorToByteBuffer. This representation

@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-01-05 16:37:33
- * @LastEditTime: 2022-01-06 20:13:13
+ * @LastEditTime: 2022-01-15 19:08:55
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: /DRPC/src/test_numpy_array/test.c
@@ -9,6 +9,8 @@
 #include<iostream>
 #include<pybind11/pybind11.h>
 #include<pybind11/numpy.h>
+//#include<numpy/ndarrayobject.h>
+//#include<numpy.h>
 
 namespace py = pybind11;
 
@@ -188,12 +190,18 @@ py::array_t<double> add_arrays_3d(py::array_t<double>& input1, py::array_t<doubl
 
 }
 
-PYBIND11_MODULE(numpy_demo2, m) {
+void test_not_sure_dim(py::array_t<float>& input1){
+    int number_dm = input1.ndim();
+    std::cout<<"The ndim of the input:"<<number_dm<<std::endl;
+}
+
+PYBIND11_MODULE(demo, m) {
 
     m.doc() = "Simple demo using numpy with pybind11 (C++)!";  // optional module docstring
     m.def("add_arrays_1d", &add_arrays_1d);  
     m.def("add_arrays_2d", &add_arrays_2d);
     m.def("add_arrays_3d", &add_arrays_3d);
+    m.def("test_not_sure_dim",&test_not_sure_dim);
 }
 
 /*
