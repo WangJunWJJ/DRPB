@@ -1,56 +1,25 @@
 // Modified by wangjun
-
 //not finished
-
 #ifndef DistributedData_CC_CHUNK_STORE_H_
 #define REVERB_CC_CHUNK_STORE_H_
 
 #include <memory>
 #include <utility>
 #include <vector>
-
-
 #include <cstdint>
 #include "proto/schema.pb.h"
+#include "absl/base/internal/invoke.h"
+#include "absl/base/internal/low_level_scheduling.h"
+#include "absl/base/internal/raw_logging.h"
+#include "absl/base/internal/scheduling_mode.h"
+#include "absl/base/internal/spinlock_wait.h"
+#include "absl/base/macros.h"
+#include "absl/base/optimization.h"
+#include "absl/base/port.h"
+
 
 namespace DRPB {
 
-// Maintains a bijection from chunk keys to Chunks. For inserting, the caller
-// passes ChunkData which contains a chunk key and the actual data. We use the
-// key for the mapping and wrap the ChunkData with in a thin class which
-// provides a read-only accessor to the ChunkData.
-//
-//          +-----------+
-//          |           |     shared_ptr
-//          | ChunkData |<---------------------+
-//          |           |                      |
-//          +-----------+                      |
-//                ^                            |
-//                | shared_ptr                 |
-//                |                            |
-//         +--------------+              +----------+            +----------+
-//         |              |   weak_ptr   |          | shared_ptr |          |
-//         |  ChunkStore  |------------->|  Chunk   |<-----------|  Caller  |
-//         |              |              |          |            |          |
-//         +--------------+              +----------+            +----------+
-//
-// Data insertion is handled as follows:
-//
-//   1. Provided ChunkData is moved into a shared_ptr.
-//   2. The data ptr is saved in an internal map and used to construct a
-//      Chunk (heap allocated as a shared_ptr).
-//   3. A weak_ptr is constructed from the shared_ptr of the Chunk and saved
-//      in an internal map.
-//   4. The shared_ptr of the Chunk is returned to the caller.
-//
-// Each Chunk is reference counted individually. When its reference count drops
-// to zero, the Chunk is destroyed and subsequent calls to Get() will no longer
-// return that Chunk. Please note that ChunkStore only holds a weak pointer to a
-// Chunk, and thus does not count towards the reference count. For this reason,
-// Insert() returns a shared pointer, as otherwise the Chunk would be destroyed
-// right away.
-//
-// All public methods are thread safe.
 class ChunkStore {
  public:
   using Key = uint64_t;
@@ -99,7 +68,7 @@ class ChunkStore {
   // Gets the Chunk for each given key. Returns an error if one of the items
   // does not exist or if `Close` has been called. On success, the returned
   // items are in the same order as given in `keys`.
-  tensorflow::Status Get(absl::Span<const Key> keys,
+  absl::status Get(absl::Span<const Key> keys,
                          std::vector<std::shared_ptr<Chunk>>* chunks)
       ABSL_LOCKS_EXCLUDED(mu_);
 
